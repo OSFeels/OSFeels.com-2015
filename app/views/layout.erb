@@ -2,20 +2,56 @@
   <head>
     <title>Open Source &amp; Feelings</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="/css/override.css" rel="stylesheet">
+    <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="btn btn-success navbar-btn" href="#subscribe">
+            Sign up!
+          </a>
+          <a class="navbar-brand text-muted" href="#subscribe">Open Source &amp;&nbsp;Feelings </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="panel">
+        <div class="panel-heading">
+          <h4 class="text-primary">Coming to Seattle this October</h4>
+        </div>
+      </div>
+
+      <%= yield %>
+
+      <div id="subscribe" class="well">
+          <h3>
+            <label class="text-muted" for="mce-EMAIL">Sign up to learn when tickets are available for Open Source &amp;&nbsp;Feelings.</label>
+          </h3>
+          <div class="input-group">
+            <input class="form-control email " id="mce-EMAIL" name="EMAIL" placeholder="Your email address…" required="" type="email" value="">
+            <div style="position: absolute; left: -5000px;">
+              <input name="b_f274a89d3dcc24224ba21e1f3_aede4d31ba" tabindex="-1" type="text" value="">
+            </div>
+            <span class="input-group-btn">
+              <button class="btn btn-info" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Sign up!" type="button">Sign up!</button>
+            </span>
+          </div>
+      </div>
+
+      <address>
+        <a href="mailto:hello@opensourceandfeelings.com">
+          <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> hello@opensourceandfeelings.com
+        </a>
+      </address>
+
+    </div>
+    <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
-  </head>
-  <body class="container-fluid span6 offset3">
-    <div class="page-header">
-      <h2>Open Source &amp; Feelings</h2>
-      <p class="lead">For humans sharing code with humans</p>
-    </div>
-    <%= yield %>
-    <address>
-      Email us at <a href="#">hello@opensourceandfeelings.com</a>
-    </address>
   </body>
 </html>

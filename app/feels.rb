@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
-require 'slim'
+require 'redcarpet'
 
 get '/' do
-  slim :index
+  markdown :index, layout_engine: :erb
 end

@@ -3,7 +3,7 @@ require 'sinatra/reloader' if development?
 require 'redcarpet'
 
 get '/' do
-  markdown :index, layout_engine: :erb
+  send_file File.expand_path('index.html', settings.public_folder)
 end
 
 get '/bootstrap' do

@@ -1,13 +1,16 @@
 require 'sinatra'
-require 'sinatra/reloader' if development?
-require 'redcarpet'
+require 'sinatra/reloader' if Sinatra::Base.development?
 
 get '/' do
-  send_file File.expand_path('index.html', settings.public_folder)
+  if Sinatra::Base.development?
+    erb :index
+  else
+    send_file File.expand_path('index.html', settings.public_folder)
+  end
 end
 
 get '/bootstrap' do
-  pass unless development?
+  pass unless Sinatra::Base.development?
   erb :bootstrap
 end
 

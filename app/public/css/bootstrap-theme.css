@@ -1,11 +1,16 @@
-.blue {
-  color: #5398be; }
-
 .pink {
   color: #cd499a; }
 
+.blue {
+  color: #5398be; }
+
 .purple {
   color: #3b2870; }
+
+img.confetti {
+  display: block;
+  width: 25px;
+  margin: 25px auto; }
 
 .jumbotron img {
   width: 60%; }
@@ -2905,7 +2910,7 @@ input[type="button"].btn-block {
 
 .jumbotron {
   padding: 30px 15px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   color: inherit;
   background-color: #3b2870; }
   .jumbotron h1,

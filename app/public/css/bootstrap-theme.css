@@ -3150,6 +3150,10 @@ h1, h2, h3, h4, h5, h6,
 .jumbotron img {
   width: 60%; }
 
+@media (max-width: 767px) {
+  .jumbotron img {
+    width: 100%;
+    margin-bottom: 20px; } }
 .callouts {
   margin-top: 50px;
   margin-bottom: 70px; }
@@ -3180,6 +3184,14 @@ h1, h2, h3, h4, h5, h6,
   margin-left: 5px;
   font-weight: 900;
   font-size: 25px; }
+@media (max-width: 460px) {
+  .newsletter .input-group {
+    display: block; }
+  .newsletter .input-group input {
+    font-size: 22px; }
+  .newsletter .input-group-btn .btn {
+    width: 100%;
+    margin: 5px 0; } }
 
 .footer {
   margin-top: 100px;
@@ -3191,5 +3203,8 @@ h1, h2, h3, h4, h5, h6,
   .footer a {
     font-size: 20px;
     letter-spacing: 1px; }
+  @media (max-width: 767px) {
+    .footer a {
+      font-size: 11px; } }
 
 /*# sourceMappingURL=bootstrap-theme.css.map */

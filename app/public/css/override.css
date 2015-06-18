@@ -1,3 +1,27 @@
 .footer ul {
   list-style-type: none;
 }
+
+.deets p, .cfp p {
+  font-size: 25px;
+  margin: 0 0 2px;
+}
+
+/*.cfp p {
+  font-size: 25px;
+  margin-bottom: 45px;
+}*/
+
+.deets, .cfp {
+  margin-bottom: 70px; }
+  .deets h2, .deets .h2 {
+    margin-bottom: 30px; }
+  .cfp h2, .cfp .h2 {
+    margin-bottom: 30px; }
+
+.cfp .btn {
+  border-radius: 0px;
+  font-weight: 900;
+  font-size: 25px;
+  margin-top: 45px;
+}

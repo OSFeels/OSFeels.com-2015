@@ -5,19 +5,11 @@ if Sinatra::Base.development?
 end
 
 get '/' do
-  if Sinatra::Base.development?
-    erb :index
-  else
-    send_file File.expand_path('index.html', settings.public_folder)
-  end
+  erb :index
 end
 
 get '/conduct' do
-  if Sinatra::Base.development?
-    markdown :code_of_conduct, layout_engine: :erb
-  else
-    send_file File.expand_path('code_of_conduct.html', settings.public_folder)
-  end
+  markdown :code_of_conduct, layout_engine: :erb
 end
 
 get '/bootstrap' do

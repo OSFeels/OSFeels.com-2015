@@ -5,3 +5,9 @@
 .lead {
   font-weight: 600;
 }
+
+.cfp .btn {
+  border-radius: 0px;
+  font-weight: 900;
+  font-size: 25px;
+}

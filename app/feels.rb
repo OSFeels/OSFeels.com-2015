@@ -5,11 +5,7 @@ if Sinatra::Base.development?
 end
 
 get '/' do
-  if Sinatra::Base.development?
-    erb :index
-  else
-    send_file File.expand_path('index.html', settings.public_folder)
-  end
+  erb :index
 end
 
 get '/conduct' do

@@ -1,3 +1,7 @@
 .footer ul {
   list-style-type: none;
 }
+
+.lead {
+  font-weight: 600;
+}

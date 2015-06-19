@@ -20,7 +20,12 @@
 
 .tagline h2 {
   font-weight: normal;
+  color: white;
   margin-top: 50px;
   margin-bottom: 0;
+}
+
+.jumbotron .newsletter {
+  margin-top: 40px;
 }
 

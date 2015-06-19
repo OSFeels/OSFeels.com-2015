@@ -5,5 +5,17 @@
 .cfp .btn {
   border-radius: 0px;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 25px; 
+  margin-top: 34px;
 }
+
+#deets {
+  margin-bottom: 70px; }
+  #deets h2, #deets .h2 {
+    margin-bottom: 30px; }
+
+.cfp {
+  margin-bottom: 70px; }
+  .cfp h2, .cfp .h2 {
+    margin-bottom: 30px; }
+

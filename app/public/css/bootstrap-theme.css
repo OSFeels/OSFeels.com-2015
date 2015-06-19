@@ -1242,7 +1242,7 @@ p {
   margin: 0 0 11px; }
 
 .lead {
-  margin-bottom: 22px;
+  margin-bottom: 0;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.4; }

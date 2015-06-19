@@ -19,3 +19,10 @@
   .cfp h2, .cfp .h2 {
     margin-bottom: 30px; }
 
+.yellow {
+  color: #f2cd5d;
+}
+
+.lead {
+  margin-bottom: 0;
+}

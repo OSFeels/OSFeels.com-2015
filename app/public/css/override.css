@@ -2,8 +2,28 @@
   list-style-type: none;
 }
 
-.cfp .btn {
-  border-radius: 0px;
+.yellow {
+  color: #f2cd5d;
+}
+
+.lead {
+  margin-bottom: 0;
+}
+
+.btn {
+  border-radius: 0;
   font-weight: 900;
   font-size: 25px;
+}
+
+.callouts .btn {
+  margin-top: 35px;
+}
+
+.callouts {
+  margin-top: 0;
+}
+
+.main .callouts:nth-of-type(1) {
+  margin-top: 50px;
 }

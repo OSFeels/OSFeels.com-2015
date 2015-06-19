@@ -7,3 +7,20 @@
   font-weight: 900;
   font-size: 25px;
 }
+
+#deets {
+  margin-bottom: 70px; }
+  #deets h2, #deets .h2 {
+    margin-bottom: 30px; }
+
+.cfp {
+  margin-bottom: 70px; }
+  .cfp h2, .cfp .h2 {
+    margin-bottom: 30px; }
+
+.tagline h2 {
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+

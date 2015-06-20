@@ -1,40 +1,5 @@
-.footer ul {
-  list-style-type: none;
-}
-
-.yellow {
-  color: #f2cd5d;
-}
-
-.lead {
-  margin-bottom: 0;
-}
-
-.btn {
-  border-radius: 0;
-  font-weight: 900;
-  font-size: 25px;
-}
-
-.tagline h2 {
-  font-weight: normal;
-  color: white;
-  margin-top: 50px;
-  margin-bottom: 0;
-}
-
-.jumbotron .newsletter {
-  margin-top: 40px;
-}
-
-.callouts .btn {
-  margin-top: 35px;
-}
-
-.callouts {
-  margin-top: 0;
-}
-
-.main .callouts:nth-of-type(1) {
-  margin-top: 50px;
-}
+/*
+  Add override styles here or update styles in our fork
+  of the Bootstrap Sass repo:
+  https://github.com/OSFeels/bootstrap-sass
+*/

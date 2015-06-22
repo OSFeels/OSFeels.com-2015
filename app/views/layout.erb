@@ -9,35 +9,61 @@
   </head>
 
   <body>
-    <div class="jumbotron">
-      <div class="container">
-        <h1>
-          <a href="/">
-            <img src="img/logo_with_white_text_transparent_bg.png" />
+    <div id="wrapper">
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li class="sidebar-brand"><a href="/">Home</a></li>
+          <li><a href="/conduct">Code of Conduct</a></li>
+          <li><a href="http://cfp.osfeels.com">Call for Proposals</a></li>
+          <li><a href="/osfeels_prospectus.pdf">Sponsorship</a></li>
+        </ul>
+      </div>
+
+      <!-- Main Content -->
+      <div id="page-content-wrapper">
+        <div class="jumbotron">
+          <a href="#menu-toggle" id="menu-toggle">
+            Menu
           </a>
-        </h1>
-        <div class="row tagline">
-          <div class="col-md-8 col-md-offset-2">
-            <h2>A two-day conference at the intersection of software and the humanities.</h2>
-          </div>
-        </div>
-        <div class="visible-sm visible-xs">
-          <div class="row newsletter">
-            <div class="col-md-8 col-md-offset-2">
-              <%= erb :mailing_list %>
+          <div class="container">
+            <h1>
+              <a href="/">
+                <img src="img/logo_with_white_text_transparent_bg.png" alt="Open Source and Feelings" />
+              </a>
+            </h1>
+            <div class="row tagline">
+              <div class="col-md-8 col-md-offset-2">
+                <h2>A two-day conference at the intersection of software and the humanities.</h2>
+              </div>
+            </div>
+            <div class="visible-sm visible-xs">
+              <div class="row newsletter">
+                <div class="col-md-8 col-md-offset-2">
+                  <%= erb :mailing_list %>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <div class="container main">
-      <%= yield %>
-      <%= erb :footer %>
+        <div class="container main">
+          <%= yield %>
+          <%= erb :footer %>
+        </div>
+      </div>
     </div>
 
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+      $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+      });
+    </script>
   </body>
 </html>

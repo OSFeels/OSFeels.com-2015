@@ -6,14 +6,9 @@
 
 
 /*!
- * Sidebar Adapted From:
- *
- * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * Sliding Sidebar
  */
 
-/* Toggle Styles */
 #wrapper {
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
@@ -55,7 +50,6 @@
   margin-right: -250px;
 }
 
-/* Sidebar Styles */
 .sidebar-nav {
   position: absolute;
   top: 0;
@@ -106,8 +100,7 @@
 
 
 /*!
- * Hamburger Animation Adapted from:
- * http://codepen.io/mrnathan8/full/mgFqJ
+ * Hamburger Menu Animation
  */
 .spinner-master * {
   transition: all 0.3s;

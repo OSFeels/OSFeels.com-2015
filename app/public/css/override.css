@@ -182,3 +182,15 @@
 .jumbotron {
   padding: 25px 0 48px 0;
 }
+
+@media (max-width: 500px) {
+  .jumbotron img {
+    width: 100vw;
+    margin-left: -50px;
+  }
+
+  .jumbotron .tagline h2 {
+    margin-top: 0;
+    font-size: 25px;
+  }
+}

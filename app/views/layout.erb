@@ -23,9 +23,14 @@
       <!-- Main Content -->
       <div id="page-content-wrapper">
         <div class="jumbotron">
-          <a href="#menu-toggle" id="menu-toggle">
-            Menu
-          </a>
+          <div class="spinner-master">
+            <input type="checkbox" id="spinner-form" />
+            <label for="spinner-form" class="spinner-spin" id="menu-toggle">
+              <div class="spinner diagonal part-1"></div>
+              <div class="spinner horizontal"></div>
+              <div class="spinner diagonal part-2"></div>
+            </label>
+          </div>
           <div class="container">
             <h1>
               <a href="/">
@@ -61,7 +66,6 @@
     <!-- Menu Toggle Script -->
     <script>
       $("#menu-toggle").click(function(e) {
-        e.preventDefault();
         $("#wrapper").toggleClass("toggled");
       });
     </script>

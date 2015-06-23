@@ -12,6 +12,10 @@ get '/conduct' do
   markdown :code_of_conduct, layout_engine: :erb
 end
 
+get '/talk-ideas' do
+  erb :talk_ideas
+end
+
 get '/bootstrap' do
   pass unless Sinatra::Base.development?
   erb :bootstrap

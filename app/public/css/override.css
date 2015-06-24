@@ -108,10 +108,18 @@
   box-sizing: border-box;
 }
 
+.hamburger-wrapper {
+  position: fixed;
+  margin-left: 25px;
+  padding: 10px 10px 7px 7px;
+  background-color: #3b2870;
+  z-index: 99;
+}
+
 .spinner-master {
   position: relative;
   width: 35px;
-  height: 35px;
+  height: 30px;
   margin-left: 5%;
 }
 
@@ -127,6 +135,7 @@
   width: 100%;
   top: 0px;
   left: 0;
+  margin-bottom: 0;
 }
 
 .spinner-master .spinner {

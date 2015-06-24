@@ -9,11 +9,11 @@ get '/' do
 end
 
 get '/conduct' do
-  markdown :code_of_conduct, layout_engine: :erb
+  markdown :conduct, layout_engine: :erb
 end
 
 get '/prospectus' do
-  send_file File.join(settings.public_folder, 'osfeels_prospectus.pdf')
+  send_file File.join(settings.public_folder, 'prospectus.pdf')
 end
 
 get '/bootstrap' do

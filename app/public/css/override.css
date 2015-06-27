@@ -173,6 +173,27 @@
 }
 
 
+/* --- Speakers */
+.speakers {
+  margin-bottom: 75px;
+}
+
+.speakers--img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .speakers {
+    margin-bottom: 0;
+  }
+
+  .speakers--info {
+    padding-bottom: 50px;
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
 
 /* Existing Style Adjustments */
 .jumbotron {

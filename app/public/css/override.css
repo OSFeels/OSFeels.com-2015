@@ -190,3 +190,30 @@
     font-size: 25px;
   }
 }
+
+
+/* --- Sponsorship Page */
+.sponsors--cta .btn {
+  margin-top: 0;
+}
+
+.sponsors--level.callouts {
+  margin-top: 50px;
+}
+
+.sponsors--level h2 {
+  margin-bottom: 0;
+}
+
+.sponsors--level h3 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.sponsors--level p {
+  text-align: justify;
+}
+
+.sponsors--section {
+  margin-top: 30px;
+}

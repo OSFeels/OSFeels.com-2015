@@ -12,6 +12,10 @@ get '/conduct' do
   markdown :conduct, layout_engine: :erb
 end
 
+get '/sponsors' do
+  erb :sponsors
+end
+
 get '/prospectus' do
   send_file File.join(settings.public_folder, 'prospectus.pdf')
 end

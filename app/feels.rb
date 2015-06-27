@@ -16,6 +16,10 @@ get '/prospectus' do
   send_file File.join(settings.public_folder, 'prospectus.pdf')
 end
 
+get '/talk-ideas' do
+  erb :talk_ideas
+end
+
 get '/bootstrap' do
   pass unless Sinatra::Base.development?
   erb :bootstrap

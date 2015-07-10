@@ -190,3 +190,7 @@
     font-size: 25px;
   }
 }
+
+.callouts .btn {
+  margin: 35px 0;
+}

@@ -1,14 +1,11 @@
-/*
-  Add override styles here or update styles in our fork
-  of the Bootstrap Sass repo:
-  https://github.com/OSFeels/bootstrap-sass
-*/
+/*------------------------------------------------------
+* Add override styles here or update styles in our fork
+* of the Bootstrap Sass repo:
+* https://github.com/OSFeels/bootstrap-sass
+* -----------------------------------------------------*/
 
 
-/*!
- * Sliding Sidebar
- */
-
+/* -- Sliding Sidebar Navigation */
 #wrapper {
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
@@ -93,9 +90,8 @@
   background: none;
 }
 
-/*!
- * Hamburger Menu Animation
- */
+
+/* -- Hamburger Menu Animation */
 .spinner-master * {
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
@@ -173,10 +169,27 @@
 }
 
 
+/* -- Jumbotron Styles */
+.jumbotron img {
+  width: 60%;
+}
 
-/* Existing Style Adjustments */
-.jumbotron {
-  padding: 25px 0 48px 0;
+.jumbotron .tagline h2 {
+  font-weight: normal;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.jumbotron .newsletter {
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .jumbotron img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -191,6 +204,99 @@
   }
 }
 
+
+/* -- Callouts */
+.callouts {
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+.callouts h2, .callouts .h2 {
+  margin-bottom: 30px;
+}
+
 .callouts .btn {
   margin: 35px 0;
+}
+
+.main .callouts:nth-of-type(1) {
+  margin-top: 50px;
+}
+
+
+/* -- Confetti */
+.confetti {
+  display: block;
+  width: 25px;
+  margin: 25px auto;
+}
+
+
+/* -- Newsletter */
+.newsletter h2 {
+  margin: 45px 0;
+}
+
+.newsletter input {
+  height: 49px;
+  font-size: 25px;
+  background-color: #E5E5E5;
+  border: 0;
+  border-radius: 0;
+}
+
+.newsletter .input-group-btn {
+  margin-left: 5px;
+}
+
+.newsletter .triangle {
+  margin-top: 90px;
+}
+
+.newsletter .dot {
+  margin-top: 215px;
+}
+
+@media (max-width: 460px) {
+  .newsletter .input-group {
+    display: block;
+  }
+
+  .newsletter .input-group input {
+    font-size: 22px;
+  }
+
+  .newsletter .input-group-btn .btn {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+
+/* -- Footer */
+.footer {
+  margin-top: 100px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.footer a {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .footer a {
+    font-size: 11px;
+  }
 }

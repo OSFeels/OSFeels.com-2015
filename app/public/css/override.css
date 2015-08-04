@@ -205,33 +205,6 @@
 }
 
 
-/* --- Sponsorship Page */
-.sponsors--cta .btn {
-  margin-top: 0;
-}
-
-.sponsors--level.callouts {
-  margin-top: 50px;
-}
-
-.sponsors--level h2 {
-  margin-bottom: 0;
-}
-
-.sponsors--level h3 {
-  text-transform: uppercase;
-  margin-bottom: 30px;
-}
-
-.sponsors--level p {
-  text-align: justify;
-}
-
-.sponsors--section {
-  margin-top: 30px;
-}
-
-
 /* -- Callouts */
 .callouts {
   margin-top: 0;
@@ -297,6 +270,57 @@
     width: 100%;
     margin: 5px 0;
   }
+}
+
+
+/* --- Sponsorship Page */
+.sponsors--cta .btn {
+  margin-top: 0;
+}
+
+.sponsors--level.callouts {
+  margin-top: 50px;
+}
+
+.sponsors--level h2 {
+  margin-bottom: 0;
+}
+
+.sponsors--level h3 a {
+  color: #cd499a;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.sponsors--level .committer img {
+  height: 70px;
+}
+
+.sponsors--level .contributor img {
+  max-width: 100%;
+  height: 65px;
+}
+
+.sponsors--level .committer.temp a {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.sponsors--level .temp.lowercase a {
+  text-transform: lowercase;
+}
+
+.sponsors--level .contributor.temp a {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.sponsors--level p {
+  text-align: justify;
+}
+
+.sponsors--section {
+  margin-top: 30px;
 }
 
 

@@ -170,13 +170,16 @@
 
 
 /* -- Jumbotron Styles */
+.jumbotron {
+  color: white;
+}
+
 .jumbotron img {
   width: 60%;
 }
 
 .jumbotron .tagline h2 {
   font-weight: normal;
-  color: white;
   margin-top: 50px;
   margin-bottom: 0;
 }
@@ -221,6 +224,10 @@
 
 .main .callouts:nth-of-type(1) {
   margin-top: 50px;
+}
+
+.emphasis {
+  font-weight: bold;
 }
 
 

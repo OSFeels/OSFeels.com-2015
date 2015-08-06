@@ -16,6 +16,10 @@ get '/sponsors' do
   erb :sponsors
 end
 
+get '/tickets' do
+  erb :tickets
+end
+
 get '/prospectus' do
   send_file File.join(settings.public_folder, 'prospectus.pdf')
 end

@@ -308,6 +308,10 @@
   height: 65px;
 }
 
+.sponsors--level .padded-logo {
+  padding: 20px 0;
+}
+
 .sponsors--level .committer.temp a {
   font-size: 50px;
   text-transform: capitalize;

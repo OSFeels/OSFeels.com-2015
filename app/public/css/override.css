@@ -226,6 +226,10 @@
   margin-top: 50px;
 }
 
+.emphasis {
+  font-weight: bold;
+}
+
 
 /* -- Confetti */
 .confetti {

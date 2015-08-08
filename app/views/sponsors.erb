@@ -26,7 +26,7 @@
       <div class="col-md-8 col-md-offset-2">
         <h3 class="committer">
           <a href="<%= sponsor["url"] %>" target="_blank">
-            <img src="<%= sponsor["image"] %>" alt="<%= sponsor["name"] %> logo" />
+            <img src="<%= sponsor["image"] %>" alt="<%= sponsor["name"] %> logo" class="img-responsive center-block"/>
           </a>
         </h3>
         <% if sponsor["blurb"] %>
@@ -56,7 +56,7 @@
       <div class="col-sm-6">
         <h3 class="contributor">
           <a href="<%= sponsor["url"] %>" target="_blank">
-            <img class='<%= "padded-logo" if sponsor["pad-logo"] %>' src="<%= sponsor["image"] %>" alt="<%= sponsor["name"] %> logo" />
+            <img class='<%= "padded-logo" if sponsor["pad-logo"] %> img-responsive center-block' src="<%= sponsor["image"] %>" alt="<%= sponsor["name"] %> logo" />
           </a>
         </h3>
         <% if sponsor["blurb"] %>
@@ -66,4 +66,3 @@
     <% end %>
   </div>
 </div>
-

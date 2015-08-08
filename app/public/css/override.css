@@ -300,6 +300,21 @@
   line-height: 25px;
 }
 
+.speakers--title,
+.speakers--name {
+  color: #5398be; /* blue */
+}
+
+.speakers--info:nth-child(3n) .speakers--title,
+.speakers--info:nth-child(3n) .speakers--name {
+  color: #3b2870; /* purple */
+}
+
+.speakers--info:nth-child(2n) .speakers--title,
+.speakers--info:nth-child(2n) .speakers--name {
+  color: #cd499a; /* pink */
+}
+
 .speakers--abstract {
   text-align: left;
 }

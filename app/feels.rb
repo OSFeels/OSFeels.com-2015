@@ -1,4 +1,6 @@
 require 'sinatra'
+require './lib/presenters.rb'
+
 if Sinatra::Base.development?
   require 'sinatra/reloader'
   require 'redcarpet'

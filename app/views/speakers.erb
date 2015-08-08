@@ -1,108 +1,37 @@
 <%# Day 1 Speakers %>
 <div class="row callouts">
   <img class="confetti" src="img/smile_confetti.png">
-  <h2 class="pink">
-    Day One Speakers
-  </h2>
-</div>
-<div class="row speakers">
-  <div class="col-sm-4 text-center speakers--info">
-    <img src="https://placekitten.com/g/250/250" class="speakers--img" />
-    <h3 class="pink">Gumbo Beet-Greens</h3>
-    <p>
-      Pea horseradish azuki bean lettuce avocado asparagus okra
-    </p>
-  </div>
-  <div class="col-sm-4 text-center speakers--info">
-    <img src="https://placekitten.com/g/250/250" class="speakers--img" />
-    <h3 class="blue">Okra Fennel</h3>
-    <p>
-      Pea horseradish azuki bean lettuce avocado asparagus okra
-    </p>
-  </div>
-  <div class="col-sm-4 text-center speakers--info">
-    <img src="https://placekitten.com/g/250/250" class="speakers--img" />
-    <h3 class="purple">Endive Broccoli</h3>
-    <p>
-      Pea horseradish azuki bean lettuce avocado asparagus okra
-    </p>
-  </div>
-</div>
-<div class="row speakers">
-  <div class="col-sm-4 text-center speakers--info">
-    <img src="https://placekitten.com/g/250/250" class="speakers--img" />
-    <h3 class="pink">Gumbo Beet-Greens</h3>
-    <p>
-      Pea horseradish azuki bean lettuce avocado asparagus okra
-    </p>
-  </div>
-  <div class="col-sm-4 text-center speakers--info">
-    <img src="https://placekitten.com/g/250/250" class="speakers--img" />
-    <h3 class="blue">Okra Fennel</h3>
-    <p>
-      Pea horseradish azuki bean lettuce avocado asparagus okra
-    </p>
-  </div>
-  <div class="col-sm-4 text-center speakers--info">
-    <img src="https://placekitten.com/g/250/250" class="speakers--img" />
-    <h3 class="purple">Endive Broccoli</h3>
-    <p>
-      Pea horseradish azuki bean lettuce avocado asparagus okra
-    </p>
-  </div>
+  <h1 class="pink">
+    Presenting at OS&F
+  </h1>
 </div>
 
+<% 
+  color_classes = %w(blue pink purple)
+  color_index = 0
+  row_index = 0
+%>
+
+<% PRESENTERS.each do |peep| %>
+  <% if row_index % 2 == 0 %><div class="row speakers"><% end %>
+    <div class="col-md-6 text-center speakers--info">
+      <img src="img/presenters/<%= peep.fetch :headshot %>" alt="<%= peep.fetch :name %>" class="speakers--img"/>
+      <h2 class="speakers--name <%= color_classes[color_index] %>"><%= peep.fetch :name %></h2>
+      <p class="speakers--bio"><%= peep.fetch :bio %></p>
+      <h3 class="speakers--title <%= color_classes[color_index] %>"><%= peep.fetch :title%></h3>
+      <p class="speakers--abstract"><%= peep.fetch :abstract %></p>
+    </div>
+    <% color_index += (color_index == 2 ? -2 : 1) %>
+    <% row_index += 1 %>
+  <% if row_index % 2 == 0 %></div><% end %>
+<% end %>
+
 <%# Day 2 Speakers %>
+<%# Saving this for when the schedule is more firm. -jnf
 <div class="row callouts">
   <img class="confetti" src="img/heart_confetti.png">
   <h2 class="yellow">
     Day Two Speakers
   </h2>
 </div>
-<div class="row speakers">
-  <div class="col-sm-4 text-center speakers--info">
-    <img src="https://placekitten.com/g/250/250" class="speakers--img" />
-    <h3 class="pink">Gumbo Beet-Greens</h3>
-    <p>
-      Pea horseradish azuki bean lettuce avocado asparagus okra
-    </p>
-  </div>
-  <div class="col-sm-4 text-center speakers--info">
-    <img src="https://placekitten.com/g/250/250" class="speakers--img" />
-    <h3 class="blue">Okra Fennel</h3>
-    <p>
-      Pea horseradish azuki bean lettuce avocado asparagus okra
-    </p>
-  </div>
-  <div class="col-sm-4 text-center speakers--info">
-    <img src="https://placekitten.com/g/250/250" class="speakers--img" />
-    <h3 class="purple">Endive Broccoli</h3>
-    <p>
-      Pea horseradish azuki bean lettuce avocado asparagus okra
-    </p>
-  </div>
-</div>
-<div class="row speakers">
-  <div class="col-sm-4 text-center speakers--info">
-    <img src="https://placekitten.com/g/250/250" class="speakers--img" />
-    <h3 class="pink">Gumbo Beet-Greens</h3>
-    <p>
-      Pea horseradish azuki bean lettuce avocado asparagus okra
-    </p>
-  </div>
-  <div class="col-sm-4 text-center speakers--info">
-    <img src="https://placekitten.com/g/250/250" class="speakers--img" />
-    <h3 class="blue">Okra Fennel</h3>
-    <p>
-      Pea horseradish azuki bean lettuce avocado asparagus okra
-    </p>
-  </div>
-  <div class="col-sm-4 text-center speakers--info">
-    <img src="https://placekitten.com/g/250/250" class="speakers--img" />
-    <h3 class="purple">Endive Broccoli</h3>
-    <p>
-      Pea horseradish azuki bean lettuce avocado asparagus okra
-    </p>
-  </div>
-</div>
-
+%>

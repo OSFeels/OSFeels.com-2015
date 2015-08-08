@@ -14,11 +14,15 @@
 <% @speakers.each_with_index do |peep, row_index| %>
   <% if row_index % 2 == 0 %><div class="row speakers"><% end %>
     <div class="col-md-6 text-center speakers--info">
-      <img src="img/presenters/<%= peep["headshot"] %>" alt="<%= peep["name"] %>" class="speakers--img"/>
-      <h2 class="speakers--name <%= color_classes[color_index] %>"><%= peep["name"] %></h2>
-      <p class="speakers--bio"><%= peep["bio"] %></p>
-      <h3 class="speakers--title <%= color_classes[color_index] %>"><%= peep["title"]%></h3>
-      <p class="speakers--abstract"><%= peep["abstract"] %></p>
+      <div class="speakers--info-box">
+        <img src="img/presenters/<%= peep["headshot"] %>" alt="<%= peep["name"] %>" class="speakers--img"/>
+        <h2 class="speakers--name <%= color_classes[color_index] %>"><%= peep["name"] %></h2>
+        <p class="speakers--bio"><%= peep["bio"] %></p>
+      </div>
+      <div class="speakers--talk-box">
+        <h3 class="speakers--title <%= color_classes[color_index] %>"><%= peep["title"]%></h3>
+        <p class="speakers--abstract"><%= peep["abstract"] %></p>
+      </div>
     </div>
     <% color_index += (color_index == 2 ? -2 : 1) %>
   <% if row_index % 2 != 0 %></div><% end %>

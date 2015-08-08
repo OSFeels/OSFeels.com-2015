@@ -1,0 +1,26 @@
+---
+committers:
+  - name: Github
+    url: https://www.github.com
+    image: img/github-logo.png
+  - name: Honeybadger
+    url: https://www.honeybadger.io
+    image: img/honeybadger-logo.svg
+  - name: npm
+    url: https://www.npmjs.com
+    image: img/npm-logo.svg
+contributors:
+  # - name: NIRD
+  #   url: http://nird.us
+  #   image: TKTK
+  # - name: Sticker Mule
+  #   url: http://stickermule.com
+  #   image: TKTK
+  - name: Substantial
+    url: http://substantial.com
+    image: img/substantial-logo.png
+    blurb: Substantial is a digital product innovation company that pairs design thinking with agile development to deliver applications for web, mobile and the internet of things with partners ranging from start-ups to Fortune 100s.
+    pad-logo: true
+  - name: Thomas Street
+    url: http://thomasstreet.com
+    image: img/thomas-street-logo.png

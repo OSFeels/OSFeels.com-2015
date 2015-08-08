@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'yaml'
 if Sinatra::Base.development?
   require 'sinatra/reloader'
   require 'redcarpet'
@@ -13,6 +14,7 @@ get '/conduct' do
 end
 
 get '/sponsors' do
+  @sponsors = YAML.load File.read("app/data/sponsors.yml")
   erb :sponsors
 end
 

@@ -274,8 +274,8 @@
 
 
 /* --- Speakers Page */
-.speakers {
-  margin-bottom: 75px;
+.speakers--info {
+  margin-bottom: 50px;
 }
 
 .speakers--info-box {
@@ -319,18 +319,6 @@
   text-align: left;
 }
 
-
-@media (max-width: 767px) {
-  .speakers {
-    margin-bottom: 0;
-  }
-
-  .speakers--info {
-    padding-bottom: 50px;
-    width: 75%;
-    margin: 0 auto;
-  }
-}
 
 /* -- Footer */
 .footer {

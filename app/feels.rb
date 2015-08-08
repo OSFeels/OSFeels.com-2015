@@ -1,5 +1,5 @@
 require 'sinatra'
-require './lib/presenters.rb'
+require 'yaml'
 
 if Sinatra::Base.development?
   require 'sinatra/reloader'
@@ -23,6 +23,7 @@ get '/talk-ideas' do
 end
 
 get '/speakers' do
+  @speakers = YAML.load File.read("app/data/speakers.yml")
   erb :speakers
 end
 

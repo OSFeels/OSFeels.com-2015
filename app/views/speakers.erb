@@ -9,9 +9,9 @@
 <% 
   color_classes = %w(blue pink purple)
   color_index = 0
-  row_index = 0
 %>
-<% @speakers.each do |peep| %>
+
+<% @speakers.each_with_index do |peep, row_index| %>
   <% if row_index % 2 == 0 %><div class="row speakers"><% end %>
     <div class="col-md-6 text-center speakers--info">
       <img src="img/presenters/<%= peep["headshot"] %>" alt="<%= peep["name"] %>" class="speakers--img"/>
@@ -21,8 +21,7 @@
       <p class="speakers--abstract"><%= peep["abstract"] %></p>
     </div>
     <% color_index += (color_index == 2 ? -2 : 1) %>
-    <% row_index += 1 %>
-  <% if row_index % 2 == 0 %></div><% end %>
+  <% if row_index % 2 != 0 %></div><% end %>
 <% end %>
 
 <%# Day 2 Speakers %>

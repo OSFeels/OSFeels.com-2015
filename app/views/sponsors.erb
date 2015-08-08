@@ -29,6 +29,9 @@
             <img src="<%= sponsor["image"] %>" alt="<%= sponsor["name"] %> logo" />
           </a>
         </h3>
+        <% if sponsor["blurb"] %>
+          <p><%= sponsor["blurb"] %></p>
+        <% end %>
       </div>
     </div>
   <% end %>

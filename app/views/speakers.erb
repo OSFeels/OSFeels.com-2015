@@ -6,7 +6,7 @@
   </h1>
 </div>
 
-<% 
+<%
   color_classes = %w(blue pink purple)
   color_index = 0
 %>
@@ -25,7 +25,7 @@
       </div>
     </div>
     <% color_index += (color_index == 2 ? -2 : 1) %>
-  <% if row_index % 2 != 0 %></div><% end %>
+  <% if row_index % 2 != 0 || row_index == @speakers.length - 1 %></div><% end %>
 <% end %>
 
 <%# Day 2 Speakers %>

@@ -1,4 +1,18 @@
 ---
+- name: "Allison Nelson"
+  headshot: "placeholder.png"
+  title: "What Roleplaying Games Can Teach Us About Open Source Communities"
+  bio:
+    ""
+  abstract:
+    ""
+- name: "Audrey Eschright"
+  headshot: "placeholder.png"
+  title: ""
+  bio:
+    ""
+  abstract:
+    ""
 - name: "Brenna Flood"
   headshot: "brenna-flood.jpeg"
   title: "Sometimes You Just Have to Show Them the Money"
@@ -31,24 +45,83 @@
     supplying non-technical people with the information they need in order to understand and appropriately react to
     the reality of the organization's code-based albatross. This will include in depth metrics and data points you can
     use to effectively get the point across that these issues are important."
-- name: "Stephanie Morillo"
-  headshot: ""
-  title: "Creating A Space For Us: How A Twitter Chat Turned Into A Virtual Community For #WOCinTech"
-  bio: ""
+- name: "Bryan Liles"
+  headshot: "placeholder.png"
+  title: ""
+  bio:
+    ""
   abstract:
-    "I've heard it before from people in positions of privilege - \"If you don't feel represented, then why don't you
-    create something of your own?\" After more than two-and-a-half years working in the tech industry, I always felt
-    that living on the intersection of race and gender were seldom addressed in tech initiatives, and in work spaces
-    I seldom encountered other professional women of color outside of the service staff. In an effort to get over the
-    feelings of isolation, a friend and I created a Twitter chat using the then-underused #WOCinTech hashtag in an
-    effort to bridge the geographic and workplace barriers and connect with women of color already in the tech
-    industry and connect with each other. The chat has since grown to become a full-fledged community made up of women
-    of color and nonbinary POC technologists, and our two-person team has responded to the needs of this community by
-    creating initiatives that target these groups specifically.
+    ""
+- name: "Emily Rose"
+  headshot: "Emily-Rose.jpg"
+  title: "Teching while Trans"
+  bio:
+    ""
+  abstract:
+    ""
+- name: "Eric Holscher"
+  headshot: "eric-holscher.jpg"
+  title: "Documentation as Empathy"
+  bio:
+    ""
+  abstract:
+    ""
+- name: "Greg Tarnoff"
+  headshot: "greg-tarnoff.jpg"
+  title: "Designing with Empathy"
+  bio:
+    "Front end developer by day & accessibility hero all the time. For the last decade I focused on building products that work for all users."
+  abstract:
+    "Too often we get caught up in our own biases, even the most compassionate of us. When we do, we lose sight of how to design and build platforms and experiences that work for all our users. We end up building for ourselves, the person who knows the system inside and out, the power user. And while people like us are important, they rarely make up the majority of users. We need to build things that anyone can learn quickly, use efficiently, make the user feel confident and powerful. Through examples of atypical users, I’ll walk through things to consider when designing tools and applications that empower the greatest number of users to achieve more."
+- name: "Hsing-Hui Hsu"
+  headshot: "Hsing-Hui-Hsu.jpg"
+  title: "To feel or not to feel; that is the question"
+  bio:
+    ""
+  abstract:
+    "In the tech industry and especially in the open source community, there are many frustrations and problems that everyone experiences. It is no secret, however, that these problems are not evenly distributed. Those who tend to be underrepresented in the industry find their feelings of marginalization are compounded by behavior that has come to be viewed as the norm. And while it is also no secret that speaking out about these issues can in itself be a problem it is not as simple as it seems. Will standing up to injustice harm your career? Are harassment and *-ism just something you should expect? Is there a certain initiation/hazing period that you have to simply suffer through before you can be taken seriously? Do certain marginalized subgroups have it worse than others, and does what does that mean for those who don't have it the worst? In this talk, we'll take a deep dive into the many not-often-discussed nuances of a widely-known problem."
+- name: "Isaac Z Schlueter"
+  headshot: "isaac-schlueter.jpg"
+  title: ""
+  bio:
+    "You might know Isaac from such open source software communities as Node.js and npm. Having transitioned from programming computers full time to managing people in the last few years, he's been pretty interested in feelings as well. Also he makes jokes on Twitter sometimes."
+  abstract:
+    ""
+- name: "Jacob Kaplan-Moss"
+  headshot: "placeholder.png"
+  title: "What part of '... for life' don't you understand?"
+  bio:
+    ""
+  abstract:
+    "When we released Django, we took our structure from the Python community, appointing Adrian and me as \"Benevolent Dictators for Life\". Turns out, \"... for life\" is a pretty long tim — who knew — and this role turned out not to be sustainable.
     <br><br>
-    In my talk, I'll discuss my experiences living at the intersection of race and gender, the #WOCinTech chat origin
-    story, how connecting with women of color has empowered me professionally, and how the community wants to help
-    others on their path to a career in tech."
+    About a year and a half ago we resigned, and Django transitioned to a completely community-run project.
+    <br><br>
+    This is a story about this journey: how I became a BDFL, what worked and didn't about that, how I burnt out and \"retired\" — and what I've been doing in open source since."
+- name: "Jen Myers"
+  headshot: "placeholder.png"
+  title: ""
+  bio:
+    ""
+  abstract:
+    ""
+- name: "Kat Toomajian"
+  headshot: "kat-toomajian.jpg"
+  title: "From the Inside Out: How Self-Talk Affects Your Community"
+  bio:
+    "Kat works for Dreamwidth Studios as the head of Support. She loves insurance, superheroes, historical hermeneutics, and bioethics, among other things. She lives in Minnesota with her two ferrets, Hermes and Isaac."
+  abstract:
+    "Identifying and discouraging negative self-talk is a simple thing, but it can have a huge impact on your community in a positive way. It increases self-confidence, improves morale, and generally results in happier, more productive community participants. This, in turn, will make you happy.
+    Negative self-talk is a pervasive, invasive, and unproductive way of thinking. It can trigger a cascade of things, from abandoned patches (“I am not smart/talented/good enough to figure this out”), to withdrawl from the community (“I screwed this up and everyone knows and hates me”), to general discouragement (“I suck, and have nothing valuable to contribute here”).
+    <br><br>
+    In this talk, I’ll discuss the various methods Dreamwidth and other organizations use to handle negative self-talk, and the best way to deploy those techniques. I will also discuss things to keep an eye out for in your community that may be at the root of this type of self-talk, and processes you can go through to eliminate them. Finally, there will be a quick overview of impostor syndrome, and the role it plays here."
+- name: "Lauren D Voswinkel"
+  headshot: "Lauren-Voswinkel.png"
+  title: "Let's Continue to Talk About Pay"
+  bio:
+    ""
+  abstract:
+    ""
 - name: "Rachel Ober"
   headshot: "rachel-ober.jpg"
   title: "Ensuring the sustainability of your code learning community"
@@ -69,13 +142,41 @@
     In this talk I will highlight key points from my two years of as a RailsBridge chapter founder and go through the challenges I faced through strategies in real-time communication, documentation, and code curriculum sharing through technology.
     <br><br>
     The points highlighted are - What is your mission statement? - In one year what do you intend to accomplish? - How do you measure success? - Learning to collaborate and taking suggestions - When to be aware that certain suggestions might not be helpful - Always come back to your mission statement. Don't lose focus. - Planting seeds - Getting comfortable with delegating - When delegating doesn't work - Learning when to let go"
-- name: "Kat Toomajian"
-  headshot: "kat-toomajian.jpg"
-  title: "From the Inside Out: How Self-Talk Affects Your Community"
-  bio:
-    "Kat works for Dreamwidth Studios as the head of Support. She loves insurance, superheroes, historical hermeneutics, and bioethics, among other things. She lives in Minnesota with her two ferrets, Hermes and Isaac."
+- name: "Stephanie Morillo"
+  headshot: "placeholder.png"
+  title: "Creating A Space For Us: How A Twitter Chat Turned Into A Virtual Community For #WOCinTech"
+  bio: ""
   abstract:
-    "Identifying and discouraging negative self-talk is a simple thing, but it can have a huge impact on your community in a positive way. It increases self-confidence, improves morale, and generally results in happier, more productive community participants. This, in turn, will make you happy.
-    Negative self-talk is a pervasive, invasive, and unproductive way of thinking. It can trigger a cascade of things, from abandoned patches (“I am not smart/talented/good enough to figure this out”), to withdrawl from the community (“I screwed this up and everyone knows and hates me”), to general discouragement (“I suck, and have nothing valuable to contribute here”).
+    "I've heard it before from people in positions of privilege - \"If you don't feel represented, then why don't you
+    create something of your own?\" After more than two-and-a-half years working in the tech industry, I always felt
+    that living on the intersection of race and gender were seldom addressed in tech initiatives, and in work spaces
+    I seldom encountered other professional women of color outside of the service staff. In an effort to get over the
+    feelings of isolation, a friend and I created a Twitter chat using the then-underused #WOCinTech hashtag in an
+    effort to bridge the geographic and workplace barriers and connect with women of color already in the tech
+    industry and connect with each other. The chat has since grown to become a full-fledged community made up of women
+    of color and nonbinary POC technologists, and our two-person team has responded to the needs of this community by
+    creating initiatives that target these groups specifically.
     <br><br>
-    In this talk, I’ll discuss the various methods Dreamwidth and other organizations use to handle negative self-talk, and the best way to deploy those techniques. I will also discuss things to keep an eye out for in your community that may be at the root of this type of self-talk, and processes you can go through to eliminate them. Finally, there will be a quick overview of impostor syndrome, and the role it plays here."
+    In my talk, I'll discuss my experiences living at the intersection of race and gender, the #WOCinTech chat origin
+    story, how connecting with women of color has empowered me professionally, and how the community wants to help
+    others on their path to a career in tech."
+- name: "Taylor Dewey"
+  headshot: "Taylor-Dewey.jpg"
+  title: "A cry for help: What answering 911 teaches us about building better software"
+  bio:
+    ""
+  abstract:
+    "\"911, what is your emergency?\" is the question that starts every call. My job, for three years, was to negotiate the caller's emotional minefield to gain life-saving information and insight.
+    <br><br>
+    In this story-centric talk, I show how working in software and with open source communities is similar to emergency services.
+    <br><br>
+    Participants will hear stories that reveal human nature and understand some of the system and training that creates order from emotional chaos. UX Designers and Software developers can use these same techniques to uncover their users' needs, manage volunteers, communicate effectively, and prioritize development.
+    <br><br>
+    Trigger warning: in this talk I plan on telling stories from my 911 calltaker perspective of real or attempted missing persons, homicide, and suicide calls. Weapons are mentioned."
+- name: "Tute Costa"
+  headshot: "tute-costa.jpeg"
+  title: "Welcoming people (and other hard problems)"
+  bio:
+    "Tute Costa studied Computer Sciences in Argentina, worked on and contributed to different Open Source Projects, and now works at thoughtbot NYC. He released a beta version of the book \"Maintaining Open Source Projects\", where he covers mainly the non-technical aspects of the job."
+  abstract:
+    "We interact with people in chat rooms, issue trackers, pull requests, discussion boards, meetups, hallways, or conferences. How do we provide feedback constructively? Are we perceived as friendly as we think we are? How exactly do our cognitive biases unconsciously affect our human interactions? How do we become conscious of them? What assumptions does our language carry? Effective communication is critical particularly for project leaders. As leaders, we open the doors to our gardens, and the first interactions define the tone for the group, shaping today's atmosphere as much as tomorrow's. In this talk, we'll explore how to communicate effectively. Always, and with everyone."

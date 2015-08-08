@@ -10,6 +10,10 @@ committers:
   - name: npm
     url: https://www.npmjs.com
     image: img/npm-logo.svg
+    blurb: |
+      npm's mission is to take open source development to entirely new places, helping millions of developers around the world to share and perfect JavaScript code.<br /><br />
+      We run the free, private npm registry that hosts over 160,000 open-source packages of code for web, server-side, IoT, and mobile projects.<br /><br />
+      We also build tools and services that help the professional coder securely leverage the power of modular software development, with both Saas and enterprise software products.
 contributors:
   # - name: NIRD
   #   url: http://nird.us

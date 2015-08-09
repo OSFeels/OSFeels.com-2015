@@ -17,8 +17,10 @@
       <a name="<%= peep["name"].downcase.gsub /\s+/, '-' %>"></a>
       <div class="speakers--info-box">
         <img src="img/presenters/<%= peep["headshot"] %>" alt="<%= peep["name"] %>" class="speakers--img"/>
-        <h2 class="speakers--name"><%= peep["name"] %></h2>
-        <p class="speakers--bio"><%= peep["bio"] %></p>
+        <h2 class="speakers--name" data-toggle="tooltip" title="<%= peep["bio"] %>">
+          <%= peep["name"] %>
+        </h2>
+        <p class="speakers--bio"></p>
       </div>
       <div class="speakers--talk-box">
         <h3 class="speakers--title"><%= peep["title"]%></h3>

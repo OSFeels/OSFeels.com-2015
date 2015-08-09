@@ -289,11 +289,6 @@
   height: 120px;
 }
 
-.speakers--bio {
-  font-size: 11px;
-  text-align: left;
-}
-
 .speakers--name {
   cursor: help;
   margin-top: 0;

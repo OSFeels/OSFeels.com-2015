@@ -6,36 +6,20 @@
   </h1>
 </div>
 
-<%
-  color_classes = %w(blue pink purple)
-  color_index = 0
-%>
-
 <div class="row">
-  <% @speakers.each_with_index do |peep, row_index| %>
-    <div class="col-md-6 text-center speakers--info">
-      <a name="<%= peep["name"].downcase.gsub /\s+/, '-' %>"></a>
-      <div class="speakers--info-box">
-        <img src="img/presenters/<%= peep["headshot"] %>" alt="<%= peep["name"] %>" class="speakers--img"/>
-        <h2 class="speakers--name" data-toggle="tooltip" title="<%= peep["bio"] %>">
-          <%= peep["name"] %>
+  <% @speakers.each do |speaker| %>
+    <div class="col-md-6 speakers--info">
+      <a name="<%= speaker["name"].downcase.gsub /\s+/, '-' %>"></a>
+      <div class="speakers--info-box" data-toggle="tooltip" title="<%= speaker["bio"] %>">
+        <img src="img/presenters/<%= speaker["headshot"] %>" alt="<%= speaker["name"] %>" class="speakers--img"/>
+        <h2 class="speakers--name">
+          <%= speaker["name"] %>
         </h2>
-        <p class="speakers--bio"></p>
+        <h3 class="speakers--title text-left"><%= speaker["title"]%></h3>
       </div>
       <div class="speakers--talk-box">
-        <h3 class="speakers--title"><%= peep["title"]%></h3>
-        <p class="speakers--abstract"><%= peep["abstract"] %></p>
+        <p class="speakers--abstract"><%= speaker["abstract"] %></p>
       </div>
     </div>
   <% end %>
 </div>
-
-<%# Day 2 Speakers %>
-<%# Saving this for when the schedule is more firm. -jnf
-<div class="row callouts">
-  <img class="confetti" src="img/heart_confetti.png">
-  <h2 class="yellow">
-    Day Two Speakers
-  </h2>
-</div>
-%>

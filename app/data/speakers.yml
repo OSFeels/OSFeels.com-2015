@@ -143,9 +143,10 @@
     <br><br>
     The points highlighted are - What is your mission statement? - In one year what do you intend to accomplish? - How do you measure success? - Learning to collaborate and taking suggestions - When to be aware that certain suggestions might not be helpful - Always come back to your mission statement. Don't lose focus. - Planting seeds - Getting comfortable with delegating - When delegating doesn't work - Learning when to let go"
 - name: "Stephanie Morillo"
-  headshot: "placeholder.png"
+  headshot: "Stephanie-Morillo.jpg"
   title: "Creating A Space For Us: How A Twitter Chat Turned Into A Virtual Community For #WOCinTech"
-  bio: ""
+  bio:
+    "Stephanie Morillo is a Dominican-American musician, writer, and technologist hailing from the Bronx, New York City. She frequently writes about class, race, her experiences learning to code, and working in tech. She is the cofounder of #WOCinTech Chat and a Copywriter at DigitalOcean. She enjoys helping others learn to program, singing melancholic songs, and dreaming about well-written documentation because the world needs it."
   abstract:
     "I've heard it before from people in positions of privilege - \"If you don't feel represented, then why don't you
     create something of your own?\" After more than two-and-a-half years working in the tech industry, I always felt

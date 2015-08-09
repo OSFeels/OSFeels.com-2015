@@ -14,6 +14,7 @@
 <div class="row">
   <% @speakers.each_with_index do |peep, row_index| %>
     <div class="col-md-6 text-center speakers--info">
+      <a name="<%= peep["name"].downcase.gsub /\s+/, '-' %>"></a>
       <div class="speakers--info-box">
         <img src="img/presenters/<%= peep["headshot"] %>" alt="<%= peep["name"] %>" class="speakers--img"/>
         <h2 class="speakers--name"><%= peep["name"] %></h2>

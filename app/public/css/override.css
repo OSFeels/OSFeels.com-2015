@@ -300,18 +300,22 @@
   line-height: 25px;
 }
 
+.speakers--info:nth-child(2n+1) {
+  clear: left;
+}
+
 .speakers--title,
 .speakers--name {
   color: #5398be; /* blue */
 }
 
-.speakers--info:nth-child(3n) .speakers--title,
-.speakers--info:nth-child(3n) .speakers--name {
+.speakers--info:nth-child(3n-1) .speakers--title,
+.speakers--info:nth-child(3n-1) .speakers--name {
   color: #3b2870; /* purple */
 }
 
-.speakers--info:nth-child(2n) .speakers--title,
-.speakers--info:nth-child(2n) .speakers--name {
+.speakers--info:nth-child(3n) .speakers--title,
+.speakers--info:nth-child(3n) .speakers--name {
   color: #cd499a; /* pink */
 }
 

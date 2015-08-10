@@ -4,6 +4,43 @@
 * https://github.com/OSFeels/bootstrap-sass
 * -----------------------------------------------------*/
 
+@media (max-width: 768px) {
+  .jumbotron img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer a {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 460px) {
+  .newsletter .input-group {
+    display: block;
+  }
+
+  .newsletter .input-group input {
+    font-size: 22px;
+  }
+
+  .newsletter .input-group-btn .btn {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .jumbotron img {
+    width: 100vw;
+    margin-left: -50px;
+  }
+
+  .jumbotron .tagline h2 {
+    margin-top: 0;
+    font-size: 25px;
+  }
+}
 
 /* -- Sliding Sidebar Navigation */
 #wrapper {
@@ -188,26 +225,6 @@
   margin-top: 40px;
 }
 
-@media (max-width: 768px) {
-  .jumbotron img {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 500px) {
-  .jumbotron img {
-    width: 100vw;
-    margin-left: -50px;
-  }
-
-  .jumbotron .tagline h2 {
-    margin-top: 0;
-    font-size: 25px;
-  }
-}
-
-
 /* -- Callouts */
 .callouts {
   margin-top: 0;
@@ -262,21 +279,6 @@
 
 .newsletter .dot {
   margin-top: 215px;
-}
-
-@media (max-width: 460px) {
-  .newsletter .input-group {
-    display: block;
-  }
-
-  .newsletter .input-group input {
-    font-size: 22px;
-  }
-
-  .newsletter .input-group-btn .btn {
-    width: 100%;
-    margin: 5px 0;
-  }
 }
 
 /* --- Speakers Page */
@@ -394,10 +396,4 @@
 .footer a {
   font-size: 20px;
   letter-spacing: 1px;
-}
-
-@media (max-width: 768px) {
-  .footer a {
-    font-size: 11px;
-  }
 }

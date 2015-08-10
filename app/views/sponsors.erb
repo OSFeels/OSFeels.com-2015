@@ -1,0 +1,68 @@
+<div class="sponsors--level callouts">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="purple">
+        Committer Sponsors
+      </h2>
+    </div>
+  </div>
+  <% @sponsors["committers"].each do |sponsor| %>
+    <div class="row sponsors--section">
+      <div class="col-md-8 col-md-offset-2">
+        <h3 class="committer">
+          <a href="<%= sponsor["url"] %>" target="_blank">
+            <img src="<%= sponsor["image"] %>" alt="<%= sponsor["name"] %> logo" class="img-responsive center-block"/>
+          </a>
+        </h3>
+        <% if sponsor["blurb"] %>
+          <p><%= sponsor["blurb"] %></p>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <img class="confetti" src="img/smile_confetti.png">
+  </div>
+</div>
+
+<div class="sponsors--level callouts">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="purple">
+        Contributor Sponsors
+      </h2>
+    </div>
+  </div>
+  <div class="row sponsors--section">
+    <% @sponsors["contributors"].each do |sponsor| %>
+      <div class="col-sm-6">
+        <h3 class="contributor">
+          <a href="<%= sponsor["url"] %>" target="_blank">
+            <img class='<%= "padded-logo" if sponsor["pad-logo"] %> img-responsive center-block' src="<%= sponsor["image"] %>" alt="<%= sponsor["name"] %> logo" />
+          </a>
+        </h3>
+        <% if sponsor["blurb"] %>
+          <p><%= sponsor["blurb"] %></p>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <img class="confetti" src="img/heart_confetti.png">
+  </div>
+</div>
+
+<div class="row callouts sponsors--cta">
+  <div class="col-md-12">
+    <h2 class="blue">Interested in Sponsoring OS Feels 2015?</h2>
+    <div class="text-center">
+      <a href="/prospectus" class="btn btn-danger">Download Prospectus</a>
+    </div>
+  </div>
+</div>

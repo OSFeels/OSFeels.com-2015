@@ -4,6 +4,43 @@
 * https://github.com/OSFeels/bootstrap-sass
 * -----------------------------------------------------*/
 
+@media (max-width: 768px) {
+  .jumbotron img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer a {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 460px) {
+  .newsletter .input-group {
+    display: block;
+  }
+
+  .newsletter .input-group input {
+    font-size: 22px;
+  }
+
+  .newsletter .input-group-btn .btn {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .jumbotron img {
+    width: 100vw;
+    margin-left: -50px;
+  }
+
+  .jumbotron .tagline h2 {
+    margin-top: 0;
+    font-size: 25px;
+  }
+}
 
 /* -- Sliding Sidebar Navigation */
 #wrapper {
@@ -188,26 +225,6 @@
   margin-top: 40px;
 }
 
-@media (max-width: 768px) {
-  .jumbotron img {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 500px) {
-  .jumbotron img {
-    width: 100vw;
-    margin-left: -50px;
-  }
-
-  .jumbotron .tagline h2 {
-    margin-top: 0;
-    font-size: 25px;
-  }
-}
-
-
 /* -- Callouts */
 .callouts {
   margin-top: 0;
@@ -264,21 +281,50 @@
   margin-top: 215px;
 }
 
-@media (max-width: 460px) {
-  .newsletter .input-group {
-    display: block;
-  }
-
-  .newsletter .input-group input {
-    font-size: 22px;
-  }
-
-  .newsletter .input-group-btn .btn {
-    width: 100%;
-    margin: 5px 0;
-  }
+/* --- Speakers Page */
+.speakers--info {
+  margin-bottom: 50px;
 }
 
+.speakers--info-box {
+  min-height: 120px;
+  margin-bottom: 25px;
+}
+
+.speakers--img {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  height: 120px;
+}
+
+.speakers--name {
+  margin-top: 0;
+  text-align: left;
+  line-height: 25px;
+}
+
+.speakers--info:nth-child(2n+1) {
+  clear: left;
+}
+
+.speakers--title,
+.speakers--name {
+  color: #5398be; /* blue */
+}
+
+.speakers--info:nth-child(3n-1) .speakers--title,
+.speakers--info:nth-child(3n-1) .speakers--name {
+  color: #3b2870; /* purple */
+}
+
+.speakers--info:nth-child(3n) .speakers--title,
+.speakers--info:nth-child(3n) .speakers--name {
+  color: #cd499a; /* pink */
+}
+
+.speakers--abstract {
+  text-align: left;
+}
 
 /* --- Sponsorship Page */
 .sponsors--cta .btn {
@@ -330,7 +376,6 @@
   margin-top: 30px;
 }
 
-
 /* -- Footer */
 .footer {
   margin-top: 100px;
@@ -351,10 +396,4 @@
 .footer a {
   font-size: 20px;
   letter-spacing: 1px;
-}
-
-@media (max-width: 768px) {
-  .footer a {
-    font-size: 11px;
-  }
 }

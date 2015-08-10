@@ -1,0 +1,25 @@
+<%# Day 1 Speakers %>
+<div class="row callouts">
+  <img class="confetti" src="img/smile_confetti.png">
+  <h1 class="pink">
+    Presenting at OS&F
+  </h1>
+</div>
+
+<div class="row">
+  <% @speakers.each do |speaker| %>
+    <div class="col-md-6 speakers--info">
+      <a name="<%= speaker["name"].downcase.gsub /\s+/, '-' %>"></a>
+      <div class="speakers--info-box" data-toggle="tooltip" title="<%= speaker["bio"] %>">
+        <img src="img/presenters/<%= speaker["headshot"] %>" alt="<%= speaker["name"] %>" class="speakers--img"/>
+        <h2 class="speakers--name">
+          <%= speaker["name"] %>
+        </h2>
+        <h3 class="speakers--title text-left"><%= speaker["title"]%></h3>
+      </div>
+      <div class="speakers--talk-box">
+        <p class="speakers--abstract"><%= speaker["abstract"] %></p>
+      </div>
+    </div>
+  <% end %>
+</div>

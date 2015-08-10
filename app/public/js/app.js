@@ -10,3 +10,8 @@ if (spinner.is(":checked")) {
 $("#menu-toggle").click(function(e) {
   $("#wrapper").toggleClass("toggled");
 });
+
+// enable the bio tooltips on page ready
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

@@ -1,8 +1,9 @@
 require 'sinatra'
 require 'yaml'
+require 'redcarpet'
+
 if Sinatra::Base.development?
   require 'sinatra/reloader'
-  require 'redcarpet'
 end
 
 get '/' do
@@ -28,6 +29,11 @@ end
 
 get '/talk-ideas' do
   erb :talk_ideas
+end
+
+get '/speakers' do
+  @speakers = YAML.load File.read("app/data/speakers.yml")
+  erb :speakers
 end
 
 get '/bootstrap' do

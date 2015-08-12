@@ -95,13 +95,15 @@
     ""
   abstract:
     "In the tech industry and especially in the open source community, there are many frustrations and problems that everyone experiences. It is no secret, however, that these problems are not evenly distributed. Those who tend to be underrepresented in the industry find their feelings of marginalization are compounded by behavior that has come to be viewed as the norm. And while it is also no secret that speaking out about these issues can in itself be a problem it is not as simple as it seems. Will standing up to injustice harm your career? Are harassment and *-ism just something you should expect? Is there a certain initiation/hazing period that you have to simply suffer through before you can be taken seriously? Do certain marginalized subgroups have it worse than others, and does what does that mean for those who don't have it the worst? In this talk, we'll take a deep dive into the many not-often-discussed nuances of a widely-known problem."
-# - name: "Isaac Z Schlueter"
-#   headshot: "isaac-schlueter.jpg"
-#   title: ""
-#   bio:
-#     "You might know Isaac from such open source software communities as Node.js and npm. Having transitioned from programming computers full time to managing people in the last few years, he's been pretty interested in feelings as well. Also he makes jokes on Twitter sometimes."
-#   abstract:
-#     ""
+- name: "Isaac Z Schlueter"
+  headshot: "isaac-schlueter.jpg"
+  title: "Non-Violent Communication for Fun, Profit, and Self Defense"
+  bio:
+    "You might know Isaac from such open source software communities as Node.js and npm. Having transitioned from programming computers full time to managing people in the last few years, he's been pretty interested in feelings as well. Also he makes jokes on Twitter sometimes."
+  abstract:
+    "Managing open source projects exposes a maintainer to the vagaries of the internet. For all the joy and convenience that a bit of technology may bring to its users, users typically show up when they are in an unhappy place, and the job of the maintainer can quickly become an overwhelming source of stress and burnout.
+    </p><p>
+    This talk will introduce Non-Violent Communication as a toolkit for helping users at their worst, and also prevent the flood of bad vibes from becoming a source of toxicity. By exposing our vulnerability in a direct and honest way, we can turn conversations away from blame and antagonism, towards meaningful connection and opportunities for growth and collaboration. Open Source is a social machine, and compassion helps keep the gears from grinding to a halt."
 - name: "Jacob Kaplan-Moss"
   headshot: "jkm.jpg"
   title: "What part of '... for life' don't you understand?"

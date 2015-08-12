@@ -59,13 +59,17 @@
 #     ""
 #   abstract:
 #     ""
-# - name: "Eric Holscher"
-#   headshot: "eric-holscher.jpg"
-#   title: "Documentation as Empathy"
-#   bio:
-#     ""
-#   abstract:
-#     ""
+- name: "Eric Holscher"
+  headshot: "eric-holscher.jpg"
+  title: "Documentation as Empathy"
+  bio:
+    ""
+  abstract:
+    "This talk will cover my view of documentation within programming culture as it has grown over the years. As a primary person involved with Read the Docs (the largest open source doc hosting website), and Write the Docs (the largest OSS doc conference), I have seen a lot of angles, and appreciate documentation more every year.
+    </p><p>
+    I believe better documentation is a fundamental aspect of how we can improve programming culture, and an often misunderstood part of outreach and education. Projects with good documentation are able to get contributors in a much more reliable fashion, and more importantly, projects without documentation only attract users who have time to waste.
+    </p><p>
+    This talk will make you think more deeply about the social impact of documentation, and hopefully make you question if it should be a higher priority in your development. You should understand the role of documentation in both technical as well as social realms."
 - name: "Greg Tarnoff"
   headshot: "greg-tarnoff.jpg"
   title: "Designing with Empathy"

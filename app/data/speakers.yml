@@ -115,13 +115,15 @@
     Negative self-talk is a pervasive, invasive, and unproductive way of thinking. It can trigger a cascade of things, from abandoned patches (“I am not smart/talented/good enough to figure this out”), to withdrawl from the community (“I screwed this up and everyone knows and hates me”), to general discouragement (“I suck, and have nothing valuable to contribute here”).
     <br><br>
     In this talk, I’ll discuss the various methods Dreamwidth and other organizations use to handle negative self-talk, and the best way to deploy those techniques. I will also discuss things to keep an eye out for in your community that may be at the root of this type of self-talk, and processes you can go through to eliminate them. Finally, there will be a quick overview of impostor syndrome, and the role it plays here."
-# - name: "Lauren D Voswinkel"
-#   headshot: "Lauren-Voswinkel.png"
-#   title: "Let's Continue to Talk About Pay"
-#   bio:
-#     ""
-#   abstract:
-#     ""
+- name: "Lauren D Voswinkel"
+  headshot: "Lauren-Voswinkel.png"
+  title: "Let's Continue to Talk About Pay"
+  bio:
+    "I've spoken at numerous conferences at this point. My list of conferences I've spoken at are as follows: GoRuCo 2013 Ruby Nation 2013 Open Source Bridge 2014, 2015 Madison Ruby 2014 RubyConf AU 2015, and soon AlterConf Toronto.
+    </p><p>
+    I have also acted as a speaking mentor at Write/Speak/Code"
+  abstract:
+    "On International Workers' Day I asked the world to #talkpay and many people did. Pay transparency is critical in order to address pay inequity in our field, as well as others, but there's more to it than that. I'd like to discuss why this taboo surrounding pay got started, illustrate just how concerted of an effort there is to prevent workers (including tech workers) from pushing for higher pay, and why, exactly, we NEED to talk about pay."
 - name: "Rachel Ober"
   headshot: "rachel-ober.jpg"
   title: "Ensuring the sustainability of your code learning community"
@@ -180,4 +182,6 @@
   bio:
     "Tute Costa studied Computer Sciences in Argentina, worked on and contributed to different Open Source Projects, and now works at thoughtbot NYC. He released a beta version of the book \"Maintaining Open Source Projects\", where he covers mainly the non-technical aspects of the job."
   abstract:
-    "We interact with people in chat rooms, issue trackers, pull requests, discussion boards, meetups, hallways, or conferences. How do we provide feedback constructively? Are we perceived as friendly as we think we are? How exactly do our cognitive biases unconsciously affect our human interactions? How do we become conscious of them? What assumptions does our language carry? Effective communication is critical particularly for project leaders. As leaders, we open the doors to our gardens, and the first interactions define the tone for the group, shaping today's atmosphere as much as tomorrow's. In this talk, we'll explore how to communicate effectively. Always, and with everyone."
+    "We interact with people in chat rooms, issue trackers, pull requests, discussion boards, meetups, hallways, or conferences.
+    </p><p>
+    How do we provide feedback constructively? Are we perceived as friendly as we think we are? How exactly do our cognitive biases unconsciously affect our human interactions? How do we become conscious of them? What assumptions does our language carry? Effective communication is critical particularly for project leaders. As leaders, we open the doors to our gardens, and the first interactions define the tone for the group, shaping today's atmosphere as much as tomorrow's. In this talk, we'll explore how to communicate effectively. Always, and with everyone."

@@ -1,9 +1,9 @@
 ---
 - name: "Allison Nelson"
-  headshot: "placeholder.png"
+  headshot: "allison-nelson.png"
   title: "What Roleplaying Games Can Teach Us About Open Source Communities"
   bio:
-    ""
+    "Allison Nelson is a writer of both code and words, and finds joy in combining the two. They write documentation for Alpine Data Labs by day and tell stories through novels and games by night."
   abstract:
     "In games, a valuable team is made up of characters with varied talents and skills. They need to be adaptable, to communicate, and most of all, to work together. As a team, they can accomplish even the most intimidating quests. It's time we took this mentality to the open source community.
     </p><p>

@@ -4,6 +4,25 @@
 * https://github.com/OSFeels/bootstrap-sass
 * -----------------------------------------------------*/
 
+/* -- Jumbotron Styles */
+.jumbotron {
+  color: white;
+}
+
+.jumbotron img {
+  width: 60%;
+}
+
+.jumbotron .tagline h2 {
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.jumbotron .newsletter {
+  margin-top: 40px;
+}
+
 @media (max-width: 768px) {
   .jumbotron img {
     width: 100%;
@@ -203,26 +222,6 @@
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
   margin-top: -16px;
-}
-
-
-/* -- Jumbotron Styles */
-.jumbotron {
-  color: white;
-}
-
-.jumbotron img {
-  width: 60%;
-}
-
-.jumbotron .tagline h2 {
-  font-weight: normal;
-  margin-top: 50px;
-  margin-bottom: 0;
-}
-
-.jumbotron .newsletter {
-  margin-top: 40px;
 }
 
 /* -- Callouts */

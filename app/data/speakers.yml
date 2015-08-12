@@ -7,7 +7,16 @@
   abstract:
     "In games, a valuable team is made up of characters with varied talents and skills. They need to be adaptable, to communicate, and most of all, to work together. As a team, they can accomplish even the most intimidating quests. It's time we took this mentality to the open source community.
     </p><p>
-    Roleplaying games can teach us a lot about diversity and working as a team if we dig a little deeper. In such games, players take on the role of a fantasy character and participate in quests and adventures with a group of other players. During this talk I will take popular fantasy classes and relate them to the variety of people that contribute to open source communities every day. Just like a roleplaying party would fail with only type of character, open source needs the unsung heroes: the technical writers, the artists, the testers—to make the project a reality. By building our "party" around diverse interests and welcoming newcomers with open arms, open source communities can prosper."
+    Roleplaying games can teach us a lot about diversity and working as a team if we dig a little deeper. In such games, players take on the role of a fantasy character and participate in quests and adventures with a group of other players. During this talk I will take popular fantasy classes and relate them to the variety of people that contribute to open source communities every day. Just like a roleplaying party would fail with only type of character, open source needs the unsung heroes: the technical writers, the artists, the testers—to make the project a reality. By building our \"party\" around diverse interests and welcoming newcomers with open arms, open source communities can prosper."
+- name: "Alex Harms"
+  headshot: "alex-harms.jpg"
+  title: "Learning to Empathy"
+  bio:
+    "Alex helps teams to thrive by encouraging mindfulness, and facilitating toward trust and openness. The result is improved communication, better technical decisions, and renewed joy in their working environment and codebase."
+  abstract:
+    "You've heard empathy is a learned skill. Let's really talk about it. What does it mean to have empathy? Why does it matter, anyway? And if empathy is useful (I hope to show you how it is), how do you get better at it?
+    <br><br>
+    In this session, you'll learn real stuff about what's in your own heart, and how to connect to the people you encounter. Less feeling shitty, more enjoying projects!"
 # - name: "Audrey Eschright"
 #   headshot: "placeholder.png"
 #   title: ""
@@ -61,13 +70,17 @@
 #     ""
 #   abstract:
 #     ""
-# - name: "Eric Holscher"
-#   headshot: "eric-holscher.jpg"
-#   title: "Documentation as Empathy"
-#   bio:
-#     ""
-#   abstract:
-#     ""
+- name: "Eric Holscher"
+  headshot: "eric-holscher.jpg"
+  title: "Documentation as Empathy"
+  bio:
+    "Eric is a founder of both <a href='https://readthedocs.org/'>Read the Docs</a> , and <a href='http://www.writethedocs.org/'>Write the Docs</a>. When he isn't helping improve the documentation world, he's out in the woods somewhere."
+  abstract:
+    "This talk will cover my view of documentation within programming culture as it has grown over the years. As a primary person involved with Read the Docs (the largest open source doc hosting website), and Write the Docs (the largest OSS doc conference), I have seen a lot of angles, and appreciate documentation more every year.
+    </p><p>
+    I believe better documentation is a fundamental aspect of how we can improve programming culture, and an often misunderstood part of outreach and education. Projects with good documentation are able to get contributors in a much more reliable fashion, and more importantly, projects without documentation only attract users who have time to waste.
+    </p><p>
+    This talk will make you think more deeply about the social impact of documentation, and hopefully make you question if it should be a higher priority in your development. You should understand the role of documentation in both technical as well as social realms."
 - name: "Greg Tarnoff"
   headshot: "greg-tarnoff.jpg"
   title: "Designing with Empathy"
@@ -89,17 +102,17 @@
 #     "You might know Isaac from such open source software communities as Node.js and npm. Having transitioned from programming computers full time to managing people in the last few years, he's been pretty interested in feelings as well. Also he makes jokes on Twitter sometimes."
 #   abstract:
 #     ""
-# - name: "Jacob Kaplan-Moss"
-#   headshot: "placeholder.png"
-#   title: "What part of '... for life' don't you understand?"
-#   bio:
-#     ""
-#   abstract:
-#     "When we released Django, we took our structure from the Python community, appointing Adrian and me as \"Benevolent Dictators for Life\". Turns out, \"... for life\" is a pretty long tim — who knew — and this role turned out not to be sustainable.
-#     <br><br>
-#     About a year and a half ago we resigned, and Django transitioned to a completely community-run project.
-#     <br><br>
-#     This is a story about this journey: how I became a BDFL, what worked and didn't about that, how I burnt out and \"retired\" — and what I've been doing in open source since."
+- name: "Jacob Kaplan-Moss"
+  headshot: "jkm.jpg"
+  title: "What part of '... for life' don't you understand?"
+  bio:
+    "In 2005 Jacob joined the Lawrence Journal-World, a locally-owned newspaper in Lawrence, Kansas, and helped develop and eventually open source Django. He later founded the Django Software Foundation and served as its president for several terms. Today, Jacob is the Director of Security at Heroku."
+  abstract:
+    "When we released Django, we took our structure from the Python community, appointing Adrian and me as \"Benevolent Dictators for Life\". Turns out, \"... for life\" is a pretty long time — who knew — and this role turned out not to be sustainable.
+    <br><br>
+    About a year and a half ago we resigned, and Django transitioned to a completely community-run project.
+    <br><br>
+    This is a story about this journey: how I became a BDFL, what worked and didn't about that, how I burnt out and \"retired\" — and what I've been doing in open source since."
 # - name: "Jen Myers"
 #   headshot: "placeholder.png"
 #   title: ""
@@ -117,13 +130,15 @@
     Negative self-talk is a pervasive, invasive, and unproductive way of thinking. It can trigger a cascade of things, from abandoned patches (“I am not smart/talented/good enough to figure this out”), to withdrawl from the community (“I screwed this up and everyone knows and hates me”), to general discouragement (“I suck, and have nothing valuable to contribute here”).
     <br><br>
     In this talk, I’ll discuss the various methods Dreamwidth and other organizations use to handle negative self-talk, and the best way to deploy those techniques. I will also discuss things to keep an eye out for in your community that may be at the root of this type of self-talk, and processes you can go through to eliminate them. Finally, there will be a quick overview of impostor syndrome, and the role it plays here."
-# - name: "Lauren D Voswinkel"
-#   headshot: "Lauren-Voswinkel.png"
-#   title: "Let's Continue to Talk About Pay"
-#   bio:
-#     ""
-#   abstract:
-#     ""
+- name: "Lauren D Voswinkel"
+  headshot: "Lauren-Voswinkel.png"
+  title: "Let's Continue to Talk About Pay"
+  bio:
+    "I've spoken at numerous conferences at this point. My list of conferences I've spoken at are as follows: GoRuCo 2013 Ruby Nation 2013 Open Source Bridge 2014, 2015 Madison Ruby 2014 RubyConf AU 2015, and soon AlterConf Toronto.
+    </p><p>
+    I have also acted as a speaking mentor at Write/Speak/Code"
+  abstract:
+    "On International Workers' Day I asked the world to #talkpay and many people did. Pay transparency is critical in order to address pay inequity in our field, as well as others, but there's more to it than that. I'd like to discuss why this taboo surrounding pay got started, illustrate just how concerted of an effort there is to prevent workers (including tech workers) from pushing for higher pay, and why, exactly, we NEED to talk about pay."
 - name: "Rachel Ober"
   headshot: "rachel-ober.jpg"
   title: "Ensuring the sustainability of your code learning community"
@@ -182,4 +197,6 @@
   bio:
     "Tute Costa studied Computer Sciences in Argentina, worked on and contributed to different Open Source Projects, and now works at thoughtbot NYC. He released a beta version of the book \"Maintaining Open Source Projects\", where he covers mainly the non-technical aspects of the job."
   abstract:
-    "We interact with people in chat rooms, issue trackers, pull requests, discussion boards, meetups, hallways, or conferences. How do we provide feedback constructively? Are we perceived as friendly as we think we are? How exactly do our cognitive biases unconsciously affect our human interactions? How do we become conscious of them? What assumptions does our language carry? Effective communication is critical particularly for project leaders. As leaders, we open the doors to our gardens, and the first interactions define the tone for the group, shaping today's atmosphere as much as tomorrow's. In this talk, we'll explore how to communicate effectively. Always, and with everyone."
+    "We interact with people in chat rooms, issue trackers, pull requests, discussion boards, meetups, hallways, or conferences.
+    </p><p>
+    How do we provide feedback constructively? Are we perceived as friendly as we think we are? How exactly do our cognitive biases unconsciously affect our human interactions? How do we become conscious of them? What assumptions does our language carry? Effective communication is critical particularly for project leaders. As leaders, we open the doors to our gardens, and the first interactions define the tone for the group, shaping today's atmosphere as much as tomorrow's. In this talk, we'll explore how to communicate effectively. Always, and with everyone."

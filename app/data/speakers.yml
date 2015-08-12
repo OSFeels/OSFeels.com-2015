@@ -93,7 +93,7 @@
   bio:
     "In 2005 Jacob joined the Lawrence Journal-World, a locally-owned newspaper in Lawrence, Kansas, and helped develop and eventually open source Django. He later founded the Django Software Foundation and served as its president for several terms. Today, Jacob is the Director of Security at Heroku."
   abstract:
-    "When we released Django, we took our structure from the Python community, appointing Adrian and me as \"Benevolent Dictators for Life\". Turns out, \"... for life\" is a pretty long tim — who knew — and this role turned out not to be sustainable.
+    "When we released Django, we took our structure from the Python community, appointing Adrian and me as \"Benevolent Dictators for Life\". Turns out, \"... for life\" is a pretty long time — who knew — and this role turned out not to be sustainable.
     <br><br>
     About a year and a half ago we resigned, and Django transitioned to a completely community-run project.
     <br><br>

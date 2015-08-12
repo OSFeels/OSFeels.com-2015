@@ -1,11 +1,13 @@
 ---
-# - name: "Allison Nelson"
-#   headshot: "placeholder.png"
-#   title: "What Roleplaying Games Can Teach Us About Open Source Communities"
-#   bio:
-#     ""
-#   abstract:
-#     ""
+- name: "Allison Nelson"
+  headshot: "placeholder.png"
+  title: "What Roleplaying Games Can Teach Us About Open Source Communities"
+  bio:
+    ""
+  abstract:
+    "In games, a valuable team is made up of characters with varied talents and skills. They need to be adaptable, to communicate, and most of all, to work together. As a team, they can accomplish even the most intimidating quests. It's time we took this mentality to the open source community.
+    </p><p>
+    Roleplaying games can teach us a lot about diversity and working as a team if we dig a little deeper. In such games, players take on the role of a fantasy character and participate in quests and adventures with a group of other players. During this talk I will take popular fantasy classes and relate them to the variety of people that contribute to open source communities every day. Just like a roleplaying party would fail with only type of character, open source needs the unsung heroes: the technical writers, the artists, the testers—to make the project a reality. By building our "party" around diverse interests and welcoming newcomers with open arms, open source communities can prosper."
 # - name: "Audrey Eschright"
 #   headshot: "placeholder.png"
 #   title: ""

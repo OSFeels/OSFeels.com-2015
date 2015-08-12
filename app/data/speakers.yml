@@ -1,4 +1,13 @@
 ---
+- name: "Alex Harms"
+  headshot: "alex-harms.jpg"
+  title: "Learning to Empathy"
+  bio:
+    "Alex helps teams to thrive by encouraging mindfulness, and facilitating toward trust and openness. The result is improved communication, better technical decisions, and renewed joy in their working environment and codebase."
+  abstract:
+    "You've heard empathy is a learned skill. Let's really talk about it. What does it mean to have empathy? Why does it matter, anyway? And if empathy is useful (I hope to show you how it is), how do you get better at it?
+    <br><br>
+    In this session, you'll learn real stuff about what's in your own heart, and how to connect to the people you encounter. Less feeling shitty, more enjoying projects!"
 # - name: "Allison Nelson"
 #   headshot: "placeholder.png"
 #   title: "What Roleplaying Games Can Teach Us About Open Source Communities"

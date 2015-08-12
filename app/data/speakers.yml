@@ -1,4 +1,5 @@
 ---
+<<<<<<< Updated upstream
 # - name: "Allison Nelson"
 #   headshot: "placeholder.png"
 #   title: "What Roleplaying Games Can Teach Us About Open Source Communities"
@@ -13,6 +14,26 @@
 #     ""
 #   abstract:
 #     ""
+=======
+- name: "Allison Nelson"
+  headshot: "placeholder.png"
+  title: "What Roleplaying Games Can Teach Us About Open Source Communities"
+  bio:
+    ""
+  abstract:
+    "In games, a valuable team is made up of characters with varied talents and skills. They need to be adaptable, to communicate, and most of all, to work together. As a team, they can accomplish even the most intimidating quests. It's time we took this mentality to the open source community.
+    </p><p>
+    Roleplaying games can teach us a lot about diversity and working as a team if we dig a little deeper. In such games, players take on the role of a fantasy character and participate in quests and adventures with a group of other players. During this talk I will take popular fantasy classes and relate them to the variety of people that contribute to open source communities every day. Just like a roleplaying party would fail with only type of character, open source needs the unsung heroes: the technical writers, the artists, the testers—to make the project a reality. By building our "party" around diverse interests and welcoming newcomers with open arms, open source communities can prosper."
+- name: "Audrey Eschright"
+  headshot: "placeholder.png"
+  title: "Enforcing Your Code of Conduct: Effective Incident Response"
+  bio:
+    ""
+  abstract:
+    "Now that your event or project has a code of conduct, how do you ensure it's effective? Are you prepared to deal with incident reporting, and to resolve issues that come up? How can you tell if your code of conduct is actually working?
+    </p><p>
+    I'll draw on several years of experience working with code of conduct outreach and enforcement on open source projects, user groups, and a major conference to show you the steps to take to make sure your code of conduct is an effective tool for inclusion, safety, and building a stronger community. We'll talk about reporting processes, documentation, creating a team or committee to handle reports, what responses are or aren't effective, and dealing with problems in the heat of the moment."
+>>>>>>> Stashed changes
 - name: "Brenna Flood"
   headshot: "brenna-flood.jpeg"
   title: "Sometimes You Just Have to Show Them the Money"

@@ -96,17 +96,17 @@
 #     "You might know Isaac from such open source software communities as Node.js and npm. Having transitioned from programming computers full time to managing people in the last few years, he's been pretty interested in feelings as well. Also he makes jokes on Twitter sometimes."
 #   abstract:
 #     ""
-# - name: "Jacob Kaplan-Moss"
-#   headshot: "placeholder.png"
-#   title: "What part of '... for life' don't you understand?"
-#   bio:
-#     ""
-#   abstract:
-#     "When we released Django, we took our structure from the Python community, appointing Adrian and me as \"Benevolent Dictators for Life\". Turns out, \"... for life\" is a pretty long tim — who knew — and this role turned out not to be sustainable.
-#     <br><br>
-#     About a year and a half ago we resigned, and Django transitioned to a completely community-run project.
-#     <br><br>
-#     This is a story about this journey: how I became a BDFL, what worked and didn't about that, how I burnt out and \"retired\" — and what I've been doing in open source since."
+- name: "Jacob Kaplan-Moss"
+  headshot: "jkm.jpg"
+  title: "What part of '... for life' don't you understand?"
+  bio:
+    "In 2005 Jacob joined the Lawrence Journal-World, a locally-owned newspaper in Lawrence, Kansas, and helped develop and eventually open source Django. He later founded the Django Software Foundation and served as its president for several terms. Today, Jacob is the Director of Security at Heroku."
+  abstract:
+    "When we released Django, we took our structure from the Python community, appointing Adrian and me as \"Benevolent Dictators for Life\". Turns out, \"... for life\" is a pretty long time — who knew — and this role turned out not to be sustainable.
+    <br><br>
+    About a year and a half ago we resigned, and Django transitioned to a completely community-run project.
+    <br><br>
+    This is a story about this journey: how I became a BDFL, what worked and didn't about that, how I burnt out and \"retired\" — and what I've been doing in open source since."
 # - name: "Jen Myers"
 #   headshot: "placeholder.png"
 #   title: ""

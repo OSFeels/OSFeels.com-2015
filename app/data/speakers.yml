@@ -7,7 +7,7 @@
   abstract:
     "In games, a valuable team is made up of characters with varied talents and skills. They need to be adaptable, to communicate, and most of all, to work together. As a team, they can accomplish even the most intimidating quests. It's time we took this mentality to the open source community.
     </p><p>
-    Roleplaying games can teach us a lot about diversity and working as a team if we dig a little deeper. In such games, players take on the role of a fantasy character and participate in quests and adventures with a group of other players. During this talk I will take popular fantasy classes and relate them to the variety of people that contribute to open source communities every day. Just like a roleplaying party would fail with only type of character, open source needs the unsung heroes: the technical writers, the artists, the testers—to make the project a reality. By building our \"party\" around diverse interests and welcoming newcomers with open arms, open source communities can prosper."
+    Roleplaying games can teach us a lot about diversity and working as a team if we dig a little deeper. In such games, players take on the role of a fantasy character and participate in quests and adventures with a group of other players. During this talk I will take popular fantasy classes and relate them to the variety of people that contribute to open source communities every day. Just like a roleplaying party would fail with only type of character, open source needs the unsung heroes: the technical writers, the artists, the testers—to make the project a reality. By building our 'party' around diverse interests and welcoming newcomers with open arms, open source communities can prosper."
 - name: "Alex Harms"
   headshot: "alex-harms.jpg"
   title: "Learning to Empathy"
@@ -110,11 +110,11 @@
   bio:
     "In 2005 Jacob joined the Lawrence Journal-World, a locally-owned newspaper in Lawrence, Kansas, and helped develop and eventually open source Django. He later founded the Django Software Foundation and served as its president for several terms. Today, Jacob is the Director of Security at Heroku."
   abstract:
-    "When we released Django, we took our structure from the Python community, appointing Adrian and me as \"Benevolent Dictators for Life\". Turns out, \"... for life\" is a pretty long time — who knew — and this role turned out not to be sustainable.
+    "When we released Django, we took our structure from the Python community, appointing Adrian and me as 'Benevolent Dictators for Life'. Turns out, '... for life' is a pretty long time — who knew — and this role turned out not to be sustainable.
     <br><br>
     About a year and a half ago we resigned, and Django transitioned to a completely community-run project.
     <br><br>
-    This is a story about this journey: how I became a BDFL, what worked and didn't about that, how I burnt out and \"retired\" — and what I've been doing in open source since."
+    This is a story about this journey: how I became a BDFL, what worked and didn't about that, how I burnt out and 'retired' — and what I've been doing in open source since."
 # - name: "Jen Myers"
 #   headshot: "placeholder.png"
 #   title: ""
@@ -167,8 +167,8 @@
   bio:
     "Stephanie Morillo is a Dominican-American musician, writer, and technologist hailing from the Bronx, New York City. She frequently writes about class, race, her experiences learning to code, and working in tech. She is the cofounder of #WOCinTech Chat and a Copywriter at DigitalOcean. She enjoys helping others learn to program, singing melancholic songs, and dreaming about well-written documentation because the world needs it."
   abstract:
-    "I've heard it before from people in positions of privilege - \"If you don't feel represented, then why don't you
-    create something of your own?\" After more than two-and-a-half years working in the tech industry, I always felt
+    "I've heard it before from people in positions of privilege - 'If you don't feel represented, then why don't you
+    create something of your own?' After more than two-and-a-half years working in the tech industry, I always felt
     that living on the intersection of race and gender were seldom addressed in tech initiatives, and in work spaces
     I seldom encountered other professional women of color outside of the service staff. In an effort to get over the
     feelings of isolation, a friend and I created a Twitter chat using the then-underused #WOCinTech hashtag in an
@@ -186,7 +186,7 @@
   bio:
     ""
   abstract:
-    "\"911, what is your emergency?\" is the question that starts every call. My job, for three years, was to negotiate the caller's emotional minefield to gain life-saving information and insight.
+    "'911, what is your emergency?' is the question that starts every call. My job, for three years, was to negotiate the caller's emotional minefield to gain life-saving information and insight.
     <br><br>
     In this story-centric talk, I show how working in software and with open source communities is similar to emergency services.
     <br><br>
@@ -197,7 +197,7 @@
   headshot: "tute-costa.jpeg"
   title: "Welcoming people (and other hard problems)"
   bio:
-    "Tute Costa studied Computer Sciences in Argentina, worked on and contributed to different Open Source Projects, and now works at thoughtbot NYC. He released a beta version of the book \"Maintaining Open Source Projects\", where he covers mainly the non-technical aspects of the job."
+    "Tute Costa studied Computer Sciences in Argentina, worked on and contributed to different Open Source Projects, and now works at thoughtbot NYC. He released a beta version of the book 'Maintaining Open Source Projects', where he covers mainly the non-technical aspects of the job."
   abstract:
     "We interact with people in chat rooms, issue trackers, pull requests, discussion boards, meetups, hallways, or conferences.
     </p><p>

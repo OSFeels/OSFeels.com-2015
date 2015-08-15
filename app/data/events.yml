@@ -1,0 +1,85 @@
+---
+- name: "Friday"
+  date: "Oct 2nd, 2015"
+  events:
+  - name: "Hello & Welcome"
+    description: "Welcome to Open Source & Feelings."
+    start_time: 900
+    length: 15
+  - name: "Lunch"
+    description: "The second most important meal of the day."
+    start_time: 1230
+    length: 90
+  - name: "Outro"
+    start_time: 450
+    length: 10
+  - speaker_name: "Jacob Kaplan-Moss"
+    start_time: 915
+    length: 40
+  - speaker_name: "Audrey Eschright"
+    start_time: 1010
+    length: 40
+  - speaker_name: "Cindy Pallares Quezada"
+    start_time: 1050
+    length: 15
+  - speaker_name: "Kat Toomajian"
+    start_time: 1120
+    length: 40
+  - speaker_name: "Stephanie Morillo"
+    start_time: 1330
+    length: 30
+  - speaker_name: "Greg Tarnoff"
+    start_time: 1400
+    length: 35
+  - speaker_name: "Alex Harms"
+    start_time: 1520
+    length: 30
+  - speaker_name: "Mariko Kosaka"
+    start_time: 1605
+    length: 15
+  - speaker_name: "Hsing-Hui Hsu"
+    start_time: 1620
+    length: 30
+- name: "Saturday"
+  date: "Oct 3rd, 2015"
+  events:
+  - name: "Brunch"
+    description: "The most important meal of the day."
+    start_time: 1130
+    length: 90
+  - name: "Outro"
+    start_time: 1650
+    length: 10
+  - speaker_name: "Tapasweni Pathak"
+    start_time: 900
+    length: 40
+  - speaker_name: "Allison Nelson"
+    start_time: 940
+    length: 15
+  - speaker_name: "Brenna Flood"
+    start_time: 1010
+    length: 30
+  - speaker_name: "Lauren Voswinkel"
+    start_time: 1040
+    length: 20
+  - speaker_name: "Isaac Z Schlueter"
+    start_time: 1230
+    length: 45
+  - speaker_name: "Tute Costa"
+    start_time: 1315
+    length: 15
+  - speaker_name: "Eric Holscher"
+    start_time: 1345
+    length: 20
+  - speaker_name: "Rachel Ober"
+    start_time: 1405
+    length: 40
+  - speaker_name: "Bryan Liles"
+    start_time: 1500
+    length: 40
+  - speaker_name: "Emily Rose"
+    start_time: 1540
+    length: 25
+  - speaker_name: "Jen Meyers"
+    start_time: 1620
+    length: 30

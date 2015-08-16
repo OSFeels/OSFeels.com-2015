@@ -68,8 +68,8 @@ def get_schedule(schedule, speakers)
         event
       end
     end
-
-    day["events"] = events
+    events        = events.reject { |e| e["name"].nil? || e["name"] == "" }
+    day["events"] = events.sort_by { |e| e["start_time"] }
     day
   end
 end

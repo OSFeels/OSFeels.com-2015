@@ -4,10 +4,13 @@
       <h2><%= day["name"] %>, <%= day["date"] %></h2>
       <%# TODO: Sort by start_time %>
       <% day["events"].each do |event| %>
-        <h4>
-          <%= format_time(event["start_time"], event["length"]) %>
-          <%= event["name"] %>
-        </h4>
+        <div class="event speakers--info">
+          <h4 class="text-left">
+            <%= format_time(event["start_time"], event["length"]) %>
+            <span class="speakers--name"><%= event["name"] %></span>
+          </h4>
+          <em><%= event["title"] %></em>
+        </div>
       <% end %>
     </div>
   <% end %>

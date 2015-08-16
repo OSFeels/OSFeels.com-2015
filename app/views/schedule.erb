@@ -1,11 +1,13 @@
 <div class="row">
   <% @schedule.each do |day| %>
     <div class="col-md-6">
-      <h2><%= day["name"] %></h2>
-      <h3><%= day["date"] %></h3>
+      <h2><%= day["name"] %>, <%= day["date"] %></h2>
       <%# TODO: Sort by start_time %>
       <% day["events"].each do |event| %>
-        <h4><%= event["name"] %></h4>
+        <h4>
+          <%= format_time(event["start_time"], event["length"]) %>
+          <%= event["name"] %>
+        </h4>
       <% end %>
     </div>
   <% end %>

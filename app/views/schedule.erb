@@ -6,9 +6,13 @@
         <div class="event speakers--info">
           <h4 class="text-left">
             <%= format_time(event["start_time"], event["length"]) %>
-            <span class="speakers--name"><%= event["name"] %></span>
+            <a href="/speakers#<%= format_speaker_link(event["name"]) %>">
+              <span class="speakers--name"><%= event["name"] %></span>
+            </a>
           </h4>
-          <em><%= event["title"] %></em>
+          <a href="/speakers#<%= format_speaker_link(event["name"]) %>">
+            <em><%= event["title"] %></em>
+          </a>
         </div>
       <% end %>
     </div>

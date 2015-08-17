@@ -79,3 +79,7 @@ def format_time(start, duration)
   end_time    = start_time + (duration * 60)
   "#{start_time.strftime("%I:%M %p")} #{end_time.strftime("%I:%M %p")}"
 end
+
+def format_speaker_link(name)
+  name.downcase.gsub(/\s+/, '-')
+end

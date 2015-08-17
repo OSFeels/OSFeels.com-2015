@@ -9,7 +9,7 @@
 <div class="row">
   <% @speakers.each do |speaker| %>
     <div class="col-md-6 speakers--info">
-      <a name="<%= speaker["name"].downcase.gsub /\s+/, '-' %>"></a>
+      <a name="<%= format_speaker_link(speaker["name"]) %>"></a>
       <div class="speakers--info-box" data-toggle="tooltip" title="<%= speaker["bio"] %>">
         <img src="img/presenters/<%= speaker["headshot"] %>" alt="<%= speaker["name"] %>" class="speakers--img img-rounded"/>
         <h2 class="speakers--name">

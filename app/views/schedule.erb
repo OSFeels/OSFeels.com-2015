@@ -2,7 +2,6 @@
   <% @schedule.each do |day| %>
     <div class="col-md-6">
       <h2><%= day["name"] %>, <%= day["date"] %></h2>
-      <%# TODO: Sort by start_time %>
       <% day["events"].each do |event| %>
         <div class="event speakers--info">
           <h4 class="text-left">

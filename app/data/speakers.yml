@@ -56,13 +56,13 @@
     supplying non-technical people with the information they need in order to understand and appropriately react to
     the reality of the organization's code-based albatross. This will include in depth metrics and data points you can
     use to effectively get the point across that these issues are important."
-# - name: "Bryan Liles"
-#   headshot: "placeholder.png"
-#   title: ""
-#   bio:
-#     ""
-#   abstract:
-#     ""
+- name: "Bryan Liles"
+  headshot: "bryan-liles.png"
+  title: "Back in my day..."
+  bio:
+    ""
+  abstract:
+    "Bryan Liles works on strategic initiatives for DigitalOcean. In layman's terms, this means he writes OSS for DigitalOcean and others. Helps communities move their software to the public cloud, and gets to speak at conferences on topics ranging from Machine Learning to how build the next generation of developers. When not thinking about code, Bryan races cars in straight lines and around turns and builds robots and devices."
 # - name: "Emily Rose"
 #   headshot: "Emily-Rose.jpg"
 #   title: "Teching while Trans"

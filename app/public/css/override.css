@@ -326,23 +326,6 @@
 }
 
 /* --- Schedule Page */
-.schedule--day ul {
-  padding-left: 0;
-}
-
-.event {
-  list-style: none;
-  padding: 25px 0;
-  clear: both;
-  position: relative;
-}
-
-.event--time {
-  float: left;
-  text-align: right;
-  width: 35%;
-}
-
 .event--time:after {
   content: "";
   background-image: url("/img/heart_confetti.png");
@@ -350,13 +333,33 @@
   background-size: contain;
   height: 20px;
   width: 20px;
-  margin: 0 15px;
   float: right;
 }
 
+.event--details:before {
+  content: "";
+  height: 100%;
+  width: 1.75px;
+  background-color: #f2cd5d;
+  position: absolute;
+  left: -57px;
+  top: 20px;
+  z-index: -1;
+}
+
+.event--day:last-of-type .event--details:before {
+  height: 0;
+}
+
 .event--details {
-  width: 65%;
-  float: right;
+  min-height: 100px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+  .event--details {
+    padding-left: 0;
+  }
 }
 
 /* --- Sponsorship Page */

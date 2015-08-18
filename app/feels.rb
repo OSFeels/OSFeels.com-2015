@@ -74,10 +74,9 @@ def get_schedule(schedule, speakers)
   end
 end
 
-def format_time(start, duration)
-  start_time  = Time.strptime(start.to_s, "%H%M")
-  end_time    = start_time + (duration * 60)
-  "#{start_time.strftime("%I:%M %p")} #{end_time.strftime("%I:%M %p")}"
+def format_time(start)
+  parsed_time = Time.strptime(start, "%H%M")
+  parsed_time.strftime("%l:%M %p")
 end
 
 def format_speaker_link(name)

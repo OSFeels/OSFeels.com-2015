@@ -325,6 +325,40 @@
   text-align: left;
 }
 
+/* --- Schedule Page */
+.schedule--day ul {
+  padding-left: 0;
+}
+
+.event {
+  list-style: none;
+  padding: 25px 0;
+  clear: both;
+  position: relative;
+}
+
+.event--time {
+  float: left;
+  text-align: right;
+  width: 35%;
+}
+
+.event--time:after {
+  content: "";
+  background-image: url("/img/heart_confetti.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20px;
+  width: 20px;
+  margin: 0 15px;
+  float: right;
+}
+
+.event--details {
+  width: 65%;
+  float: right;
+}
+
 /* --- Sponsorship Page */
 .sponsors--cta .btn {
   margin-top: 0;

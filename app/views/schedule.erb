@@ -6,7 +6,7 @@
       </div>
       <% day["events"].each do |event| %>
         <div class="row event--day">
-          <div class="col-sm-5 col-xs-6">
+          <div class="col-sm-5 col-xs-6 event--info">
             <h4 class="event--time">
               <%= format_time(event["start_time"]) %>
             </h4>

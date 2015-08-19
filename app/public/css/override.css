@@ -357,6 +357,10 @@
 }
 
 @media (max-width: 500px) {
+  .event--info {
+    padding-left: 10px;
+  }
+
   .event--details {
     padding-left: 0;
   }

@@ -17,13 +17,15 @@
     "You've heard empathy is a learned skill. Let's really talk about it. What does it mean to have empathy? Why does it matter, anyway? And if empathy is useful (I hope to show you how it is), how do you get better at it?
     <br><br>
     In this session, you'll learn real stuff about what's in your own heart, and how to connect to the people you encounter. Less feeling shitty, more enjoying projects!"
-# - name: "Audrey Eschright"
-#   headshot: "placeholder.png"
-#   title: ""
-#   bio:
-#     ""
-#   abstract:
-#     ""
+- name: "Audrey Eschright"
+  headshot: "audrey-eschright.jpg"
+  title: "Enforcing Your Code of Conduct: effective incident response"
+  bio:
+    "Audrey is a software developer, community organizer, and activist based in Portland, OR. She produces The Recompiler, a feminist hacker magazine, founded Calagator, an open source community calendaring service, and co-founded Open Source Bridge, an annual conference for open source citizens."
+  abstract:
+    "Now that your event or project has a code of conduct, how do you ensure it's effective? Are you prepared to deal with incident reporting, and to resolve issues that come up? How can you tell if your code of conduct is actually working?
+
+    I'll draw on several years of experience working with code of conduct outreach and enforcement on open source projects, user groups, and a major conference to show you the steps to take to make sure your code of conduct is an effective tool for inclusion, safety, and building a stronger community. We'll talk about reporting processes, documentation, creating a team or committee to handle reports, what responses are or aren't effective, and dealing with problems in the heat of the moment."
 - name: "Brenna Flood"
   headshot: "brenna-flood.jpeg"
   title: "Sometimes You Just Have to Show Them the Money"
@@ -56,13 +58,13 @@
     supplying non-technical people with the information they need in order to understand and appropriately react to
     the reality of the organization's code-based albatross. This will include in depth metrics and data points you can
     use to effectively get the point across that these issues are important."
-# - name: "Bryan Liles"
-#   headshot: "placeholder.png"
-#   title: ""
-#   bio:
-#     ""
-#   abstract:
-#     ""
+- name: "Bryan Liles"
+  headshot: "bryan-liles.png"
+  title: "Back in my day..."
+  bio:
+    ""
+  abstract:
+    "Bryan Liles works on strategic initiatives for DigitalOcean. In layman's terms, this means he writes OSS for DigitalOcean and others. Helps communities move their software to the public cloud, and gets to speak at conferences on topics ranging from Machine Learning to how build the next generation of developers. When not thinking about code, Bryan races cars in straight lines and around turns and builds robots and devices."
 # - name: "Emily Rose"
 #   headshot: "Emily-Rose.jpg"
 #   title: "Teching while Trans"
@@ -115,13 +117,13 @@
     About a year and a half ago we resigned, and Django transitioned to a completely community-run project.
     <br><br>
     This is a story about this journey: how I became a BDFL, what worked and didn't about that, how I burnt out and 'retired' — and what I've been doing in open source since."
-# - name: "Jen Myers"
-#   headshot: "placeholder.png"
-#   title: ""
-#   bio:
-#     ""
-#   abstract:
-#     ""
+- name: "Jen Myers"
+  headshot: "jen-myers.png"
+  title: "Listen to Your (and All) Mothers: How to Create Family-Inclusive Tech Communities"
+  bio:
+    "Jen Myers is a technologist, speaker and writer from Chicago. She is also the Director of Open Source Curriculum at Pluralsight, founder of Code and Cupcakes Chicago, and a teacher/advisor with Girl Develop It."
+  abstract:
+    "For the past year in Chicago, I’ve been teaching beginning coding workshops for mothers and daughters. I began the series inspired by my own experiences teaching my daughter HTML, and, most importantly, as a single mother navigating a tech career, who knows firsthand that most tech communities are not designed with the needs of people like me in mind. And, yet, we’re out there, willing, capable and ready, trying to find our ways in anyway. If we truly want to improve the diversity of our tech communities, we need to talk about how childcare responsibilities disproportionately affect the marginalized, and how to have more empathy for those with those responsibilities. Let’s talk about how to create successfully family-inclusive events, how to care for the carers, and how we can all work together to build a strong, open pathway for the next generation."
 - name: "Kat Toomajian"
   headshot: "kat-toomajian.jpg"
   title: "From the Inside Out: How Self-Talk Affects Your Community"

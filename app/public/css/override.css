@@ -328,9 +328,10 @@
 /* --- Schedule Page */
 .event--time:after {
   content: "";
-  background-image: url("/img/heart_confetti.png");
+  background-image: url("/img/smile_confetti.png");
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: white;
   height: 20px;
   width: 20px;
   float: right;
@@ -340,14 +341,22 @@
   content: "";
   height: 100%;
   width: 1.75px;
-  background-color: #f2cd5d;
+  background-color: #5398be;
   position: absolute;
   left: -57px;
   top: 20px;
   z-index: -1;
 }
 
-.event--day:last-of-type .event--details:before {
+.event .event--day:first-child .event--time:after {
+  background-image: url("/img/heart_confetti.png");
+}
+
+.event .event--day:first-child .event--details:before {
+  background-color: #f2cd5d;
+}
+
+.event--item:last-of-type .event--details:before {
   height: 0;
 }
 

@@ -1,11 +1,11 @@
-<div class="row">
+<div class="row event">
   <% @schedule.each do |day| %>
-    <div class="col-md-6">
+    <div class="col-md-6 event--day">
       <div class="row">
         <h2><%= day["name"] %>, <%= day["date"] %></h2>
       </div>
       <% day["events"].each do |event| %>
-        <div class="row event--day">
+        <div class="row event--item">
           <div class="col-sm-5 col-xs-6 event--info">
             <h4 class="event--time">
               <%= format_time(event["start_time"]) %>

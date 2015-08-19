@@ -17,13 +17,15 @@
     "You've heard empathy is a learned skill. Let's really talk about it. What does it mean to have empathy? Why does it matter, anyway? And if empathy is useful (I hope to show you how it is), how do you get better at it?
     <br><br>
     In this session, you'll learn real stuff about what's in your own heart, and how to connect to the people you encounter. Less feeling shitty, more enjoying projects!"
-# - name: "Audrey Eschright"
-#   headshot: "placeholder.png"
-#   title: ""
-#   bio:
-#     ""
-#   abstract:
-#     ""
+- name: "Audrey Eschright"
+  headshot: "audrey-eschright.jpg"
+  title: "Enforcing Your Code of Conduct: effective incident response"
+  bio:
+    "Audrey is a software developer, community organizer, and activist based in Portland, OR. She produces The Recompiler, a feminist hacker magazine, founded Calagator, an open source community calendaring service, and co-founded Open Source Bridge, an annual conference for open source citizens."
+  abstract:
+    "Now that your event or project has a code of conduct, how do you ensure it's effective? Are you prepared to deal with incident reporting, and to resolve issues that come up? How can you tell if your code of conduct is actually working?
+
+    I'll draw on several years of experience working with code of conduct outreach and enforcement on open source projects, user groups, and a major conference to show you the steps to take to make sure your code of conduct is an effective tool for inclusion, safety, and building a stronger community. We'll talk about reporting processes, documentation, creating a team or committee to handle reports, what responses are or aren't effective, and dealing with problems in the heat of the moment."
 - name: "Brenna Flood"
   headshot: "brenna-flood.jpeg"
   title: "Sometimes You Just Have to Show Them the Money"

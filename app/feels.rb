@@ -32,9 +32,7 @@ get '/talk-ideas' do
 end
 
 get '/speakers' do
-  puts "=" * 50
   @speakers = YAML.load File.read("app/data/speakers.yml")
-  puts "*" * 50
   erb :speakers
 end
 

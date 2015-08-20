@@ -326,6 +326,10 @@
 }
 
 /* --- Schedule Page */
+.event--day h2 {
+  padding: 20px;
+}
+
 .event--info {
   width: 40%;
   float: left;

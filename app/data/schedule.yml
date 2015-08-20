@@ -40,6 +40,12 @@
   - speaker_name: "Hsing-Hui Hsu"
     start_time: "1620"
     length: 30
+  - name: "Friday Morning Anchor Tag"
+    anchor-name: "friday-morning"
+    start_time: "0900"
+  - name: "Friday Afternoon Anchor Tag"
+    anchor-name: "friday-afternoon"
+    start_time: "1300"
 - name: "Saturday"
   date: "Oct 3rd, 2015"
   events:
@@ -83,3 +89,9 @@
   - speaker_name: "Jen Meyers"
     start_time: "1620"
     length: 30
+  - name: "Saturday Morning Anchor Tag"
+    anchor-name: "saturday-morning"
+    start_time: "0900"
+  - name: "Saturday Afternoon Anchor Tag"
+    anchor-name: "saturday-afternoon"
+    start_time: "1200"

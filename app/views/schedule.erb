@@ -6,23 +6,25 @@
       </div>
       <% day["events"].each do |event| %>
         <div class="row event--item">
-          <div class="col-sm-5 col-xs-6 event--info">
-            <h4 class="event--time">
-              <%= format_time(event["start_time"]) %>
-            </h4>
-          </div>
-          <div class="col-sm-7 col-xs-6 event--details">
-            <% if event["speaker_name"] %>
-              <a href="/speakers#<%= format_speaker_link(event["name"]) %>">
-                <h5 class="text-left"><%= event["name"] %></h5>
-                <% if event["title"] %>
-                  <%= event["title"] %>
-                <% end %>
-              </a>
-            <% else %>
-              <h5 class="pink text-left"><%= event["name"] %></h5>
-              <%= event["description"] %>
-            <% end %>
+          <div class="col-md-12">
+            <div class="event--info">
+              <h4 class="event--time">
+                <%= format_time(event["start_time"]) %>
+              </h4>
+            </div>
+            <div class="event--details">
+              <% if event["speaker_name"] %>
+                <a href="/speakers#<%= format_speaker_link(event["name"]) %>">
+                  <h5 class="text-left"><%= event["name"] %></h5>
+                  <% if event["title"] %>
+                    <%= event["title"] %>
+                  <% end %>
+                </a>
+              <% else %>
+                <h5 class="pink text-left"><%= event["name"] %></h5>
+                <%= event["description"] %>
+              <% end %>
+            </div>
           </div>
         </div>
       <% end %>

@@ -204,3 +204,12 @@
     "We interact with people in chat rooms, issue trackers, pull requests, discussion boards, meetups, hallways, or conferences.
     </p><p>
     How do we provide feedback constructively? Are we perceived as friendly as we think we are? How exactly do our cognitive biases unconsciously affect our human interactions? How do we become conscious of them? What assumptions does our language carry? Effective communication is critical particularly for project leaders. As leaders, we open the doors to our gardens, and the first interactions define the tone for the group, shaping today's atmosphere as much as tomorrow's. In this talk, we'll explore how to communicate effectively. Always, and with everyone."
+- name: "Mariko Kosaka"
+  headshot: "mariko-kosaka.jpeg"
+  title: "Re-inventing the Rosetta Stone together"
+  bio:
+    "Mariko is a software engineer who loves data and knit. When she is not coding application for other people, she uses code to help her design textile and organize local meetup BrooklynJS."
+  abstract:
+    "Many tech projects are anglocentric. The de-facto language used to develop and document a project is English, and it is often overlooked that a project is used largely by non-English speaking communities.
+    <br><br>
+    We programmers like to think \"code is the universal language\" but getting to speak code still involves overcoming language barriers. Even after you speak code, your experience working on project involves a lot of cultural references and language use specific to English. So let's pause for a moment talking about the newest features and technical specs, look at the experience of a silent majority, and talk about how we can welcome them to your project today!"

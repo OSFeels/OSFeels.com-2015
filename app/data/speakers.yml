@@ -15,7 +15,7 @@
     "Alex helps teams to thrive by encouraging mindfulness, and facilitating toward trust and openness. The result is improved communication, better technical decisions, and renewed joy in their working environment and codebase."
   abstract:
     "You've heard empathy is a learned skill. Let's really talk about it. What does it mean to have empathy? Why does it matter, anyway? And if empathy is useful (I hope to show you how it is), how do you get better at it?
-    <br><br>
+    </p><p>
     In this session, you'll learn real stuff about what's in your own heart, and how to connect to the people you encounter. Less feeling shitty, more enjoying projects!"
 - name: "Audrey Eschright"
   headshot: "audrey-eschright.jpg"
@@ -24,7 +24,7 @@
     "Audrey is a software developer, community organizer, and activist based in Portland, OR. She produces The Recompiler, a feminist hacker magazine, founded Calagator, an open source community calendaring service, and co-founded Open Source Bridge, an annual conference for open source citizens."
   abstract:
     "Now that your event or project has a code of conduct, how do you ensure it's effective? Are you prepared to deal with incident reporting, and to resolve issues that come up? How can you tell if your code of conduct is actually working?
-
+    </p><p>
     I'll draw on several years of experience working with code of conduct outreach and enforcement on open source projects, user groups, and a major conference to show you the steps to take to make sure your code of conduct is an effective tool for inclusion, safety, and building a stronger community. We'll talk about reporting processes, documentation, creating a team or committee to handle reports, what responses are or aren't effective, and dealing with problems in the heat of the moment."
 - name: "Brenna Flood"
   headshot: "brenna-flood.jpeg"
@@ -38,22 +38,22 @@
   abstract:
     "Technical debt is frustrating, and can be downright crippling when attempting to implement new feature sets within
     an existing framework, construct new frameworks that interact with legacy applications, and/or conduct bug fixes.
-    <br><br>
+    </p><p>
     We hem and haw to our peers, our managers about technical debt and the need to refactor - and most times, this is
     greeted with the response of the nodding and agreement about the pain - but nothing gets done about it because
     it's the directors, the non-technical product managers, and the board members that ultimately direct the upcoming
     tasks and priorities for development.
-    <br><br>
+    </p><p>
     And they want new shiny things. They don't understand the ball of mud.
-    <br><br>
+    </p><p>
     The experience of explaining technical issues (but folks aren't listening) is a frustrating one. Most times, it's
     not their fault - they just don't understand the fundamental technical reasons for why refactors are needed. They
     understand their realms, and most times these realms deal only with the time it takes to ship code, the
     monetization of a code base, or both.
-    <br><br>
+    </p><p>
     That's why you need to supply additional information about why the technical debt matters - specifically, show
     them the money and time they are losing by not addressing aspects of the technical debt.
-    <br><br>
+    </p><p>
     In my talk, I will go into the nitty gritty of the creation of a cost/benefit analysis document geared towards
     supplying non-technical people with the information they need in order to understand and appropriately react to
     the reality of the organization's code-based albatross. This will include in depth metrics and data points you can
@@ -113,9 +113,9 @@
     "In 2005 Jacob joined the Lawrence Journal-World, a locally-owned newspaper in Lawrence, Kansas, and helped develop and eventually open source Django. He later founded the Django Software Foundation and served as its president for several terms. Today, Jacob is the Director of Security at Heroku."
   abstract:
     "When we released Django, we took our structure from the Python community, appointing Adrian and me as 'Benevolent Dictators for Life'. Turns out, '... for life' is a pretty long time — who knew — and this role turned out not to be sustainable.
-    <br><br>
+    </p><p>
     About a year and a half ago we resigned, and Django transitioned to a completely community-run project.
-    <br><br>
+    </p><p>
     This is a story about this journey: how I became a BDFL, what worked and didn't about that, how I burnt out and 'retired' — and what I've been doing in open source since."
 - name: "Jen Myers"
   headshot: "jen-myers.png"
@@ -131,8 +131,9 @@
     "Kat works for Dreamwidth Studios as the head of Support. She loves insurance, superheroes, historical hermeneutics, and bioethics, among other things. She lives in Minnesota with her two ferrets, Hermes and Isaac."
   abstract:
     "Identifying and discouraging negative self-talk is a simple thing, but it can have a huge impact on your community in a positive way. It increases self-confidence, improves morale, and generally results in happier, more productive community participants. This, in turn, will make you happy.
+    </p><p>
     Negative self-talk is a pervasive, invasive, and unproductive way of thinking. It can trigger a cascade of things, from abandoned patches (“I am not smart/talented/good enough to figure this out”), to withdrawl from the community (“I screwed this up and everyone knows and hates me”), to general discouragement (“I suck, and have nothing valuable to contribute here”).
-    <br><br>
+    </p><p>
     In this talk, I’ll discuss the various methods Dreamwidth and other organizations use to handle negative self-talk, and the best way to deploy those techniques. I will also discuss things to keep an eye out for in your community that may be at the root of this type of self-talk, and processes you can go through to eliminate them. Finally, there will be a quick overview of impostor syndrome, and the role it plays here."
 - name: "Lauren D Voswinkel"
   headshot: "Lauren-Voswinkel.png"
@@ -151,17 +152,17 @@
     time learning new things in technology and love sharing it with others."
   abstract:
     "Most great epics tell of how against all odds, our heroine champions over incredible hurdles to accomplish their dream and create a massively successful project. I'm here to tell you that the story isn't over after the happily ever after. Instead, the hard work is just beginning.
-    <br><br>
+    </p><p>
     True legends don't form from one successful deploy, or one successful workshop run. Success is dictated by longevity and key points of interest.
-    <br><br>
+    </p><p>
     Now that you've figured out and climbed your mountain, how are you going to keep your project alive? How can you ensure stability?
-    <br><br>
+    </p><p>
     In 2013, I set out with a very manageable goal of running a RailsBridge workshop in New York City. The second part of my goal was to create a self-sustaining organization that would continue to run workshops to teach the underrepresented minorities in tech while keeping the values set by the RailsBridge founders Sarah Mei and Sarah Allen.
-    <br><br>
+    </p><p>
     It's easy to run workshops, it's a lot harder to develop a healthy culture within a volunteer organization.
-    <br><br>
+    </p><p>
     In this talk I will highlight key points from my two years of as a RailsBridge chapter founder and go through the challenges I faced through strategies in real-time communication, documentation, and code curriculum sharing through technology.
-    <br><br>
+    </p><p>
     The points highlighted are - What is your mission statement? - In one year what do you intend to accomplish? - How do you measure success? - Learning to collaborate and taking suggestions - When to be aware that certain suggestions might not be helpful - Always come back to your mission statement. Don't lose focus. - Planting seeds - Getting comfortable with delegating - When delegating doesn't work - Learning when to let go"
 - name: "Stephanie Morillo"
   headshot: "Stephanie-Morillo.jpg"
@@ -178,7 +179,7 @@
     industry and connect with each other. The chat has since grown to become a full-fledged community made up of women
     of color and nonbinary POC technologists, and our two-person team has responded to the needs of this community by
     creating initiatives that target these groups specifically.
-    <br><br>
+    </p><p>
     In my talk, I'll discuss my experiences living at the intersection of race and gender, the #WOCinTech chat origin
     story, how connecting with women of color has empowered me professionally, and how the community wants to help
     others on their path to a career in tech."
@@ -189,11 +190,11 @@
     ""
   abstract:
     "'911, what is your emergency?' is the question that starts every call. My job, for three years, was to negotiate the caller's emotional minefield to gain life-saving information and insight.
-    <br><br>
+    </p><p>
     In this story-centric talk, I show how working in software and with open source communities is similar to emergency services.
-    <br><br>
+    </p><p>
     Participants will hear stories that reveal human nature and understand some of the system and training that creates order from emotional chaos. UX Designers and Software developers can use these same techniques to uncover their users' needs, manage volunteers, communicate effectively, and prioritize development.
-    <br><br>
+    </p><p>
     Trigger warning: in this talk I plan on telling stories from my 911 calltaker perspective of real or attempted missing persons, homicide, and suicide calls. Weapons are mentioned."
 - name: "Tute Costa"
   headshot: "tute-costa.jpeg"
@@ -211,5 +212,5 @@
     "Mariko is a software engineer who loves data and knit. When she is not coding application for other people, she uses code to help her design textile and organize local meetup BrooklynJS."
   abstract:
     "Many tech projects are anglocentric. The de-facto language used to develop and document a project is English, and it is often overlooked that a project is used largely by non-English speaking communities.
-    <br><br>
+    </p><p>
     We programmers like to think \"code is the universal language\" but getting to speak code still involves overcoming language barriers. Even after you speak code, your experience working on project involves a lot of cultural references and language use specific to English. So let's pause for a moment talking about the newest features and technical specs, look at the experience of a silent majority, and talk about how we can welcome them to your project today!"

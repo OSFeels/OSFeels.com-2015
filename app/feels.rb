@@ -26,7 +26,8 @@ get '/schedule' do
 end
 
 get '/speakers' do
-  @speakers = YAML.load File.read("app/data/speakers.yml")
+  speaker_data = YAML.load File.read("app/data/speakers.yml")
+  @speakers = sort_by_name(speaker_data)
   erb :speakers
 end
 
@@ -81,4 +82,8 @@ end
 
 def format_speaker_link(name)
   name.downcase.gsub(/\s+/, '-')
+end
+
+def sort_by_name(items)
+  items.sort_by { |item| item["name"] }
 end

@@ -10,7 +10,7 @@
   <% @speakers.each do |speaker| %>
     <div class="col-md-6 speakers--info">
       <a name="<%= speaker["name"].downcase.gsub /\s+/, '-' %>"></a>
-      <div class="speakers--info-box" data-toggle="tooltip" title="<%= speaker["bio"] %>">
+      <div class="speakers--info-box">
         <img src="img/presenters/<%= speaker["headshot"] %>" alt="<%= speaker["name"] %>" class="speakers--img img-rounded"/>
         <h2 class="speakers--name">
           <%= speaker["name"] %>
@@ -20,6 +20,12 @@
       <div class="speakers--talk-box">
         <p class="speakers--abstract"><%= speaker["abstract"] %></p>
       </div>
+      <% if speaker["bio"] != "" %>
+        <div class="speakers--bio">
+          <h4 class="text-left">Speaker Bio</h4>
+          <%= speaker["bio"] %>
+        </div>
+      <% end %>
     </div>
   <% end %>
 </div>

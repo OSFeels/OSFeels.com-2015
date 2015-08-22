@@ -325,6 +325,10 @@
   text-align: left;
 }
 
+.speakers--bio {
+  margin-top: 30px;
+}
+
 /* --- Sponsorship Page */
 .sponsors--cta .btn {
   margin-top: 0;

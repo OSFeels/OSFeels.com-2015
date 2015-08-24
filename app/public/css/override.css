@@ -20,6 +20,11 @@
   margin: 0 5px 0 0;
 }
 
+.confetti--sm:before {
+  width: 15px;
+  height: 15px;
+}
+
 .confetti--heart:before {
   background: url('/img/heart_confetti.png');
   background-repeat: no-repeat;
@@ -375,30 +380,6 @@
 
 .speakers--contact a {
   display: block;
-}
-
-.speakers--handle::before {
-  content: "";
-  background: url('/img/heart_confetti.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  overflow: hidden;
-  margin-right: 5px;
-}
-
-.speakers--website::before {
-  content: "";
-  background: url('/img/speech_confetti.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  overflow: hidden;
-  margin-right: 5px;
 }
 
 /* --- Sponsorship Page */

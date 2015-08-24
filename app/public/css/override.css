@@ -4,6 +4,53 @@
 * https://github.com/OSFeels/bootstrap-sass
 * -----------------------------------------------------*/
 
+/* -- Confetti Styles */
+.confetti:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  display: block;
+  margin: 25px auto;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.confetti--inline:before {
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+
+.confetti--heart:before {
+  background: url('/img/heart_confetti.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.confetti--lightning:before {
+  background: url('/img/lightning_confetti.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+}
+
+.confetti--speech:before {
+  background: url('/img/speech_confetti.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.confetti--smile:before {
+  background: url('/img/smile_confetti.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.confetti--triangle:before {
+  background: url('/img/triangle_confetti.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 /* -- Jumbotron Styles */
 .jumbotron {
   color: white;
@@ -246,15 +293,6 @@
   font-weight: bold;
 }
 
-
-/* -- Confetti */
-.confetti {
-  display: block;
-  width: 25px;
-  margin: 25px auto;
-}
-
-
 /* -- Newsletter */
 .newsletter h2 {
   margin: 45px 0;
@@ -270,6 +308,12 @@
 
 .newsletter .input-group-btn {
   margin-left: 5px;
+}
+
+.newsletter img {
+  display: block;
+  width: 25px;
+  margin: 25px auto;
 }
 
 .newsletter .triangle {

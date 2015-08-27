@@ -14,6 +14,10 @@ get '/conduct' do
   markdown :conduct, layout_engine: :erb
 end
 
+get '/info' do
+  erb :info
+end
+
 get '/sponsors' do
   @sponsors = YAML.load File.read("app/data/sponsors.yml")
   erb :sponsors

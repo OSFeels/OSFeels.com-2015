@@ -14,6 +14,7 @@
                 <h4 class="event--time">
                   <%= format_time(event["start_time"]) %>
                 </h4>
+                <p class="text-center"><em><small><%= event["length"] %> minutes</small></em></p>
               </div>
               <div class="event--details">
                 <% if event["speaker_name"] %>

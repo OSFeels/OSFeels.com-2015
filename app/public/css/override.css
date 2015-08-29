@@ -20,6 +20,11 @@
   margin: 0 5px 0 0;
 }
 
+.confetti--sm:before {
+  width: 15px;
+  height: 15px;
+}
+
 .confetti--heart:before {
   background: url('/img/heart_confetti.png');
   background-repeat: no-repeat;
@@ -367,6 +372,14 @@
 
 .speakers--abstract {
   text-align: left;
+}
+
+.speakers--bio {
+  margin-top: 30px;
+}
+
+.speakers--contact a {
+  display: block;
 }
 
 /* --- Sponsorship Page */

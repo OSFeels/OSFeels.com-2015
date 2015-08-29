@@ -8,15 +8,33 @@
   <% @speakers.each do |speaker| %>
     <div class="col-md-6 speakers--info">
       <a name="<%= speaker["name"].downcase.gsub /\s+/, '-' %>"></a>
-      <div class="speakers--info-box" data-toggle="tooltip" title="<%= speaker["bio"] %>">
+      <div class="speakers--info-box">
         <img src="img/presenters/<%= speaker["headshot"] %>" alt="<%= speaker["name"] %>" class="speakers--img img-rounded"/>
         <h2 class="speakers--name">
           <%= speaker["name"] %>
         </h2>
         <h3 class="speakers--title text-left"><%= speaker["title"]%></h3>
       </div>
-      <div class="speakers--talk-box">
-        <p class="speakers--abstract"><%= speaker["abstract"] %></p>
+      <div class="speakers--abstract">
+        <p><%= speaker["abstract"] %></p>
+      </div>
+      <% if speaker["bio"] != "" %>
+        <div class="speakers--bio">
+          <h4 class="text-left">Speaker Bio</h4>
+          <p><%= speaker["bio"] %></p>
+        </div>
+      <% end %>
+      <div class="speakers--contact">
+        <% if speaker["handle"] %>
+          <a class="confetti confetti--inline confetti--sm confetti--heart" href="http://twitter.com/<%= speaker["handle"] %>" target="_blank">
+            @<%= speaker["handle"] %>
+          </a>
+        <% end %>
+        <% if speaker["website"] %>
+          <a class="confetti confetti--inline confetti--sm confetti--speech" href="<%= speaker["website"] %>" target="_blank">
+            Website
+          </a>
+        <% end %>
       </div>
     </div>
   <% end %>

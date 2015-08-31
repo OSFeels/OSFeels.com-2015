@@ -8,6 +8,7 @@
     "In games, a valuable team is made up of characters with varied talents and skills. They need to be adaptable, to communicate, and most of all, to work together. As a team, they can accomplish even the most intimidating quests. It's time we took this mentality to the open source community.
     </p><p>
     Roleplaying games can teach us a lot about diversity and working as a team if we dig a little deeper. In such games, players take on the role of a fantasy character and participate in quests and adventures with a group of other players. During this talk I will take popular fantasy classes and relate them to the variety of people that contribute to open source communities every day. Just like a roleplaying party would fail with only type of character, open source needs the unsung heroes: the technical writers, the artists, the testers—to make the project a reality. By building our 'party' around diverse interests and welcoming newcomers with open arms, open source communities can prosper."
+  handle: "musegarden"
 - name: "Alex Harms"
   headshot: "alex-harms.jpg"
   title: "Learning to Empathy"
@@ -15,7 +16,7 @@
     "Alex helps teams to thrive by encouraging mindfulness, and facilitating toward trust and openness. The result is improved communication, better technical decisions, and renewed joy in their working environment and codebase."
   abstract:
     "You've heard empathy is a learned skill. Let's really talk about it. What does it mean to have empathy? Why does it matter, anyway? And if empathy is useful (I hope to show you how it is), how do you get better at it?
-    <br><br>
+    </p><p>
     In this session, you'll learn real stuff about what's in your own heart, and how to connect to the people you encounter. Less feeling shitty, more enjoying projects!"
 - name: "Audrey Eschright"
   headshot: "audrey-eschright.jpg"
@@ -24,8 +25,9 @@
     "Audrey is a software developer, community organizer, and activist based in Portland, OR. She produces The Recompiler, a feminist hacker magazine, founded Calagator, an open source community calendaring service, and co-founded Open Source Bridge, an annual conference for open source citizens."
   abstract:
     "Now that your event or project has a code of conduct, how do you ensure it's effective? Are you prepared to deal with incident reporting, and to resolve issues that come up? How can you tell if your code of conduct is actually working?
-
+    </p><p>
     I'll draw on several years of experience working with code of conduct outreach and enforcement on open source projects, user groups, and a major conference to show you the steps to take to make sure your code of conduct is an effective tool for inclusion, safety, and building a stronger community. We'll talk about reporting processes, documentation, creating a team or committee to handle reports, what responses are or aren't effective, and dealing with problems in the heat of the moment."
+  website: "http://lifeofaudrey.com"
 - name: "Bryan Liles"
   headshot: "bryan-liles.png"
   title: "Back in my day..."
@@ -51,6 +53,8 @@
     I believe better documentation is a fundamental aspect of how we can improve programming culture, and an often misunderstood part of outreach and education. Projects with good documentation are able to get contributors in a much more reliable fashion, and more importantly, projects without documentation only attract users who have time to waste.
     </p><p>
     This talk will make you think more deeply about the social impact of documentation, and hopefully make you question if it should be a higher priority in your development. You should understand the role of documentation in both technical as well as social realms."
+  handle: "ericholscher"
+  website: "http://ericholscher.com"
 - name: "Greg Tarnoff"
   headshot: "greg-tarnoff.jpg"
   title: "Designing with Empathy"
@@ -58,6 +62,8 @@
     "Front end developer by day & accessibility hero all the time. For the last decade I focused on building products that work for all users."
   abstract:
     "Too often we get caught up in our own biases, even the most compassionate of us. When we do, we lose sight of how to design and build platforms and experiences that work for all our users. We end up building for ourselves, the person who knows the system inside and out, the power user. And while people like us are important, they rarely make up the majority of users. We need to build things that anyone can learn quickly, use efficiently, make the user feel confident and powerful. Through examples of atypical users, I’ll walk through things to consider when designing tools and applications that empower the greatest number of users to achieve more."
+  handle: "gregtarnoff"
+  website: "http://tarnoff.info"
 - name: "Hsing-Hui Hsu"
   headshot: "Hsing-Hui-Hsu.jpg"
   title: "To feel or not to feel; that is the question"
@@ -65,6 +71,7 @@
     ""
   abstract:
     "In the tech industry and especially in the open source community, there are many frustrations and problems that everyone experiences. It is no secret, however, that these problems are not evenly distributed. Those who tend to be underrepresented in the industry find their feelings of marginalization are compounded by behavior that has come to be viewed as the norm. And while it is also no secret that speaking out about these issues can in itself be a problem it is not as simple as it seems. Will standing up to injustice harm your career? Are harassment and *-ism just something you should expect? Is there a certain initiation/hazing period that you have to simply suffer through before you can be taken seriously? Do certain marginalized subgroups have it worse than others, and does what does that mean for those who don't have it the worst? In this talk, we'll take a deep dive into the many not-often-discussed nuances of a widely-known problem."
+  handle: "SoManyHs"
 - name: "Isaac Z Schlueter"
   headshot: "isaac-schlueter.jpg"
   title: "Non-Violent Communication for Fun, Profit, and Self Defense"
@@ -74,6 +81,8 @@
     "Managing open source projects exposes a maintainer to the vagaries of the internet. For all the joy and convenience that a bit of technology may bring to its users, users typically show up when they are in an unhappy place, and the job of the maintainer can quickly become an overwhelming source of stress and burnout.
     </p><p>
     This talk will introduce Non-Violent Communication as a toolkit for helping users at their worst, and also prevent the flood of bad vibes from becoming a source of toxicity. By exposing our vulnerability in a direct and honest way, we can turn conversations away from blame and antagonism, towards meaningful connection and opportunities for growth and collaboration. Open Source is a social machine, and compassion helps keep the gears from grinding to a halt."
+  handle: "izs"
+  website: "http://blog.izs.me"
 - name: "Jacob Kaplan-Moss"
   headshot: "jkm.jpg"
   title: "What part of '... for life' don't you understand?"
@@ -81,10 +90,12 @@
     "In 2005 Jacob joined the Lawrence Journal-World, a locally-owned newspaper in Lawrence, Kansas, and helped develop and eventually open source Django. He later founded the Django Software Foundation and served as its president for several terms. Today, Jacob is the Director of Security at Heroku."
   abstract:
     "When we released Django, we took our structure from the Python community, appointing Adrian and me as 'Benevolent Dictators for Life'. Turns out, '... for life' is a pretty long time — who knew — and this role turned out not to be sustainable.
-    <br><br>
+    </p><p>
     About a year and a half ago we resigned, and Django transitioned to a completely community-run project.
-    <br><br>
+    </p><p>
     This is a story about this journey: how I became a BDFL, what worked and didn't about that, how I burnt out and 'retired' — and what I've been doing in open source since."
+  website: "https://jacobian.org"
+  handle: "jacobian"
 - name: "Jen Myers"
   headshot: "jen-myers.png"
   title: "Listen to Your (and All) Mothers: How to Create Family-Inclusive Tech Communities"
@@ -99,9 +110,12 @@
     "Kat works for Dreamwidth Studios as the head of Support. She loves insurance, superheroes, historical hermeneutics, and bioethics, among other things. She lives in Minnesota with her two ferrets, Hermes and Isaac."
   abstract:
     "Identifying and discouraging negative self-talk is a simple thing, but it can have a huge impact on your community in a positive way. It increases self-confidence, improves morale, and generally results in happier, more productive community participants. This, in turn, will make you happy.
+    </p><p>
     Negative self-talk is a pervasive, invasive, and unproductive way of thinking. It can trigger a cascade of things, from abandoned patches (“I am not smart/talented/good enough to figure this out”), to withdrawl from the community (“I screwed this up and everyone knows and hates me”), to general discouragement (“I suck, and have nothing valuable to contribute here”).
-    <br><br>
+    </p><p>
     In this talk, I’ll discuss the various methods Dreamwidth and other organizations use to handle negative self-talk, and the best way to deploy those techniques. I will also discuss things to keep an eye out for in your community that may be at the root of this type of self-talk, and processes you can go through to eliminate them. Finally, there will be a quick overview of impostor syndrome, and the role it plays here."
+  website: "http://misskat.dreamwidth.org"
+  handle: "zarhooie"
 - name: "Lauren D Voswinkel"
   headshot: "Lauren-Voswinkel.png"
   title: "Let's Continue to Talk About Pay"
@@ -111,6 +125,7 @@
     I have also acted as a speaking mentor at Write/Speak/Code"
   abstract:
     "On International Workers' Day I asked the world to #talkpay and many people did. Pay transparency is critical in order to address pay inequity in our field, as well as others, but there's more to it than that. I'd like to discuss why this taboo surrounding pay got started, illustrate just how concerted of an effort there is to prevent workers (including tech workers) from pushing for higher pay, and why, exactly, we NEED to talk about pay."
+  handle: "laurenvoswinkel"
 - name: "Rachel Ober"
   headshot: "rachel-ober.jpg"
   title: "Ensuring the sustainability of your code learning community"
@@ -119,18 +134,20 @@
     time learning new things in technology and love sharing it with others."
   abstract:
     "Most great epics tell of how against all odds, our heroine champions over incredible hurdles to accomplish their dream and create a massively successful project. I'm here to tell you that the story isn't over after the happily ever after. Instead, the hard work is just beginning.
-    <br><br>
+    </p><p>
     True legends don't form from one successful deploy, or one successful workshop run. Success is dictated by longevity and key points of interest.
-    <br><br>
+    </p><p>
     Now that you've figured out and climbed your mountain, how are you going to keep your project alive? How can you ensure stability?
-    <br><br>
+    </p><p>
     In 2013, I set out with a very manageable goal of running a RailsBridge workshop in New York City. The second part of my goal was to create a self-sustaining organization that would continue to run workshops to teach the underrepresented minorities in tech while keeping the values set by the RailsBridge founders Sarah Mei and Sarah Allen.
-    <br><br>
+    </p><p>
     It's easy to run workshops, it's a lot harder to develop a healthy culture within a volunteer organization.
-    <br><br>
+    </p><p>
     In this talk I will highlight key points from my two years of as a RailsBridge chapter founder and go through the challenges I faced through strategies in real-time communication, documentation, and code curriculum sharing through technology.
-    <br><br>
+    </p><p>
     The points highlighted are - What is your mission statement? - In one year what do you intend to accomplish? - How do you measure success? - Learning to collaborate and taking suggestions - When to be aware that certain suggestions might not be helpful - Always come back to your mission statement. Don't lose focus. - Planting seeds - Getting comfortable with delegating - When delegating doesn't work - Learning when to let go"
+  handle: "rachelober"
+  website: "http://rachelober.com"
 - name: "Stephanie Morillo"
   headshot: "Stephanie-Morillo.jpg"
   title: "Creating A Space For Us: How A Twitter Chat Turned Into A Virtual Community For #WOCinTech"
@@ -146,10 +163,11 @@
     industry and connect with each other. The chat has since grown to become a full-fledged community made up of women
     of color and nonbinary POC technologists, and our two-person team has responded to the needs of this community by
     creating initiatives that target these groups specifically.
-    <br><br>
+    </p><p>
     In my talk, I'll discuss my experiences living at the intersection of race and gender, the #WOCinTech chat origin
     story, how connecting with women of color has empowered me professionally, and how the community wants to help
     others on their path to a career in tech."
+  handle: "radiomorillo"
 - name: "Taylor Dewey"
   headshot: "Taylor-Dewey.jpg"
   title: "A cry for help: What answering 911 teaches us about building better software"
@@ -157,12 +175,13 @@
     ""
   abstract:
     "'911, what is your emergency?' is the question that starts every call. My job, for three years, was to negotiate the caller's emotional minefield to gain life-saving information and insight.
-    <br><br>
+    </p><p>
     In this story-centric talk, I show how working in software and with open source communities is similar to emergency services.
-    <br><br>
+    </p><p>
     Participants will hear stories that reveal human nature and understand some of the system and training that creates order from emotional chaos. UX Designers and Software developers can use these same techniques to uncover their users' needs, manage volunteers, communicate effectively, and prioritize development.
-    <br><br>
-    Trigger warning: in this talk I plan on telling stories from my 911 calltaker perspective of real or attempted missing persons, homicide, and suicide calls. Weapons are mentioned."
+    </p><p>
+    <strong class='pink'>Trigger warning:</strong> in this talk I plan on telling stories from my 911 calltaker perspective of real or attempted missing persons, homicide, and suicide calls. Weapons are mentioned."
+  handle: "tddewey"
 - name: "Tute Costa"
   headshot: "tute-costa.jpeg"
   title: "Welcoming people (and other hard problems)"
@@ -172,6 +191,8 @@
     "We interact with people in chat rooms, issue trackers, pull requests, discussion boards, meetups, hallways, or conferences.
     </p><p>
     How do we provide feedback constructively? Are we perceived as friendly as we think we are? How exactly do our cognitive biases unconsciously affect our human interactions? How do we become conscious of them? What assumptions does our language carry? Effective communication is critical particularly for project leaders. As leaders, we open the doors to our gardens, and the first interactions define the tone for the group, shaping today's atmosphere as much as tomorrow's. In this talk, we'll explore how to communicate effectively. Always, and with everyone."
+  website: "http://www.tutecosta.com/software-developer/"
+  handle: "tutec"
 - name: "Mariko Kosaka"
   headshot: "mariko-kosaka.jpg"
   title: "Re-inventing the Rosetta Stone together"
@@ -179,5 +200,7 @@
     "Mariko is a software engineer who loves data and knit. When she is not coding application for other people, she uses code to help her design textile and organize local meetup BrooklynJS."
   abstract:
     "Many tech projects are anglocentric. The de-facto language used to develop and document a project is English, and it is often overlooked that a project is used largely by non-English speaking communities.
-    <br><br>
+    </p><p>
     We programmers like to think \"code is the universal language\" but getting to speak code still involves overcoming language barriers. Even after you speak code, your experience working on project involves a lot of cultural references and language use specific to English. So let's pause for a moment talking about the newest features and technical specs, look at the experience of a silent majority, and talk about how we can welcome them to your project today!"
+  website: "http://kosamari.com"
+  handle: "kosamari"

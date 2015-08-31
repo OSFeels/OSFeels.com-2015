@@ -42,6 +42,11 @@ describe 'Test the routes' do
   end
 
   it "has a speakers page" do
+    get '/schedule'
+    expect(last_response).to be_ok
+  end
+
+  it "has a speakers page" do
     get '/speakers'
     expect(last_response).to be_ok
   end

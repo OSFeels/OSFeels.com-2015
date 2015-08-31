@@ -26,38 +26,6 @@
     "Now that your event or project has a code of conduct, how do you ensure it's effective? Are you prepared to deal with incident reporting, and to resolve issues that come up? How can you tell if your code of conduct is actually working?
 
     I'll draw on several years of experience working with code of conduct outreach and enforcement on open source projects, user groups, and a major conference to show you the steps to take to make sure your code of conduct is an effective tool for inclusion, safety, and building a stronger community. We'll talk about reporting processes, documentation, creating a team or committee to handle reports, what responses are or aren't effective, and dealing with problems in the heat of the moment."
-- name: "Brenna Flood"
-  headshot: "brenna-flood.jpeg"
-  title: "Sometimes You Just Have to Show Them the Money"
-  bio:
-    "Brenna Flood is a Senior Build Engineer at ProQuest. She has been in the
-    tech industry for more than 15 years in various roles, including technical
-    support, system engineering, software quality assurance, and system
-    administration. She is a bulldog advocate for quality-centered
-    software development."
-  abstract:
-    "Technical debt is frustrating, and can be downright crippling when attempting to implement new feature sets within
-    an existing framework, construct new frameworks that interact with legacy applications, and/or conduct bug fixes.
-    <br><br>
-    We hem and haw to our peers, our managers about technical debt and the need to refactor - and most times, this is
-    greeted with the response of the nodding and agreement about the pain - but nothing gets done about it because
-    it's the directors, the non-technical product managers, and the board members that ultimately direct the upcoming
-    tasks and priorities for development.
-    <br><br>
-    And they want new shiny things. They don't understand the ball of mud.
-    <br><br>
-    The experience of explaining technical issues (but folks aren't listening) is a frustrating one. Most times, it's
-    not their fault - they just don't understand the fundamental technical reasons for why refactors are needed. They
-    understand their realms, and most times these realms deal only with the time it takes to ship code, the
-    monetization of a code base, or both.
-    <br><br>
-    That's why you need to supply additional information about why the technical debt matters - specifically, show
-    them the money and time they are losing by not addressing aspects of the technical debt.
-    <br><br>
-    In my talk, I will go into the nitty gritty of the creation of a cost/benefit analysis document geared towards
-    supplying non-technical people with the information they need in order to understand and appropriately react to
-    the reality of the organization's code-based albatross. This will include in depth metrics and data points you can
-    use to effectively get the point across that these issues are important."
 - name: "Bryan Liles"
   headshot: "bryan-liles.png"
   title: "Back in my day..."

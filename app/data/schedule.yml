@@ -8,7 +8,7 @@
     length: 15
   - name: "Lunch"
     description: "The second most important meal of the day."
-    start_time: "1230"
+    start_time: "1200"
     length: 90
   - name: "Outro"
     start_time: "1650"
@@ -23,7 +23,7 @@
     start_time: "1050"
     length: 15
   - speaker_name: "Kat Toomajian"
-    start_time: "1120"
+    start_time: "1110"
     length: 40
   - speaker_name: "Stephanie Morillo"
     start_time: "1330"
@@ -32,14 +32,14 @@
     start_time: "1400"
     length: 30
   - speaker_name: "Alex Harms"
-    start_time: "1520"
+    start_time: "1500"
     length: 30
   - speaker_name: "Mariko Kosaka"
-    start_time: "1605"
+    start_time: "1600"
     length: 15
-  - speaker_name: "Hsing-Hui Hsu"
-    start_time: "1620"
-    length: 30
+  - speaker_name: "Lauren D Voswinkel"
+    start_time: "1615"
+    length: 20
   - name: "Friday Morning Anchor Tag"
     anchor-name: "friday-morning"
     start_time: "0900"
@@ -51,7 +51,7 @@
   events:
   - name: "Brunch"
     description: "The most important meal of the day."
-    start_time: "1130"
+    start_time: "1100"
     length: 90
   - name: "Outro"
     start_time: "1650"
@@ -62,12 +62,9 @@
   - speaker_name: "Allison Nelson"
     start_time: "0940"
     length: 15
-  - speaker_name: "Brenna Flood"
+  - speaker_name: "Hsing-Hui Hsu"
     start_time: "1010"
     length: 30
-  - speaker_name: "Lauren D Voswinkel"
-    start_time: "1040"
-    length: 20
   - speaker_name: "Isaac Z Schlueter"
     start_time: "1230"
     length: 40

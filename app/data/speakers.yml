@@ -204,3 +204,12 @@
     We programmers like to think \"code is the universal language\" but getting to speak code still involves overcoming language barriers. Even after you speak code, your experience working on project involves a lot of cultural references and language use specific to English. So let's pause for a moment talking about the newest features and technical specs, look at the experience of a silent majority, and talk about how we can welcome them to your project today!"
   website: "http://kosamari.com"
   handle: "kosamari"
+- name: "Cindy Pallares Quezada"
+  headshot: "placeholder.jpg"
+  title: "When Free Culture isn't Free: The Price of Cultural Appropriation on Communities of Color"
+  bio:
+    "TKTKTK"
+  abstract:
+    "When we speak about free and open source and culture, we often speak about the ability to share, modify, and distribute content. The socially and economically privileged, however, have often used the free exchange of ideas to create a great deal of profit while continually taking these from those with little social or economic power without permission nor acknowledgment. Thus, these appropriated ideas are stripped of their cultural roots, which are deemed inferior, and reduced to commodities. In this talk, we will discuss some pitfalls in the discourse around free culture, differentiate authentic cultural exchange from appropriation, and discuss the steps we can do to acknowledge and prevent cultural appropriation in our lives."
+  website: "cpallar.es"
+  handle: "cindy_pallares"

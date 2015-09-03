@@ -50,11 +50,11 @@
   headshot: "eric-holscher.jpg"
   title: "Documentation as Empathy"
   bio:
-    "Eric is a founder of both Read the Docs and Write the Docs. When he isn't helping improve the documentation world, he's out in the woods somewhere."
+    "Eric Holscher is a founder of both Read the Docs and Write the Docs. When he isn't helping improve the documentation world, he's out in the woods somewhere."
   abstract:
     "This talk will cover my view of documentation within programming culture as it has grown over the years. As a primary person involved with Read the Docs (the largest open source doc hosting website) and Write the Docs (the largest OSS doc conference), I have seen a lot of angles, and appreciate documentation more every year.
     </p><p>
-    I believe better documentation is a fundamental aspect of how we can improve programming culture, and an often misunderstood part of outreach and education. Projects with good documentation are able to get contributors in a much more reliable fashion, and more importantly, projects without documentation only attract users who have time to waste.
+    I believe better documentation is a fundamental aspect of how we can improve programming culture, and an often misunderstood part of outreach and education. Projects with good documentation are able to get contributors in a much more reliable fashion, and, more importantly, projects without documentation only attract users who have time to waste.
     </p><p>
     This talk will make you think more deeply about the social impact of documentation, and hopefully make you question if it should be a higher priority in your development. You should understand the role of documentation in both technical as well as social realms."
   handle: "ericholscher"
@@ -63,24 +63,28 @@
   headshot: "greg-tarnoff.jpg"
   title: "Designing with Empathy"
   bio:
-    "Front end developer by day & accessibility hero all the time. For the last decade I focused on building products that work for all users."
+    "Greg Tarnoff is a front end developer by day and accessibility hero all the time. For the last decade, he's focused on building products that work for all users."
   abstract:
-    "Too often we get caught up in our own biases, even the most compassionate of us. When we do, we lose sight of how to design and build platforms and experiences that work for all our users. We end up building for ourselves, the person who knows the system inside and out, the power user. And while people like us are important, they rarely make up the majority of users. We need to build things that anyone can learn quickly, use efficiently, make the user feel confident and powerful. Through examples of atypical users, I’ll walk through things to consider when designing tools and applications that empower the greatest number of users to achieve more."
+    "Too often we get caught up in our own biases, even the most compassionate of us. When we do, we lose sight of how to design and build platforms and experiences that work for all our users. We end up building for ourselves, the person who knows the system inside and out, the power user. And while people like us are important, they rarely make up the majority of users.
+    </p><p>
+    We need to build things that anyone can learn quickly, use efficiently, making the user feel confident and powerful. Through examples of atypical users, I’ll walk through things to consider when designing tools and applications that empower the greatest number of users to achieve more."
   handle: "gregtarnoff"
   website: "http://tarnoff.info"
 - name: "Hsing-Hui Hsu"
   headshot: "Hsing-Hui-Hsu.jpg"
-  title: "To feel or not to feel; that is the question"
+  title: "To Feel or Not to Feel; That is the Question"
   bio:
     ""
   abstract:
-    "In the tech industry and especially in the open source community, there are many frustrations and problems that everyone experiences. It is no secret, however, that these problems are not evenly distributed. Those who tend to be underrepresented in the industry find their feelings of marginalization are compounded by behavior that has come to be viewed as the norm. And while it is also no secret that speaking out about these issues can in itself be a problem it is not as simple as it seems. Will standing up to injustice harm your career? Are harassment and *-ism just something you should expect? Is there a certain initiation/hazing period that you have to simply suffer through before you can be taken seriously? Do certain marginalized subgroups have it worse than others, and does what does that mean for those who don't have it the worst? In this talk, we'll take a deep dive into the many not-often-discussed nuances of a widely-known problem."
+    "In the tech industry, and especially in the open source community, there are many frustrations and problems that everyone experiences. It is no secret, however, that these problems are not evenly distributed. Those who tend to be underrepresented in the industry find their feelings of marginalization compounded by behavior that has come to be viewed as the norm.
+    </p><p>
+    And while it is also no secret that speaking out about these issues can in itself be a problem, it is not as simple as it seems. Will standing up to injustice harm your career? Are harassment and *-ism just something you should expect? Is there a certain initiation/hazing period that you have to simply suffer through before you can be taken seriously? Do certain marginalized subgroups have it worse than others, and what does that mean for those who don't have it the worst? In this talk, we'll take a deep dive into the many not-often-discussed nuances of a widely known problem."
   handle: "SoManyHs"
-- name: "Isaac Z Schlueter"
+- name: "Isaac Z. Schlueter"
   headshot: "isaac-schlueter.jpg"
   title: "Non-Violent Communication for Fun, Profit, and Self Defense"
   bio:
-    "You might know Isaac from such open source software communities as Node.js and npm. Having transitioned from programming computers full time to managing people in the last few years, he's been pretty interested in feelings as well. Also he makes jokes on Twitter sometimes."
+    "You might know Isaac Z. Schlueter from such open source software communities as Node.js and npm. Having transitioned from programming computers full time to managing people in the last few years, he's been pretty interested in feelings as well. Also he makes jokes on Twitter sometimes."
   abstract:
     "Managing open source projects exposes a maintainer to the vagaries of the internet. For all the joy and convenience that a bit of technology may bring to its users, users typically show up when they are in an unhappy place, and the job of the maintainer can quickly become an overwhelming source of stress and burnout.
     </p><p>

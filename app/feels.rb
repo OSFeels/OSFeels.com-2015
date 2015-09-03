@@ -44,6 +44,10 @@ get '/tickets' do
   erb :tickets
 end
 
+get '/diversity' do
+  markdown :diversity, layout_engine: :erb
+end
+
 get '/bootstrap' do
   pass unless Sinatra::Base.development?
   erb :bootstrap

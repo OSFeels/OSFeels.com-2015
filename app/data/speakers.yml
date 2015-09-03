@@ -3,52 +3,56 @@
   headshot: "allison-nelson.png"
   title: "What Roleplaying Games Can Teach Us About Open Source Communities"
   bio:
-    "Allison Nelson is a writer of both code and words, and finds joy in combining the two. They write documentation for Alpine Data Labs by day and tell stories through novels and games by night."
+    "Allison Nelson is a writer of both code and words and finds joy in combining the two. They write documentation for Alpine Data Labs by day and tell stories through novels and games by night."
   abstract:
     "In games, a valuable team is made up of characters with varied talents and skills. They need to be adaptable, to communicate, and most of all, to work together. As a team, they can accomplish even the most intimidating quests. It's time we took this mentality to the open source community.
     </p><p>
-    Roleplaying games can teach us a lot about diversity and working as a team if we dig a little deeper. In such games, players take on the role of a fantasy character and participate in quests and adventures with a group of other players. During this talk I will take popular fantasy classes and relate them to the variety of people that contribute to open source communities every day. Just like a roleplaying party would fail with only type of character, open source needs the unsung heroes: the technical writers, the artists, the testers—to make the project a reality. By building our 'party' around diverse interests and welcoming newcomers with open arms, open source communities can prosper."
+    Roleplaying games can teach us a lot about diversity and working as a team if we dig a little deeper. In such games, players take on the role of a fantasy character and participate in quests and adventures with a group of other players. During this talk, I will take popular fantasy classes and relate them to the variety of people who contribute to open source communities every day. 
+    </p><p>
+    Just like a roleplaying party would fail with only type of character, open source needs the unsung heroes: the technical writers, the artists, the testers—to make the project a reality. By building our 'party' around diverse interests and welcoming newcomers with open arms, open source communities can prosper."
   handle: "musegarden"
 - name: "Alex Harms"
   headshot: "alex-harms.jpg"
   title: "Learning to Empathy"
   bio:
-    "Alex helps teams to thrive by encouraging mindfulness, and facilitating toward trust and openness. The result is improved communication, better technical decisions, and renewed joy in their working environment and codebase."
+    "Alex Harms helps teams thrive by encouraging mindfulness and facilitating trust and openness. The result is improved communication, better technical decisions, and renewed joy in their working environment and codebase."
   abstract:
     "You've heard empathy is a learned skill. Let's really talk about it. What does it mean to have empathy? Why does it matter, anyway? And if empathy is useful (I hope to show you how it is), how do you get better at it?
     </p><p>
     In this session, you'll learn real stuff about what's in your own heart, and how to connect to the people you encounter. Less feeling shitty, more enjoying projects!"
 - name: "Audrey Eschright"
   headshot: "audrey-eschright.jpg"
-  title: "Enforcing Your Code of Conduct: effective incident response"
+  title: "Enforcing Your Code of Conduct: Effective Incident Response"
   bio:
-    "Audrey is a software developer, community organizer, and activist based in Portland, OR. She produces The Recompiler, a feminist hacker magazine, founded Calagator, an open source community calendaring service, and co-founded Open Source Bridge, an annual conference for open source citizens."
+    "Audrey Eschright is a software developer, community organizer, and activist based in Portland, OR. She produces The Recompiler, a feminist hacker magazine; founded Calagator, an open source community calendaring service; and co-founded Open Source Bridge, an annual conference for open source citizens."
   abstract:
-    "Now that your event or project has a code of conduct, how do you ensure it's effective? Are you prepared to deal with incident reporting, and to resolve issues that come up? How can you tell if your code of conduct is actually working?
+    "Now that your event or project has a code of conduct, how do you ensure it's effective? Are you prepared to deal with incident reporting and to resolve issues that come up? How can you tell if your code of conduct is actually working?
     </p><p>
-    I'll draw on several years of experience working with code of conduct outreach and enforcement on open source projects, user groups, and a major conference to show you the steps to take to make sure your code of conduct is an effective tool for inclusion, safety, and building a stronger community. We'll talk about reporting processes, documentation, creating a team or committee to handle reports, what responses are or aren't effective, and dealing with problems in the heat of the moment."
+    I'll draw on several years of experience working with code of conduct outreach and enforcement on open source projects, user groups, and a major conference to show you the steps to take to make sure your code of conduct is an effective tool for inclusion, safety, and building a stronger community.
+    </p><p>
+    We'll talk about reporting processes, documentation, creating a team or committee to handle reports, what responses are or aren't effective, and dealing with problems in the heat of the moment."
   website: "http://lifeofaudrey.com"
 - name: "Bryan Liles"
   headshot: "bryan-liles.png"
-  title: "Back in my day..."
+  title: "Back in My Day..."
   bio:
     ""
   abstract:
-    "Bryan Liles works on strategic initiatives for DigitalOcean. In layman's terms, this means he writes OSS for DigitalOcean and others. Helps communities move their software to the public cloud, and gets to speak at conferences on topics ranging from Machine Learning to how build the next generation of developers. When not thinking about code, Bryan races cars in straight lines and around turns and builds robots and devices."
+    "Bryan Liles works on strategic initiatives for DigitalOcean. In layperson's terms, this means he writes open source software for DigitalOcean and others. He helps communities move their software to the public cloud, and gets to speak at conferences on topics ranging from machine learning to building the next generation of developers. When not thinking about code, Bryan races cars in straight lines and around turns, and builds robots and devices."
 - name: "Emily Rose"
   headshot: "Emily-Rose.jpg"
   title: "Teching while Trans"
   bio:
     "Emily Rose is a transhumanist with a passion for queer cyborg artistry. They are currently experimenting with ambient intelligence, adaptive automation, and evolving interfaces."
   abstract:
-    "For several years, I have been wanting to find an appropriate venue for a talk on what it's like for me to engage in the tech community as a non-binary trans* person. I've thought a lot about how my transition and gender identity have effected me as an engineer. There are of course the social aspects of how interaction with colleagues has changed; how differently I am now perceived. However, less obvious perhaps are the ways in which confronting my own identity (and how it relates to society) has led to improvements in my ability to reason with challenges I face in my career (both technical and otherwise)."
+    "For several years, I have been wanting to find an appropriate venue for a talk on what it's like for me to engage in the tech community as a non-binary trans* person. I've thought a lot about how my transition and gender identity have affected me as an engineer. There are of course the social aspects of how interaction with colleagues has changed; how differently I am now perceived. However, less obvious perhaps are the ways in which confronting my own identity (and how it relates to society) has led to improvements in my ability to reason with challenges I face in my career (both technical and otherwise)."
 - name: "Eric Holscher"
   headshot: "eric-holscher.jpg"
   title: "Documentation as Empathy"
   bio:
     "Eric is a founder of both Read the Docs and Write the Docs. When he isn't helping improve the documentation world, he's out in the woods somewhere."
   abstract:
-    "This talk will cover my view of documentation within programming culture as it has grown over the years. As a primary person involved with Read the Docs (the largest open source doc hosting website), and Write the Docs (the largest OSS doc conference), I have seen a lot of angles, and appreciate documentation more every year.
+    "This talk will cover my view of documentation within programming culture as it has grown over the years. As a primary person involved with Read the Docs (the largest open source doc hosting website) and Write the Docs (the largest OSS doc conference), I have seen a lot of angles, and appreciate documentation more every year.
     </p><p>
     I believe better documentation is a fundamental aspect of how we can improve programming culture, and an often misunderstood part of outreach and education. Projects with good documentation are able to get contributors in a much more reliable fashion, and more importantly, projects without documentation only attract users who have time to waste.
     </p><p>
@@ -210,6 +214,8 @@
   bio:
     "Cindy Pallares is a student, activist, part-time Red Hatter, and member of Free Culture Foundation. She is passionate about free software and free culture and spends her time doing outreach and volunteering to get more people involved in open source software. "
   abstract:
-    "When we speak about free and open source and culture, we often speak about the ability to share, modify, and distribute content. The socially and economically privileged, however, have often used the free exchange of ideas to create a great deal of profit, continually taking these from those with little social or economic power without permission or acknowledgment. These appropriated ideas are reduced to commodities and stripped of their cultural roots, which are deemed inferior. In this talk, we will discuss some pitfalls in the discourse around free culture, understand the difference between authentic cultural exchange and appropriation, and discuss the steps we can do to acknowledge and prevent cultural appropriation."
-  website: "cpallar.es"
+    "When we speak about free and open source and culture, we often speak about the ability to share, modify, and distribute content. The socially and economically privileged, however, have often used the free exchange of ideas to create a great deal of profit, continually taking from those with little social or economic power without permission or acknowledgment.
+    </p><p>
+    These appropriated ideas are reduced to commodities and stripped of their cultural roots, which are deemed inferior. In this talk, we will discuss some pitfalls in the discourse around free culture, understand the difference between authentic cultural exchange and appropriation, and discuss the steps we can do to acknowledge and prevent cultural appropriation."
+  website: "http://cpallar.es"
   handle: "cindy_pallares"

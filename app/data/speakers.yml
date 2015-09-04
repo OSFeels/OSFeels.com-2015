@@ -88,34 +88,36 @@
   abstract:
     "Managing open source projects exposes a maintainer to the vagaries of the internet. For all the joy and convenience that a bit of technology may bring to its users, users typically show up when they are in an unhappy place, and the job of the maintainer can quickly become an overwhelming source of stress and burnout.
     </p><p>
-    This talk will introduce Non-Violent Communication as a toolkit for helping users at their worst, and also prevent the flood of bad vibes from becoming a source of toxicity. By exposing our vulnerability in a direct and honest way, we can turn conversations away from blame and antagonism, towards meaningful connection and opportunities for growth and collaboration. Open Source is a social machine, and compassion helps keep the gears from grinding to a halt."
+    This talk will introduce non-violent communication as a toolkit for helping users at their worst, and also prevent the flood of bad vibes from becoming a source of toxicity. By exposing our vulnerability in a direct and honest way, we can turn conversations away from blame and antagonism, towards meaningful connection and opportunities for growth and collaboration. Open source is a social machine, and compassion helps keep the gears from grinding to a halt."
   handle: "izs"
   website: "http://blog.izs.me"
 - name: "Jacob Kaplan-Moss"
   headshot: "jkm.jpg"
-  title: "What part of '... for life' don't you understand?"
+  title: "What Part of ""... for Life"" Don't You Understand?"
   bio:
-    "In 2005 Jacob joined the Lawrence Journal-World, a locally-owned newspaper in Lawrence, Kansas, and helped develop and eventually open source Django. He later founded the Django Software Foundation and served as its president for several terms. Today, Jacob is the Director of Security at Heroku."
+    "In 2005 Jacob Kaplan-Moss joined the ""Lawrence Journal-World"", a locally owned newspaper in Lawrence, KS, and helped develop and eventually open source Django. He later founded the Django Software Foundation and served as its president for several terms. Today, Jacob is the director of security at Heroku."
   abstract:
-    "When we released Django, we took our structure from the Python community, appointing Adrian and me as 'Benevolent Dictators for Life'. Turns out, '... for life' is a pretty long time — who knew — and this role turned out not to be sustainable.
+    "When we released Django, we took our structure from the Python community, appointing Adrian Holovaty and me as ""Benevolent Dictators for Life"". Turns out, ""... for life"" is a pretty long time — who knew — and this role turned out not to be sustainable.
     </p><p>
     About a year and a half ago we resigned, and Django transitioned to a completely community-run project.
     </p><p>
-    This is a story about this journey: how I became a BDFL, what worked and didn't about that, how I burnt out and 'retired' — and what I've been doing in open source since."
+    This is a story about this journey: how I became a BDFL, what worked and didn't about that, how I burnt out and ""retired"" — and what I've been doing in open source since."
   website: "https://jacobian.org"
   handle: "jacobian"
 - name: "Jen Myers"
   headshot: "jen-myers.png"
   title: "Listen to Your (and All) Mothers: How to Create Family-Inclusive Tech Communities"
   bio:
-    "Jen Myers is a technologist, speaker and writer from Chicago. She is also the Director of Open Source Curriculum at Pluralsight, founder of Code and Cupcakes Chicago, and a teacher/advisor with Girl Develop It."
+    "Jen Myers is a technologist, speaker, and writer from Chicago. She is also the director of open source curriculum at Pluralsight, founder of Code and Cupcakes Chicago, and a teacher/advisor with Girl Develop It."
   abstract:
-    "For the past year in Chicago, I’ve been teaching beginning coding workshops for mothers and daughters. I began the series inspired by my own experiences teaching my daughter HTML, and, most importantly, as a single mother navigating a tech career, who knows firsthand that most tech communities are not designed with the needs of people like me in mind. And, yet, we’re out there, willing, capable and ready, trying to find our ways in anyway. If we truly want to improve the diversity of our tech communities, we need to talk about how childcare responsibilities disproportionately affect the marginalized, and how to have more empathy for those with those responsibilities. Let’s talk about how to create successfully family-inclusive events, how to care for the carers, and how we can all work together to build a strong, open pathway for the next generation."
+    "For the past year in Chicago, I’ve been teaching beginning coding workshops for mothers and daughters. I began the series inspired by my own experiences teaching my daughter HTML, and, most importantly, as a single mother navigating a tech career, who knows firsthand that most tech communities are not designed with the needs of people like me in mind. And, yet, we’re out there, willing, capable and ready, trying to find our ways in anyway.
+    </p><p>
+    If we truly want to improve the diversity of our tech communities, we need to talk about how childcare responsibilities disproportionately affect the marginalized, and how to have more empathy for those with those responsibilities. Let’s talk about how to create successfully family-inclusive events, how to care for the carers, and how we can all work together to build a strong, open pathway for the next generation."
 - name: "Kat Toomajian"
   headshot: "kat-toomajian.jpg"
   title: "From the Inside Out: How Self-Talk Affects Your Community"
   bio:
-    "Kat works for Dreamwidth Studios as the head of Support. She loves insurance, superheroes, historical hermeneutics, and bioethics, among other things. She lives in Minnesota with her two ferrets, Hermes and Isaac."
+    "Kat Toomajian works for Dreamwidth Studios as the head of support. She loves insurance, superheroes, historical hermeneutics, and bioethics, among other things. She lives in Minnesota with her two ferrets, Hermes and Isaac."
   abstract:
     "Identifying and discouraging negative self-talk is a simple thing, but it can have a huge impact on your community in a positive way. It increases self-confidence, improves morale, and generally results in happier, more productive community participants. This, in turn, will make you happy.
     </p><p>
@@ -124,22 +126,22 @@
     In this talk, I’ll discuss the various methods Dreamwidth and other organizations use to handle negative self-talk, and the best way to deploy those techniques. I will also discuss things to keep an eye out for in your community that may be at the root of this type of self-talk, and processes you can go through to eliminate them. Finally, there will be a quick overview of impostor syndrome, and the role it plays here."
   website: "http://misskat.dreamwidth.org"
   handle: "zarhooie"
-- name: "Lauren D Voswinkel"
+- name: "Lauren D. Voswinkel"
   headshot: "Lauren-Voswinkel.png"
   title: "Let's Continue to Talk About Pay"
   bio:
-    "I've spoken at numerous conferences at this point. My list of conferences I've spoken at are as follows: GoRuCo 2013 Ruby Nation 2013 Open Source Bridge 2014, 2015 Madison Ruby 2014 RubyConf AU 2015, and soon AlterConf Toronto.
+    "Lauren D. Voswinkel has spoken at numerous conferences, including, GoRuCo 2013; Ruby Nation 2013: Open Source Bridge 2014, 2015; Madison Ruby 2014; RubyConf AU 2015; and soon AlterConf Toronto.
     </p><p>
-    I have also acted as a speaking mentor at Write/Speak/Code"
+    She has also acted as a speaking mentor at Write/Speak/Code"
   abstract:
-    "On International Workers' Day I asked the world to #talkpay and many people did. Pay transparency is critical in order to address pay inequity in our field, as well as others, but there's more to it than that. I'd like to discuss why this taboo surrounding pay got started, illustrate just how concerted of an effort there is to prevent workers (including tech workers) from pushing for higher pay, and why, exactly, we NEED to talk about pay."
+    "On International Workers' Day I asked the world to #talkpay, and many people did. Pay transparency is critical in order to address pay inequity in our field, as well as others, but there's more to it than that. I'd like to discuss why this taboo surrounding pay got started, illustrate just how concerted of an effort there is to prevent workers (including tech workers) from pushing for higher pay, and why, exactly, we NEED to talk about pay."
   handle: "laurenvoswinkel"
 - name: "Rachel Ober"
   headshot: "rachel-ober.jpg"
-  title: "Ensuring the sustainability of your code learning community"
+  title: "Ensuring the Sustainability of Your Code Learning Community"
   bio:
-    "Software engineer in Brooklyn, NY specializing in developing in Sass, Ruby, and Ruby on Rails. I spend a lot of
-    time learning new things in technology and love sharing it with others."
+    "Rachel Ober is a software engineer in Brooklyn, NY, specializing in developing in Sass, Ruby, and Ruby on Rails. She spends a lot of
+    time learning new things in technology and loves sharing it with others."
   abstract:
     "Most great epics tell of how against all odds, our heroine champions over incredible hurdles to accomplish their dream and create a massively successful project. I'm here to tell you that the story isn't over after the happily ever after. Instead, the hard work is just beginning.
     </p><p>
@@ -151,65 +153,59 @@
     </p><p>
     It's easy to run workshops, it's a lot harder to develop a healthy culture within a volunteer organization.
     </p><p>
-    In this talk I will highlight key points from my two years of as a RailsBridge chapter founder and go through the challenges I faced through strategies in real-time communication, documentation, and code curriculum sharing through technology.
-    </p><p>
-    The points highlighted are - What is your mission statement? - In one year what do you intend to accomplish? - How do you measure success? - Learning to collaborate and taking suggestions - When to be aware that certain suggestions might not be helpful - Always come back to your mission statement. Don't lose focus. - Planting seeds - Getting comfortable with delegating - When delegating doesn't work - Learning when to let go"
+    In this talk I will highlight key points from my two years as a RailsBridge chapter founder and go through the challenges I faced through strategies in real-time communication, documentation, and code curriculum sharing through technology."
   handle: "rachelober"
   website: "http://rachelober.com"
 - name: "Stephanie Morillo"
   headshot: "Stephanie-Morillo.jpg"
   title: "Creating A Space For Us: How A Twitter Chat Turned Into A Virtual Community For #WOCinTech"
   bio:
-    "Stephanie Morillo is a Dominican-American musician, writer, and technologist hailing from the Bronx, New York City. She frequently writes about class, race, her experiences learning to code, and working in tech. She is the cofounder of #WOCinTech Chat and a Copywriter at DigitalOcean. She enjoys helping others learn to program, singing melancholic songs, and dreaming about well-written documentation because the world needs it."
+    "Stephanie Morillo is a Dominican-American musician, writer, and technologist hailing from the Bronx, New York City. She frequently writes about class, race, her experiences learning to code, and working in tech. She is the cofounder of #WOCinTech Chat and a copywriter at DigitalOcean. She enjoys helping others learn to program, singing melancholic songs, and dreaming about well-written documentation because the world needs it."
   abstract:
-    "I've heard it before from people in positions of privilege - 'If you don't feel represented, then why don't you
-    create something of your own?' After more than two-and-a-half years working in the tech industry, I always felt
-    that living on the intersection of race and gender were seldom addressed in tech initiatives, and in work spaces
-    I seldom encountered other professional women of color outside of the service staff. In an effort to get over the
-    feelings of isolation, a friend and I created a Twitter chat using the then-underused #WOCinTech hashtag in an
-    effort to bridge the geographic and workplace barriers and connect with women of color already in the tech
-    industry and connect with each other. The chat has since grown to become a full-fledged community made up of women
-    of color and nonbinary POC technologists, and our two-person team has responded to the needs of this community by
-    creating initiatives that target these groups specifically.
+    "I've heard it before from people in positions of privilege - ""If you don't feel represented, then why don't you create something of your own?"" After more than two-and-a-half years working in the tech industry, I always felt that living on the intersection of race and gender were seldom addressed in tech initiatives, and in work spaces I seldom encountered other professional women of color outside of the service staff.
     </p><p>
-    In my talk, I'll discuss my experiences living at the intersection of race and gender, the #WOCinTech chat origin
-    story, how connecting with women of color has empowered me professionally, and how the community wants to help
-    others on their path to a career in tech."
+    In an effort to get over the feelings of isolation, a friend and I created a Twitter chat using the then-underused #WOCinTech hashtag in an effort to bridge the geographic and workplace barriers and connect with women of color already in the tech industry and connect with each other.
+    </p><p>
+    The chat has since grown to become a full-fledged community made up of women of color and nonbinary POC technologists, and our two-person team has responded to the needs of this community by creating initiatives that target these groups specifically.
+    </p><p>
+    In my talk, I'll discuss my experiences living at the intersection of race and gender, the #WOCinTech chat origin story, how connecting with women of color has empowered me professionally, and how the community wants to help others on their path to a career in tech."
   handle: "radiomorillo"
 - name: "Taylor Dewey"
   headshot: "Taylor-Dewey.jpg"
-  title: "A cry for help: What answering 911 teaches us about building better software"
+  title: "A cry for help: What Answering 911 Teaches Us About Building Better Software"
   bio:
     ""
   abstract:
-    "'911, what is your emergency?' is the question that starts every call. My job, for three years, was to negotiate the caller's emotional minefield to gain life-saving information and insight.
+    """911, what is your emergency?"" is the question that starts every call. My job, for three years, was to negotiate the caller's emotional minefield to gain life-saving information and insight.
     </p><p>
     In this story-centric talk, I show how working in software and with open source communities is similar to emergency services.
     </p><p>
-    Participants will hear stories that reveal human nature and understand some of the system and training that creates order from emotional chaos. UX Designers and Software developers can use these same techniques to uncover their users' needs, manage volunteers, communicate effectively, and prioritize development.
+    Participants will hear stories that reveal human nature and understand some of the system and training that creates order from emotional chaos. UX designers and software developers can use these same techniques to uncover their users' needs, manage volunteers, communicate effectively, and prioritize development.
     </p><p>
     <strong class='pink'>Trigger warning:</strong> in this talk I plan on telling stories from my 911 calltaker perspective of real or attempted missing persons, homicide, and suicide calls. Weapons are mentioned."
   handle: "tddewey"
 - name: "Tute Costa"
   headshot: "tute-costa.jpeg"
-  title: "Welcoming people (and other hard problems)"
+  title: "Welcoming People (and Other Hard Problems)"
   bio:
-    "Tute Costa studied Computer Sciences in Argentina, worked on and contributed to different Open Source Projects, and now works at thoughtbot NYC. He released a beta version of the book 'Maintaining Open Source Projects', where he covers mainly the non-technical aspects of the job."
+    "Tute Costa studied Computer Sciences in Argentina, worked on and contributed to different open source projects, and now works at thoughtbot NYC. He released a beta version of the book ""Maintaining Open Source Projects"", where he covers mainly the non-technical aspects of the job."
   abstract:
     "We interact with people in chat rooms, issue trackers, pull requests, discussion boards, meetups, hallways, or conferences.
     </p><p>
-    How do we provide feedback constructively? Are we perceived as friendly as we think we are? How exactly do our cognitive biases unconsciously affect our human interactions? How do we become conscious of them? What assumptions does our language carry? Effective communication is critical particularly for project leaders. As leaders, we open the doors to our gardens, and the first interactions define the tone for the group, shaping today's atmosphere as much as tomorrow's. In this talk, we'll explore how to communicate effectively. Always, and with everyone."
+    How do we provide feedback constructively? Are we perceived as friendly as we think we are? How exactly do our cognitive biases unconsciously affect our human interactions? How do we become conscious of them? What assumptions does our language carry?
+    </p><p>
+    Effective communication is critical particularly for project leaders. As leaders, we open the doors to our gardens, and the first interactions define the tone for the group, shaping today's atmosphere as much as tomorrow's. In this talk, we'll explore how to communicate effectively. Always, and with everyone."
   website: "http://www.tutecosta.com/software-developer/"
   handle: "tutec"
 - name: "Mariko Kosaka"
   headshot: "mariko-kosaka.jpg"
-  title: "Re-inventing the Rosetta Stone together"
+  title: "Re-inventing the Rosetta Stone Together"
   bio:
-    "Mariko is a software engineer who loves data and knit. When she is not coding application for other people, she uses code to help her design textile and organize local meetup BrooklynJS."
+    "Mariko Kosaka is a software engineer who loves data and knitting. When she is not coding applications for other people, she uses code to help her design textiles, and organize local meetup BrooklynJS."
   abstract:
-    "Many tech projects are anglocentric. The de-facto language used to develop and document a project is English, and it is often overlooked that a project is used largely by non-English speaking communities.
+    "Many tech projects are anglocentric. The de facto language used to develop and document a project is English, and it is often overlooked that a project is used largely by non-English speaking communities.
     </p><p>
-    We programmers like to think \"code is the universal language\" but getting to speak code still involves overcoming language barriers. Even after you speak code, your experience working on project involves a lot of cultural references and language use specific to English. So let's pause for a moment talking about the newest features and technical specs, look at the experience of a silent majority, and talk about how we can welcome them to your project today!"
+    We programmers like to think \"code is the universal language,\" but getting to speak code still involves overcoming language barriers. Even after you speak code, your experience working on project involves a lot of cultural references and language use specific to English. So let's pause for a moment talking about the newest features and technical specs, look at the experience of a silent majority, and talk about how we can welcome them to your project today!"
   website: "http://kosamari.com"
   handle: "kosamari"
 - name: "Cindy Pallares Quezada"

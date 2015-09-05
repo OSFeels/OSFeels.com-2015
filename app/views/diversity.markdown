@@ -1,7 +1,3 @@
-# OS Feels Diversity Statement
-
-(Adapted from the [Dreamwidth Diversity Statement](https://www.dreamwidth.org/legal/diversity))
-
 Platitudes are cheap. We've all heard conferences and communities say they're committed to "diversity" and "tolerance" without ever getting specific, so here's our stance on it:
 
 We welcome you.

@@ -45,7 +45,7 @@ get '/tickets' do
 end
 
 get '/diversity' do
-  markdown :diversity, layout_engine: :erb
+  erb :diversity
 end
 
 get '/bootstrap' do

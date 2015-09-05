@@ -329,6 +329,21 @@
   margin-top: 215px;
 }
 
+
+/* --- Markdown Pages */
+.markdown-header {
+  text-align: center;
+}
+
+.markdown-header.callouts {
+  margin-bottom: 35px;
+}
+
+.markdown-header p {
+  margin-top: 35px;
+}
+
+
 /* --- Speakers Page */
 .speakers--info {
   margin-bottom: 50px;

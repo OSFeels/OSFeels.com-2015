@@ -39,6 +39,8 @@
     ""
   abstract:
     "Bryan Liles works on strategic initiatives for DigitalOcean. In layperson's terms, this means he writes open source software for DigitalOcean and others. He helps communities move their software to the public cloud, and gets to speak at conferences on topics ranging from machine learning to building the next generation of developers. When not thinking about code, Bryan races cars in straight lines and around turns, and builds robots and devices."
+  handle: "bryanl"
+  website: "http://blil.es"
 - name: "Emily Rose"
   headshot: "Emily-Rose.jpg"
   title: "Teching while Trans"
@@ -46,6 +48,8 @@
     "Emily Rose is a transhumanist with a passion for queer cyborg artistry. They are currently experimenting with ambient intelligence, adaptive automation, and evolving interfaces."
   abstract:
     "For several years, I have been wanting to find an appropriate venue for a talk on what it's like for me to engage in the tech community as a non-binary trans* person. I've thought a lot about how my transition and gender identity have affected me as an engineer. There are of course the social aspects of how interaction with colleagues has changed; how differently I am now perceived. However, less obvious perhaps are the ways in which confronting my own identity (and how it relates to society) has led to improvements in my ability to reason with challenges I face in my career (both technical and otherwise)."
+  website: "http://symphonysubconscious.com"
+  handle: "nexxylove"
 - name: "Eric Holscher"
   headshot: "eric-holscher.jpg"
   title: "Documentation as Empathy"
@@ -74,7 +78,7 @@
   headshot: "Hsing-Hui-Hsu.jpg"
   title: "To Feel or Not to Feel; That is the Question"
   bio:
-    ""
+    "Hsing-Hui Hsu is a graduate of the first cohort of Ada Developers Academy. She enjoys learning languages (both computer and human), playing ultimate frisbee, and rabbit-hole spelunking. Hsing-Hui currently works as a full-stack developer at CareZone."
   abstract:
     "In the tech industry, and especially in the open source community, there are many frustrations and problems that everyone experiences. It is no secret, however, that these problems are not evenly distributed. Those who tend to be underrepresented in the industry find their feelings of marginalization compounded by behavior that has come to be viewed as the norm.
     </p><p>
@@ -113,6 +117,8 @@
     "For the past year in Chicago, I’ve been teaching beginning coding workshops for mothers and daughters. I began the series inspired by my own experiences teaching my daughter HTML, and, most importantly, as a single mother navigating a tech career, who knows firsthand that most tech communities are not designed with the needs of people like me in mind. And, yet, we’re out there, willing, capable and ready, trying to find our ways in anyway.
     </p><p>
     If we truly want to improve the diversity of our tech communities, we need to talk about how childcare responsibilities disproportionately affect the marginalized, and how to have more empathy for those with those responsibilities. Let’s talk about how to create successfully family-inclusive events, how to care for the carers, and how we can all work together to build a strong, open pathway for the next generation."
+  website: "http://jenmyers.net"
+  handle: "antiheroine"
 - name: "Kat Toomajian"
   headshot: "kat-toomajian.jpg"
   title: "From the Inside Out: How Self-Talk Affects Your Community"

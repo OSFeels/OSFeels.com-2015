@@ -374,6 +374,10 @@
   text-align: left;
 }
 
+.speakers--contact a {
+  display: block;
+}
+
 /* --- Schedule Page */
 .event--day h2 {
   padding: 20px;

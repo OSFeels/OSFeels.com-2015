@@ -302,8 +302,18 @@
   font-weight: bold;
 }
 
+.divider {
+  margin-top: 60px;
+}
 
-/* --- Page Title */
+
+/* -- Conduct */
+.conduct h4, .conduct h5 {
+  margin-top: 35px;
+}
+
+
+/* -- Page Title */
 .page--title {
   text-align: center;
 }

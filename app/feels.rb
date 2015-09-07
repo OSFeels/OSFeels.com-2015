@@ -11,7 +11,7 @@ get '/' do
 end
 
 get '/conduct' do
-  markdown :conduct, layout_engine: :erb
+  erb :conduct
 end
 
 get '/prospectus' do

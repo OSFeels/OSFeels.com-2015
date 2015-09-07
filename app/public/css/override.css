@@ -282,6 +282,10 @@
   margin-bottom: 70px;
 }
 
+.callouts h1, .callouts .h1 {
+  margin-top: 0;
+}
+
 .callouts h2, .callouts .h2 {
   margin-bottom: 30px;
 }

@@ -298,6 +298,21 @@
   font-weight: bold;
 }
 
+
+/* --- Page Title */
+.page--title {
+  text-align: center;
+}
+
+.page--title {
+  margin-bottom: 35px;
+}
+
+.page--title p {
+  margin-top: 35px;
+}
+
+
 /* -- Newsletter */
 .newsletter h2 {
   margin: 45px 0;
@@ -327,20 +342,6 @@
 
 .newsletter .dot {
   margin-top: 215px;
-}
-
-
-/* --- Markdown Pages */
-.markdown-header {
-  text-align: center;
-}
-
-.markdown-header.callouts {
-  margin-bottom: 35px;
-}
-
-.markdown-header p {
-  margin-top: 35px;
 }
 
 

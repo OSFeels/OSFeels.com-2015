@@ -56,6 +56,7 @@
   background-size: contain;
 }
 
+
 /* -- Jumbotron Styles */
 .jumbotron {
   color: white;
@@ -112,6 +113,7 @@
     font-size: 25px;
   }
 }
+
 
 /* -- Sliding Sidebar Navigation */
 #wrapper {
@@ -276,6 +278,7 @@
   margin-top: -16px;
 }
 
+
 /* -- Callouts */
 .callouts {
   margin-top: 0;
@@ -408,6 +411,7 @@
   display: block;
 }
 
+
 /* --- Schedule Page */
 .event--day h2 {
   padding: 20px;
@@ -498,6 +502,7 @@
   .event--details { width: 55%; }
 }
 
+
 /* --- Sponsorship Page */
 .sponsors--cta .btn {
   margin-top: 0;
@@ -547,6 +552,7 @@
 .sponsors--section {
   margin-top: 30px;
 }
+
 
 /* -- Footer */
 .footer {

@@ -14,6 +14,10 @@ get '/conduct' do
   erb :conduct
 end
 
+get '/diversity' do
+  erb :diversity
+end
+
 get '/prospectus' do
   send_file File.join(settings.public_folder, 'prospectus.pdf')
 end
@@ -44,8 +48,8 @@ get '/tickets' do
   erb :tickets
 end
 
-get '/diversity' do
-  erb :diversity
+get '/visiting' do
+  erb :visiting
 end
 
 get '/bootstrap' do

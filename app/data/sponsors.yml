@@ -1,8 +1,8 @@
 ---
 committers:
-  # - name: Github
-  #   url: https://www.github.com
-  #   image: img/github-logo.png
+  - name: Github
+    url: https://www.github.com
+    image: img/github-logo.png
   - name: Honeybadger
     url: https://www.honeybadger.io
     image: img/honeybadger-logo.svg

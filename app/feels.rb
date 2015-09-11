@@ -18,10 +18,6 @@ get '/diversity' do
   erb :diversity
 end
 
-get '/info' do
-  erb :info
-end
-
 get '/prospectus' do
   send_file File.join(settings.public_folder, 'prospectus.pdf')
 end

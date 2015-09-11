@@ -14,17 +14,12 @@ get '/conduct' do
   erb :conduct
 end
 
+get '/diversity' do
+  erb :diversity
+end
+
 get '/info' do
   erb :info
-end
-
-get '/sponsors' do
-  @sponsors = YAML.load File.read("app/data/sponsors.yml")
-  erb :sponsors
-end
-
-get '/tickets' do
-  erb :tickets
 end
 
 get '/prospectus' do
@@ -57,8 +52,8 @@ get '/tickets' do
   erb :tickets
 end
 
-get '/diversity' do
-  erb :diversity
+get '/visiting' do
+  erb :visiting
 end
 
 get '/bootstrap' do

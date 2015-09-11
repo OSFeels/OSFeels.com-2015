@@ -21,23 +21,13 @@ describe 'Test the routes' do
     expect(last_response).to be_ok
   end
 
-  it "has a sponsors page" do
-    get '/sponsors'
-    expect(last_response).to be_ok
-  end
-
-  it "has a tickets page" do
-    get '/tickets'
+  it "has a diversity statement" do
+    get '/diversity'
     expect(last_response).to be_ok
   end
 
   it "has a prospectus page" do
     get '/prospectus'
-    expect(last_response).to be_ok
-  end
-
-  it "has a talk ideas page" do
-    get '/talk-ideas'
     expect(last_response).to be_ok
   end
 
@@ -51,8 +41,23 @@ describe 'Test the routes' do
     expect(last_response).to be_ok
   end
 
-  it "has a diversity statement" do
-    get '/diversity'
+  it "has a sponsors page" do
+    get '/sponsors'
+    expect(last_response).to be_ok
+  end
+
+  it "has a tickets page" do
+    get '/tickets'
+    expect(last_response).to be_ok
+  end
+
+  it "has a talk ideas page" do
+    get '/talk-ideas'
+    expect(last_response).to be_ok
+  end
+
+  it "has a visiting page" do
+    get '/visiting'
     expect(last_response).to be_ok
   end
 end

@@ -1,18 +1,18 @@
-# Code of Conduct
-
-## Short Version
+<h2 class="blue">Short Version</h2>
 
 Open Source & Feelings is dedicated to a safe, inclusive, welcoming, and harassment-free conference experience for everyone.
 
 All attendees, speakers, sponsors and volunteers at Open Source and Feelings are required to abide by the code of conduct.
 
-## Need Help?
+<h3 class="pink">Need Help?</h3>
 
 Contact the organizers: [conduct@osfeels.com](mailto:conduct@osfeels.com) or use the phone number found in the emails we send you.
 
 Our code of conduct can be found at: [osfeels.com/conduct](/conduct)
 
-## Long Version
+<div class="row divider confetti confetti--lightning"></div>
+
+<h2 class="blue">Long Version</h2>
 
 <ul>
   <li><a href="#purpose">Purpose</a></li>
@@ -31,7 +31,7 @@ Our code of conduct can be found at: [osfeels.com/conduct](/conduct)
   <li><a href="#contact-info">Contact Info</a></li>
 </ul>
 
-### <a name="purpose">Purpose</a>
+### <a class="confetti confetti--heart" name="purpose">Purpose</a>
 
 A primary goal of Open Source and Feelings is to be safe, inclusive, and welcoming to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, gender identity, gender expression, sexual orientation, ability, physical appearance, body size, socioeconomic status, race, age, or religion (or lack thereof).
 
@@ -39,7 +39,7 @@ This code of conduct outlines our expectations for all those who participate in 
 
 We invite all those who participate in Open Source and Feelings to help us create safe and positive experiences for everyone.
 
-### <a name="open-citizenship">Open Citizenship</a>
+### <a class="confetti confetti--heart" name="open-citizenship">Open Citizenship</a>
 
 A supplemental goal of this Code of Conduct is to increase open citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.
 
@@ -47,13 +47,13 @@ Communities mirror the societies in which they exist and positive action is esse
 
 **If you see someone who is making an extra effort to ensure our community is safe, welcoming, inclusive friendly, and encourages all participants to contribute to the fullest extent, we want to know.** Tell an organizer or email them at [conduct@osfeels.com](mailto:conduct@osfeels.com).
 
-### <a name="code-of-conduct">Code of Conduct</a>
+### <a class="confetti confetti--heart" name="code-of-conduct">Code of Conduct</a>
 
 All attendees, organizers, speakers, sponsors, and volunteers at Open Source & Feelings are required to abide by the code of conduct. Organizers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everyone.
 
 Open Source & Feelings is dedicated to providing a safe, inclusive, welcoming, harassment-free conference experience for everyone regardless of gender, gender identity, gender expression, sexual orientation, ability, physical appearance, body size, socioeconomic status, race, age, or religion (or lack thereof).
 
-#### <a name="expected-behavior">Expected Behavior</a>
+#### <a class="blue" name="expected-behavior">Expected Behavior</a>
 
 The following behaviors are expected and requested of all community members:
 
@@ -64,7 +64,7 @@ The following behaviors are expected and requested of all community members:
 - Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
 - Remember that community event venues may be shared with members of the public; please be respectful to all patrons of these locations.
 
-#### <a name="unacceptable-behavior">Unacceptable Behavior</a>
+#### <a class="blue" name="unacceptable-behavior">Unacceptable Behavior</a>
 
 The following behaviors are considered harassment and are unacceptable within our community:
 
@@ -80,7 +80,7 @@ The following behaviors are considered harassment and are unacceptable within ou
 - Advocating for, or encouraging, any of the above behavior
 - Sustained disruption of community events, including talks and presentations
 
-##### <a name="harassment">Harassment</a>
+##### <a class="pink" name="harassment">Harassment</a>
 
 We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
 
@@ -101,7 +101,7 @@ No weapons of any kind, drugs, or alcohol are allowed at Open Source & Feelings 
 
 Participants asked to stop any harassing behavior are expected to comply immediately.
 
-##### <a name="consequences-of-unacceptable-behavior">Consequences of Unacceptable Behavior</a>
+##### <a class="pink" name="consequences-of-unacceptable-behavior">Consequences of Unacceptable Behavior</a>
 
 Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
 
@@ -109,7 +109,7 @@ Anyone asked to stop unacceptable behavior is expected to comply immediately.
 
 If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning and without refund.
 
-#### <a name="reporting-guidelines">Reporting Guidelines</a>
+#### <a class="blue" name="reporting-guidelines">Reporting Guidelines</a>
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible at [conduct@osfeels.com](mailto:conduct@osfeels.com).
 
@@ -121,13 +121,13 @@ Conference staff will be happy to help participants contact security or local la
 
  - [conduct@osfeels.com](mailto:conduct@osfeels.com)
 
-#### <a name="scope">Scope</a>
+#### <a class="blue" name="scope">Scope</a>
 
 We expect all community participants (guests, sponsors, and contributors, paid or otherwise) to abide by this Code of Conduct in all community venues, online and in-person, as well as in all one-on-one communications pertaining to community business.
 
 This code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to adversely affect the safety and well-being of community members.
 
-### <a name="contact-info">Contact Info</a>
+### <a class="confetti confetti--heart" name="contact-info">Contact Info</a>
 
  - [conduct@osfeels.com](mailto:conduct@osfeels.com)
 

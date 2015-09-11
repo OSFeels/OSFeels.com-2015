@@ -1,8 +1,8 @@
 ---
 committers:
-  # - name: Github
-  #   url: https://www.github.com
-  #   image: img/github-logo.png
+  - name: Github
+    url: https://www.github.com
+    image: img/github-logo.png
   - name: Honeybadger
     url: https://www.honeybadger.io
     image: img/honeybadger-logo.svg
@@ -21,6 +21,10 @@ contributors:
   # - name: Sticker Mule
   #   url: http://stickermule.com
   #   image: TKTK
+  - name: Pivotal
+    url: http://pivotal.io/
+    image: img/pivotal-logo.png
+    blurb: Transforming how the world builds software.
   - name: Substantial
     url: http://substantial.com
     image: img/substantial-logo.png

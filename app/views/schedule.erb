@@ -1,0 +1,43 @@
+<div class="row page--title confetti confetti--speech">
+  <div class="col-md-8 col-md-offset-2">
+    <h1 class="pink">Conference Schedule</h1>
+  </div>
+</div>
+<div class="row event">
+  <% @schedule.each do |day| %>
+    <div class="col-md-6 event--day">
+      <div class="row">
+        <h2><%= day["name"] %>, <%= day["date"] %></h2>
+      </div>
+      <% day["events"].each do |event| %>
+        <% if event["anchor-name"] %>
+          <a name="<%= event["anchor-name"] %>"></a>
+        <% else %>
+          <div class="row event--item">
+            <div class="col-md-12">
+              <div class="event--info">
+                <h4 class="event--time">
+                  <%= format_time(event["start_time"]) %>
+                </h4>
+                <p class="text-center"><em><small><%= event["length"] %> minutes</small></em></p>
+              </div>
+              <div class="event--details">
+                <% if event["speaker_name"] %>
+                  <a href="/speakers#<%= format_speaker_link(event["name"]) %>">
+                    <h5 class="text-left"><%= event["name"] %></h5>
+                    <% if event["title"] %>
+                      <%= event["title"] %>
+                    <% end %>
+                  </a>
+                <% else %>
+                  <h5 class="pink text-left"><%= event["name"] %></h5>
+                  <%= event["description"] %>
+                <% end %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  <% end %>
+</div>

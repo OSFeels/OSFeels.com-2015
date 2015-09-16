@@ -2,14 +2,14 @@
 committers:
   - name: Github
     url: https://www.github.com
-    image: img/github-logo.png
+    image: github-logo.png
   - name: Honeybadger
     url: https://www.honeybadger.io
-    image: img/honeybadger-logo.svg
+    image: honeybadger-logo.svg
     blurb: Exception and uptime monitoring for your Ruby and Javascript apps.
   - name: npm
     url: https://www.npmjs.com
-    image: img/npm-logo.svg
+    image: npm-logo.svg
     blurb: |
       npm's mission is to take open source development to entirely new places, helping millions of developers around the world to share and perfect JavaScript code.</p>
       <p>We run the free, private npm registry that hosts over 160,000 open-source packages of code for web, server-side, IoT, and mobile projects.</p>
@@ -23,14 +23,14 @@ contributors:
   #   image: TKTK
   - name: Pivotal
     url: http://pivotal.io/
-    image: img/pivotal-logo.png
+    image: pivotal-logo.png
     blurb: Transforming how the world builds software.
   - name: Substantial
     url: http://substantial.com
-    image: img/substantial-logo.png
+    image: substantial-logo.png
     blurb: Substantial is a digital product innovation company that pairs design thinking with agile development to deliver applications for web, mobile and the internet of things with partners ranging from start-ups to Fortune 100s.
     pad-logo: true
   - name: Thomas Street
     url: http://thomasstreet.com
-    image: img/thomas-street-logo.png
+    image: thomas-street-logo.png
     blurb: Thomas Street is a pocket-sized design-build studio that helps companies create amazing software.

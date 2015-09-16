@@ -1,6 +1,6 @@
 ENV['RACK_ENV'] = 'test'
 
-require_relative '../app/feels'  # <-- your sinatra app
+require_relative '../app/feels'
 require 'rspec'
 require 'rack/test'
 
@@ -16,43 +16,22 @@ describe 'Test the routes' do
     expect(last_response).to be_ok
   end
 
-  it "has a code of conduct" do
-    get '/conduct'
-    expect(last_response).to be_ok
-  end
+  routes = %w(
+    conduct
+    diversity
+    prospectus
+    schedule
+    speakers
+    sponsors
+    talk-ideas
+    tickets
+    visiting
+  )
 
-  it "has a sponsors page" do
-    get '/sponsors'
-    expect(last_response).to be_ok
-  end
-
-  it "has a tickets page" do
-    get '/tickets'
-    expect(last_response).to be_ok
-  end
-
-  it "has a prospectus page" do
-    get '/prospectus'
-    expect(last_response).to be_ok
-  end
-
-  it "has a talk ideas page" do
-    get '/talk-ideas'
-    expect(last_response).to be_ok
-  end
-
-  it "has a schedule page" do
-    get '/schedule'
-    expect(last_response).to be_ok
-  end
-
-  it "has a speakers page" do
-    get '/speakers'
-    expect(last_response).to be_ok
-  end
-
-  it "has a diversity statement" do
-    get '/diversity'
-    expect(last_response).to be_ok
+  routes.each do |route|
+    it "has a #{route} page" do
+      get "/#{route}"
+      expect(last_response).to be_ok
+    end
   end
 end

@@ -12,7 +12,8 @@
       </h2>
     </div>
   </div>
-  <% @sponsors["committers"].each do |sponsor| %>
+  <% @sponsors["committers"].sort_by { |sponsor| sponsor["name"] }
+      .each do |sponsor| %>
     <div class="row sponsors--section">
       <div class="col-md-8 col-md-offset-2">
         <h3 class="committer">
@@ -37,8 +38,9 @@
     </div>
   </div>
   <div class="row sponsors--section">
-    <% @sponsors["contributors"].each do |sponsor| %>
-      <div class="col-sm-6">
+    <% @sponsors["contributors"].sort_by { |sponsor| sponsor["name"] }
+        .each do |sponsor| %>
+      <div class="col-md-6">
         <h3 class="contributor">
           <a href="<%= sponsor["url"] %>" target="_blank">
             <img class='<%= "padded-logo" if sponsor["pad-logo"] %> img-responsive center-block' src="img/sponsors/<%= sponsor["image"] %>" alt="<%= sponsor["name"] %> logo" />

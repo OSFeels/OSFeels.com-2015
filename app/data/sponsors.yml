@@ -39,3 +39,7 @@ contributors:
     url: http://thomasstreet.com
     image: thomas-street-logo.png
     blurb: Thomas Street is a pocket-sized design-build studio that helps companies create amazing software.
+  - name: Knight-Mozilla OpenNews
+    url: https://opennews.org/
+    image: knight-mozilla-opennews.jpg
+    blurb: "OpenNews is a joint project of Mozilla and the Knight Foundation. We support the growing community of news developers, designers, and data reporters helping journalism thrive on the open web."

@@ -23,7 +23,7 @@
               </div>
               <div class="event--details">
                 <% if event["speaker_name"] %>
-                  <a href="/speakers#<%= format_speaker_link(event["name"]) %>">
+                  <a href="/speakers#<%= generate_slug(event["name"]) %>">
                     <h5 class="text-left"><%= event["name"] %></h5>
                     <% if event["title"] %>
                       <%= event["title"] %>

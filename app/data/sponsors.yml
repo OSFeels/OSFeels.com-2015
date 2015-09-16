@@ -15,9 +15,10 @@ committers:
       <p>We run the free, private npm registry that hosts over 160,000 open-source packages of code for web, server-side, IoT, and mobile projects.</p>
       <p>We build tools and services that help the professional coder securely leverage the power of modular software development, with both SaaS and enterprise software products.
 contributors:
-  # - name: NIRD
-  #   url: http://nird.us
-  #   image: TKTK
+  - name: NIRD
+    url: http://nird.us
+    image: nird-logo.png
+    blurb: NIRD's team of experienced consultants work closely with our clients to develop applications that solve real-world problems every day. We provide end-to-end support, from project design and architecture through application development and testing to managed hosting and maintenance.
   # - name: Sticker Mule
   #   url: http://stickermule.com
   #   image: TKTK

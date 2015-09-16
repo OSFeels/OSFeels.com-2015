@@ -37,21 +37,24 @@
       </h2>
     </div>
   </div>
-  <div class="row sponsors--section">
+
     <% @sponsors["contributors"].sort_by { |sponsor| sponsor["name"] }
-        .each do |sponsor| %>
-      <div class="col-md-6">
-        <h3 class="contributor" id="<%= generate_slug(sponsor["name"]) %>">
-          <a href="<%= sponsor["url"] %>" target="_blank">
-            <img class='<%= "padded-logo" if sponsor["pad-logo"] %> img-responsive center-block' src="img/sponsors/<%= sponsor["image"] %>" alt="<%= sponsor["name"] %> logo" />
-          </a>
-        </h3>
-        <% if sponsor["blurb"] %>
-          <p><%= sponsor["blurb"] %></p>
+        .each_slice(2) do |sponsor_pair| %>
+      <div class="row sponsors--section">
+        <% sponsor_pair.each do |sponsor| %>
+        <div class="col-md-6">
+          <h3 class="contributor" id="<%= generate_slug(sponsor["name"]) %>">
+            <a href="<%= sponsor["url"] %>" target="_blank">
+              <img class='<%= "padded-logo" if sponsor["pad-logo"] %> img-responsive center-block' src="img/sponsors/<%= sponsor["image"] %>" alt="<%= sponsor["name"] %> logo" />
+            </a>
+          </h3>
+          <% if sponsor["blurb"] %>
+            <p><%= sponsor["blurb"] %></p>
+          <% end %>
+        </div>
         <% end %>
       </div>
     <% end %>
-  </div>
 </div>
 
 <div class="row callouts sponsors--cta confetti confetti--heart">

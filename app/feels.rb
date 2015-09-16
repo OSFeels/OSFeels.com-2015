@@ -88,7 +88,7 @@ def format_time(start)
   parsed_time.strftime("%l:%M %p")
 end
 
-def format_speaker_link(name)
+def generate_slug(name)
   name.downcase.gsub(/\s+/, '-')
 end
 

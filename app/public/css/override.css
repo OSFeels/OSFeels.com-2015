@@ -526,7 +526,7 @@
 
 .sponsors--level .contributor img {
   max-width: 100%;
-  height: 65px;
+  max-height: 65px;
 }
 
 .sponsors--level .padded-logo {

@@ -29,6 +29,9 @@
                       <%= event["title"] %>
                     <% end %>
                   </a>
+                <% elsif event["name"].match /Break/ %>
+                  <h5 class="blue text-left"><%= event["name"] %></h5>
+                  <%= event["description"] %>
                 <% else %>
                   <h5 class="pink text-left"><%= event["name"] %></h5>
                   <%= event["description"] %>

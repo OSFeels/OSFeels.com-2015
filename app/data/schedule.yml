@@ -10,6 +10,18 @@
     description: "The second most important meal of the day."
     start_time: "1200"
     length: 90
+  - name: "Short Break"
+    description: "A chance to freshen your coffee."
+    start_time: "0955"
+    length: 15
+  - name: "Long Break"
+    description: "A chance to stretch your legs."
+    start_time: "1430"
+    length: 30
+  - name: "Long Break"
+    description: "A chance to mingle."
+    start_time: "1530"
+    length: 30
   - name: "Outro"
     start_time: "1650"
     length: 10
@@ -56,6 +68,22 @@
   - name: "Outro"
     start_time: "1650"
     length: 10
+  - name: "Short Break"
+    description: "A chance to freshen your coffee."
+    start_time: "0955"
+    length: 15
+  - name: "Short Break"
+    description: "A chance to stretch your legs."
+    start_time: "1330"
+    length: 15
+  - name: "Short Break"
+    description: "A chance to mingle."
+    start_time: "1445"
+    length: 15
+  - name: "Short Break"
+    description: "A chance to get some fresh air."
+    start_time: "1605"
+    length: 15
   - speaker_name: "Rachel Ober"
     start_time: "0900"
     length: 40

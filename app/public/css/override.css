@@ -551,6 +551,11 @@
   margin-top: 30px;
 }
 
+/* -- Visiting Page */
+
+a.pink {
+  color: #cd499a;
+}
 
 /* -- Footer */
 .footer {

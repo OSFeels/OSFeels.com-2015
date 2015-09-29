@@ -55,4 +55,8 @@ contributors:
     url: http://foundation.travis-ci.org/
     image: travis.png
     blurb: "Travis Foundation is a non-profit initiative made by Travis CI aiming to give back and pay forward to the Open Source community. They launched Rails Girls Summer of Code and organize it for the third year in a row, consult to conferences on diversity matters and organize Open Source Grants. In general they are supporting projects that provide opportunities to newcomers, foster diversity and make the community an even greater place."
+  - name: Dev Bootcamp
+    url: http://devbootcamp.com/
+    image: devbootcamp.png
+    blurb: "Dev Bootcamp is the most established, immersive coding program that uses a “whole-self” approach to get students job-ready for careers in software development. Our program is 19 weeks and that includes 9 weeks remote, part-time, 9 weeks on-site immersion, and 1 week career prep."
 

@@ -29,7 +29,7 @@
                       <%= event["title"] %>
                     <% end %>
                   </a>
-                <% elsif event["name"].match /Break/ %>
+                <% elsif event["name"].match /(Break|Coffee)/ %>
                   <h5 class="blue text-left"><%= event["name"] %></h5>
                   <%= event["description"] %>
                 <% else %>

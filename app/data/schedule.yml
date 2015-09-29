@@ -2,6 +2,10 @@
 - name: "Friday"
   date: "Oct 2nd, 2015"
   events:
+  - name: "Registration & Coffee"
+    description: "Coffee and tea provided"
+    start_time: "0800"
+    length: 60
   - name: "Hello & Welcome"
     description: "Welcome to Open Source & Feelings."
     start_time: "0900"
@@ -61,6 +65,10 @@
 - name: "Saturday"
   date: "Oct 3rd, 2015"
   events:
+  - name: "Coffee & Mingling"
+    description: "Coffee and tea provided"
+    start_time: "0830"
+    length: 30
   - name: "Brunch"
     description: "The most important meal of the day."
     start_time: "1100"

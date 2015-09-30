@@ -41,15 +41,17 @@
     "Bryan Liles works on strategic initiatives for DigitalOcean. In layperson's terms, this means he writes open source software for DigitalOcean and others. He helps communities move their software to the public cloud, and gets to speak at conferences on topics ranging from machine learning to building the next generation of developers. When not thinking about code, Bryan races cars in straight lines and around turns, and builds robots and devices."
   handle: "bryanl"
   website: "http://blil.es"
-- name: "Emily Rose"
-  headshot: "Emily-Rose.jpg"
-  title: "Teching while Trans"
+- name: "Casey West"
+  headshot: "casey-west.jpg"
+  title: "How to be a Corporate Open Source Citizen"
   bio:
-    "Emily Rose is a transhumanist with a passion for queer cyborg artistry. They are currently experimenting with ambient intelligence, adaptive automation, and evolving interfaces."
+    "Casey West is a Principal Technologist for Cloud Foundry at Pivotal. Working in Internet infrastructure, web app security, and design taught him to be a paranoid, UX-oriented, problem solving Internet plumber. He’s spoken at events ranging from OSCON, ApacheCon, and YAPC to user groups and Geek Cruises, and writes occasionally for O’Reilly Radar. Topics of late include tech culture, devops, open source community, software architecture, platforms, and quirky programming tricks. Casey lives in Pittsburgh where he raises three sarcastic children and organizes #CoffeeOps, and his earliest contributions to Perl live to this day on your Mac. You can follow @caseywest on Twitter and read his blog at caseywest.com."
   abstract:
-    "For several years, I have been wanting to find an appropriate venue for a talk on what it's like for me to engage in the tech community as a non-binary trans* person. I've thought a lot about how my transition and gender identity have affected me as an engineer. There are of course the social aspects of how interaction with colleagues has changed; how differently I am now perceived. However, less obvious perhaps are the ways in which confronting my own identity (and how it relates to society) has led to improvements in my ability to reason with challenges I face in my career (both technical and otherwise)."
-  website: "http://symphonysubconscious.com"
-  handle: "nexxylove"
+    "It's generally considered a good thing when companies open source their software. They're giving back to the community and being good citizens. Unfortunately it's not always the case that companies are good actors in our community. Sometimes they are bad actors, with practices including deceptive promises of open participation and exploiting free labor in the form of community contributions.
+    </p><p>
+    This talk explores patterns in company-sponsored open source projects, actions which influence the acceptability of those projects by the open source community, and opportunities for companies to participate wholeheartedly in the open source community. Let's talk about the patterns demonstrated by good corporate open source citizens."
+  website: "http://caseywest.com"
+  handle: "caseywest"
 - name: "Eric Holscher"
   headshot: "eric-holscher.jpg"
   title: "Documentation as Empathy"

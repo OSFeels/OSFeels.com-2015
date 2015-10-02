@@ -13,15 +13,11 @@
   - name: "Lunch"
     description: "The second most important meal of the day."
     start_time: "1200"
-    length: 90
+    length: 120
   - name: "Short Break"
     description: "A chance to freshen your coffee."
     start_time: "0955"
     length: 15
-  - name: "Long Break"
-    description: "A chance to stretch your legs."
-    start_time: "1430"
-    length: 30
   - name: "Long Break"
     description: "A chance to mingle."
     start_time: "1530"
@@ -42,10 +38,10 @@
     start_time: "1110"
     length: 40
   - speaker_name: "Stephanie Morillo"
-    start_time: "1330"
+    start_time: "1400"
     length: 30
   - speaker_name: "Greg Tarnoff"
-    start_time: "1400"
+    start_time: "1430"
     length: 30
   - speaker_name: "Alex Harms"
     start_time: "1500"

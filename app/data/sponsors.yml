@@ -7,6 +7,10 @@ committers:
     url: https://www.honeybadger.io
     image: honeybadger-logo.svg
     blurb: Exception and uptime monitoring for your Ruby and Javascript apps.
+  - name: New Relic
+    url: http://newrelic.com
+    image: new-relic-logo.png
+    blurb: New Relic is a software analytics company that makes sense of billions of metrics about millions of applications in real time. New Relic's comprehensive SaaS-based solution provides one powerful interface for web and native mobile applications and consolidates the performance monitoring data for any chosen technology in an environment.
   - name: npm
     url: https://www.npmjs.com
     image: npm-logo.svg
